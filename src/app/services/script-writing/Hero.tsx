@@ -55,7 +55,7 @@ const Hero = React.forwardRef<HTMLElement, Heroprops>(
         {...props}
       >
       
-<div className="relative  container flex flex-col md:flex-row items-center justify-between px-5 md:px-0 gap-20 ">
+<div className="relative  container flex flex-col md:flex-row items-center justify-between px-5 md:px-0 gap-42 ">
       {/* Left Section - Text Content */}
       <motion.div
         initial={{ x: -100, opacity: 0.5 }}
@@ -101,9 +101,9 @@ const Hero = React.forwardRef<HTMLElement, Heroprops>(
         <Image 
           src={'https://res.cloudinary.com/dhggagqst/image/upload/v1742930657/Vector-03_xpitzv.png'} 
           alt="Hero Image" 
-          width={500} 
+          width={600} 
           height={300} 
-          className="-mr-20 "
+          className="-mr-52 "
         />
       </motion.div>
     </div>

@@ -21,8 +21,8 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-        title="SEO Blog Writing That Ranks & Engages "
-        subtitle="High-quality, search-optimized content designed to improve rankings, attract organic traffic, and keep readers engaged."
+        title="Article Writing That Informs & Engages"
+        subtitle="Well-researched, compelling articles designed to educate, inspire, and keep readers hooked from start to finish."
         image="/services/hero1.png"
         actions={[
           {

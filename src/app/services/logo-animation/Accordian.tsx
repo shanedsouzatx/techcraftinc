@@ -37,31 +37,31 @@ const Accordioninner = () => {
         </h2>
 
         {/* Panel Template */}
-        { [
+        {[
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "Why is a professional logo important for my business?",
+    content: `Your logo is the face of your brand—it creates a strong first impression, builds brand recognition, and sets you apart from competitors. A well-designed logo establishes credibility and helps customers connect with your brand on a deeper level.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "What makes a great logo design?",
+    content: `A great logo is simple, memorable, versatile, and relevant to your brand identity. It should work across different platforms and mediums while effectively conveying your brand’s message and personality.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How long does the logo design process take?",
+    content: `The timeline depends on the complexity of the design and revision process. Typically, it takes anywhere from a few days to a couple of weeks to create a refined, high-quality logo that aligns with your vision.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "Will I receive multiple logo concepts to choose from?",
+    content: `Yes! We provide multiple initial logo concepts based on your brand’s identity and preferences. After feedback, we refine the chosen design to perfection until it truly represents your brand.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "What file formats will I receive for my logo?",
+    content: `You will receive high-resolution logo files in multiple formats, including PNG, JPEG, SVG, and vector files (AI, EPS, or PDF). These formats ensure your logo looks sharp across digital and print media.`,
   },
 ].map((panel) => (
           <motion.div

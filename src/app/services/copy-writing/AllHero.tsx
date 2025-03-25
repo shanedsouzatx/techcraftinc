@@ -1,5 +1,5 @@
 'use client'
-import { Hero } from "@/components/Services/Hero"
+import { Hero } from "./Hero"
 import { closeModal } from "@/app/utils/HelperFunction"
 import React, { useState } from "react"
 import Modal from "@/components/Modal/Modal"
@@ -21,9 +21,9 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-        title="SEO Blog Writing That Ranks & Engages "
-        subtitle="High-quality, search-optimized content designed to improve rankings, attract organic traffic, and keep readers engaged."
-        image="/services/hero1.png"
+        title="Copywriting That Converts & Inspires"
+        subtitle="High-impact, strategically crafted copy designed to grab attention, engage audiences, and drive action—turning readers into loyal customers."
+        image="https://res.cloudinary.com/dhggagqst/image/upload/v1742931040/Vector-04_wywlmb.png"
         actions={[
           {
             label: "Let's Get Started",
