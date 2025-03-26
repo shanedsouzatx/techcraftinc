@@ -210,7 +210,7 @@ export default function TechStackShowcase() {
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Design a professional, memorable logo that captures your brand's essence and creates instant recognition. Our expert logo design services deliver custom visual identities that stand out from competitors and resonate with your target audience.
+  Design a professional, memorable logo that captures your brands essence and creates instant recognition. Our expert logo design services deliver custom visual identities that stand out from competitors and resonate with your target audience.
   </p>
 </div>
 
