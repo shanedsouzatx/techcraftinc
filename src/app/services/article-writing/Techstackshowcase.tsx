@@ -210,7 +210,7 @@ export default function TechStackShowcase() {
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft authoritative, engaging articles that establish your expertise, educate your audience, and enhance your brand's credibility. Our professional article writing services deliver well-researched, compelling content that resonates with readers and achieves your communication goals.
+  Craft authoritative, engaging articles that establish your expertise, educate your audience, and enhance your brands credibility. Our professional article writing services deliver well-researched, compelling content that resonates with readers and achieves your communication goals.
   </p>
 </div>
 

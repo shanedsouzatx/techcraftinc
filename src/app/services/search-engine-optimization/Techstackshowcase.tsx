@@ -206,7 +206,7 @@ export default function TechStackShowcase() {
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Increase your website's visibility and drive qualified traffic with our comprehensive SEO services. We combine technical expertise, content optimization, and strategic link building to help your business achieve sustainable rankings and measurable results.
+  Increase your websites visibility and drive qualified traffic with our comprehensive SEO services. We combine technical expertise, content optimization, and strategic link building to help your business achieve sustainable rankings and measurable results.
   </p>
 </div>
 

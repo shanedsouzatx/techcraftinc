@@ -81,7 +81,7 @@ export default function Experties() {
   transition={{ delay: 0.2 }}
   className="text-lg !w-full mb-12"
 >
-  We create eye-catching event graphics and social media designs that captivate audiences, enhance engagement, and amplify your brand's online presence.
+  We create eye-catching event graphics and social media designs that captivate audiences, enhance engagement, and amplify your brands online presence.
 </motion.p>
 
 

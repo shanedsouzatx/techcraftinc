@@ -81,7 +81,7 @@ export default function TechStackShowcase() {
         },
         {
           name: "Social Media Covers",
-          icon: "/services/headings.svg",
+            icon: "/services/headings.svg",
           description: "Craft impactful profile and cover images that make strong first impressions.",
         },
         {
