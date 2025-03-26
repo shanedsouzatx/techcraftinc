@@ -21,7 +21,7 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-      title="Social Media Marketing That Engages & Converts"
+      title="SMM That Truly Engages & Converts"
       subtitle="Strategic, high-impact campaigns designed to grow your audience, boost engagement, and drive meaningful conversions across social platforms."
         image="/services/hero1.png"
         actions={[

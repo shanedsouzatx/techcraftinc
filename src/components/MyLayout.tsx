@@ -43,7 +43,7 @@ const MyLayout = ({ children }: { children: React.ReactNode }) => {
 
             {/* WhatsApp Number Div */}
             <div
-              className={`bg-white shadow-2xl w-52 h-14 transition-all duration-1000 ease-linear ${
+              className={`bg-gradient-to-b from-white via-white to-[#BCBEC0]/70  shadow-2xl w-52 h-14 transition-all duration-1000 ease-linear ${
                 isWhatsAppVisible ? "block" : "hidden"
               }`}
             >
@@ -65,13 +65,13 @@ const MyLayout = ({ children }: { children: React.ReactNode }) => {
             onMouseLeave={() => setIsChatVisible(false)}
           >
             {/* Envelope Icon */}
-            <div className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-[#5114AE] to-[#802FCE] text-white rounded-tl-full rounded-bl-full">
+            <div className="flex items-center justify-center w-14 h-14 bg-gradient-to-b from-[#48128A]  to-[#8B3791]  text-white rounded-tl-full rounded-bl-full">
               <FaEnvelope size={20} />
             </div>
 
             {/* Chat With Us Div */}
             <div
-              className={`bg-white shadow-2xl w-52 h-14 transition-all duration-1000 ease-linear ${
+              className={`bg-gradient-to-b from-white via-white to-[#BCBEC0]/70  shadow-2xl w-52 h-14 transition-all duration-1000 ease-linear ${
                 isChatVisible ? "block " : "hidden "
               }`}
               onClick={() => {
@@ -92,13 +92,13 @@ const MyLayout = ({ children }: { children: React.ReactNode }) => {
             onMouseLeave={() => setIsPhoneVisible(false)}
           >
             {/* Envelope Icon */}
-            <div className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-[#5114AE] to-[#802FCE] text-white rounded-tl-full rounded-bl-full">
+            <div className="flex items-center justify-center w-14 h-14 bg-gradient-to-b from-[#48128A]  to-[#8B3791]  text-white rounded-tl-full rounded-bl-full">
               <FaPhone size={20} />
             </div>
 
             {/* Chat With Us Div */}
             <div
-              className={`bg-white shadow-2xl w-52 h-14 transition-all duration-1000 ease-linear ${
+              className={`bg-gradient-to-b from-white via-white to-[#BCBEC0]/70  shadow-2xl w-52 h-14 transition-all duration-1000 ease-linear ${
                 isPhoneVisible ? "block " : "hidden "
               }`}
             >
@@ -111,7 +111,7 @@ const MyLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
           </div>
           {/* Discount Banner */}
-          <div className="hidden md:flex justify-center items-center fixed top-[295px] right-[-102px] w-64 p-4 bg-gradient-to-r from-[#5114AE] to-[#802FCE] text-white rounded-tl-3xl rounded-tr-3xl transform -rotate-90">
+          <div className="hidden md:flex justify-center items-center fixed top-[295px] right-[-102px] w-64 p-4 bg-gradient-to-b from-[#48128A]  to-[#8B3791]  text-white rounded-tl-3xl rounded-tr-3xl transform -rotate-90">
             <span className="text-sm font-semibold whitespace-nowrap">
               60% OFF ON ALL SERVICES
             </span>

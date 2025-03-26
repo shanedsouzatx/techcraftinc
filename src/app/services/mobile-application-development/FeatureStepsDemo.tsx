@@ -1,26 +1,26 @@
 import { FeatureSteps } from "@/components/Services/Section2/FeatureSection"
 const features = [
-    { 
-      step: 'Step 1', 
-      title: 'In-Depth SEO Research & Planning',
-      content: 'We conduct thorough keyword research, analyze competitors, and map out a data-driven content strategy designed to maximize search rankings and engagement.',
-      image: '/services/seo-research.jpg' // Image of keyword research or analytics dashboard
-    },
-    { 
-      step: 'Step 2',
-      title: 'High-Quality, SEO-Optimized Blog Writing',
-      content: 'Our writers craft compelling, well-researched content that naturally integrates keywords, enhances readability, and aligns with search intent to attract organic traffic.',
-      image: '/services/seo-writing.jpg' // Image of content creation in progress
-    },
-    
-    { 
-      step: 'Step 3',
-      title: 'Publishing & Performance Tracking',
-      content: 'Once published, we track performance metrics, analyze user engagement, and make data-driven adjustments to improve rankings and conversions over time.',
-      image: '/services/content-publishing.jpg' // Image of analytics dashboard or SEO performance tracking
-    },
-  ];
+  { 
+    step: 'Step 1', 
+    title: 'Requirement Analysis & Planning',
+    content: 'We gather project requirements, define user needs, and create a strategic roadmap to ensure a seamless application development process.',
+    image: '/services/app-planning.jpg' // Image of project planning or wireframing
+  },
+  { 
+    step: 'Step 2',
+    title: 'Design & Development',
+    content: 'Our team builds responsive, high-performance applications with intuitive UI/UX, robust functionality, and scalable architecture.',
+    image: '/services/app-development.jpg' // Image of developers coding or UI design process
+  },
   
+  { 
+    step: 'Step 3',
+    title: 'Testing & Deployment',
+    content: 'We rigorously test applications for performance, security, and usability before launching them on the desired platforms.',
+    image: '/services/app-testing.jpg' // Image of app testing or deployment process
+  },
+];
+
 
 export function FeatureStepsDemo() {
   return (

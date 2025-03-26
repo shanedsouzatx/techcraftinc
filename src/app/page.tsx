@@ -18,6 +18,7 @@ import { useScroll, useTransform, motion, animate } from "framer-motion";
 import ContactForm from "@/components/Anees/ContactForm";
 import Location from "@/components/Location/Location";
 import Footer1 from "@/components/Services/Footer/Footer1";
+import EngagementModel from "@/components/Anees/EngagementModel";
 
 
 export default function Anees(){
@@ -54,7 +55,8 @@ export default function Anees(){
       />
       <Portfolio1/>
       <Pricing1/>
-      <TechnologiesSection/>
+      {/* <TechnologiesSection/> */}
+    <EngagementModel/>
       <Testimonials1/>
       <CountSection1/>
       <div className="!pb-11 !bg-[url('https://res.cloudinary.com/dhggagqst/image/upload/v1742503688/White_Bg-08_rsfc7s.png')] bg-cover bg-center bg-no-repeat -z-50  ">

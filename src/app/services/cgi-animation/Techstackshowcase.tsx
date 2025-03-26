@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
 // Define the tab types to ensure type safety
-type TabKey = "seo" | "blogging" | "ecommerce" | "technical" | "branding"
+type TabKey = "modeling" | "rendering" | "animation" | "vfx" | "production"
 
 // Define the structure of a technology item
 interface Technology {
@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "3d_modeling" | "rendering_lighting" | "animation_rigging" | "visual_effects" | "production_workflow"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("3d_modeling")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    '3d_modeling': {
+      title: "3D Modeling & Asset Creation",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
-      technologies: [
+        "Create detailed 3D models and assets with precision and artistry. Our modeling expertise ensures photorealistic results for any project.",
+      'technologies': [
         {
-          name: "Keyword Research & Analysis",
+          name: "Character Modeling",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Create detailed, expressive 3D characters with realistic proportions and features.",
         },
         {
-          name: "Semantic SEO",
+          name: "Environment Design",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Build immersive 3D environments and landscapes with realistic terrain and architecture.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "Hard Surface Modeling",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Design precise mechanical objects, vehicles, and products with engineering accuracy.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "Organic Modeling",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Sculpt lifelike organic forms including creatures, plants, and natural elements.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Texturing & UV Mapping",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Apply detailed textures and materials for photorealistic surface qualities.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    rendering_lighting: {
+      title: "Rendering & Lighting",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Transform 3D models into stunning visuals with advanced rendering techniques and artistic lighting setups.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Photorealistic Rendering",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Create indistinguishable-from-reality images with physically-based rendering techniques.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "Lighting Design",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Craft mood and atmosphere with strategic lighting setups that enhance visual storytelling.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Material Development",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Create custom materials with realistic properties including reflection, refraction, and subsurface scattering.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "Environment Mapping",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Use HDRI and environment maps to create realistic lighting and reflections.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Compositing & Post-Processing",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Enhance rendered images with color grading, depth effects, and atmospheric elements.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    animation_rigging: {
+      title: "Animation & Character Rigging",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Bring characters and objects to life with fluid, realistic animation and professional rigging techniques.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "Character Rigging",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Create flexible, efficient character rigs with intuitive controls for animators.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Keyframe Animation",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Craft smooth, expressive movement with traditional keyframe animation techniques.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Motion Capture Integration",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Apply and refine motion capture data for realistic human and creature movement.",
         },
         {
-          name: "Broken Link Building",
+          name: "Facial Animation",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Create convincing facial expressions and lip-syncing for character dialogue.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Physics Simulation",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Add realism with dynamic simulations for cloth, hair, fluids, and rigid body physics.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    visual_effects: {
+      title: "Visual Effects & Dynamics",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Create spectacular visual effects and simulations that add impact and realism to your CGI projects.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "Particle Systems",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Generate realistic fire, smoke, dust, and other particle-based effects.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "Fluid Dynamics",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Simulate realistic water, liquid, and fluid behavior with advanced physics.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Destruction Simulation",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Create convincing destruction sequences with fracturing and dynamic simulations.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Atmospheric Effects",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Add volumetric fog, clouds, and atmospheric elements for environmental depth.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "Compositing Integration",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Seamlessly integrate CGI elements with live-action footage or other visual elements.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    production_workflow: {
+      title: "Production & Pipeline Management",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Ensure efficient project execution with professional production workflows and pipeline management.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Asset Management",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Organize and track 3D assets throughout the production pipeline for maximum efficiency.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "Render Farm Optimization",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Maximize rendering efficiency with distributed computing and queue management.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "Version Control",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Track changes and maintain file integrity throughout the production process.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Quality Assurance",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Implement comprehensive quality checks to ensure technical excellence.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Client Review Systems",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Facilitate smooth feedback and approval processes with collaborative review tools.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Create Stunning Visuals with Professional <br/> CGI Animation
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Transform your ideas into photorealistic visual experiences with our expert CGI animation services. From detailed 3D modeling to dynamic animation and visual effects, we create stunning digital content that captivates audiences and communicates your message with impact.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="3d_modeling"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="3d_modeling"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              3D Modeling
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="rendering_lighting"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Rendering & Lighting
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="animation_rigging"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Animation
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="visual_effects"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Visual Effects
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="production_workflow"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Production
             </TabsTrigger>
           </TabsList>
         </div>

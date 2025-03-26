@@ -21,7 +21,7 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-      title = "Custom Web Design That Elevates Your Brand"
+      title = "Custom Web Design That Elevates"
       subtitle = "Beautiful, user-friendly, and high-performing websites designed to captivate audiences, enhance user experience, and drive business growth."
       
         image="/services/hero1.png"

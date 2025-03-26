@@ -21,9 +21,9 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-        title="SEO Blog Writing That Ranks & Engages "
-        subtitle="High-quality, search-optimized content designed to improve rankings, attract organic traffic, and keep readers engaged."
-        image="/services/hero1.png"
+       title = "Custom WordPress Website Development"
+       subtitle = "We create fast, secure, and SEO-optimized WordPress websites tailored to your business needs, ensuring a seamless user experience and strong online presence."
+       image="/services/hero1.png"
         actions={[
           {
             label: "Let's Get Started",

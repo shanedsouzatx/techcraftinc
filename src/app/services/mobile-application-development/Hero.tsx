@@ -64,7 +64,7 @@ const Hero = React.forwardRef<HTMLElement, Heroprops>(
         whileInView={{ x: 0, opacity: 1 }}
         className="flex-1 flex flex-col items-start text-left space-y-4"
       >
-        <h1 className={cn("text-2xl !font-bold pb-2 bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  sm:text-3xl md:text-5xl lg:text-7xl ")}>
+        <h1 className={cn("text-2xl !font-bold pb-2 bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  sm:text-3xl md:text-5xl lg:text-6xl uppercase ")}>
           {title}
         </h1>
         {subtitle && (
@@ -99,10 +99,10 @@ const Hero = React.forwardRef<HTMLElement, Heroprops>(
         className="flex-1 -mr-[200px] "
       >
         <Image 
-          src={'https://res.cloudinary.com/dhggagqst/image/upload/v1742849852/Vector-02_lbbsdr.png'} 
+          src={'https://res.cloudinary.com/dhggagqst/image/upload/v1743006819/Vector-24_qrgtar.png'} 
           alt="Hero Image" 
-          width={400} 
-          height={300} 
+          width={500} 
+          height={500} 
           className="-mr-[200px] "
         />
       </motion.div>

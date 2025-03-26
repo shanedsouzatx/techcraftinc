@@ -16,14 +16,14 @@ const Accordioninner = () => {
     <div className="max-w-6xl mx-auto py-9 px-4 md:px-0  ">
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
-      <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+     <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
+  CREATE STUNNING VISUALS WITH PROFESSIONAL CGI ANIMATION
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's visually-driven digital world, CGI animation has become essential for creating immersive experiences that captivate audiences.  
+  Simply having basic visuals isn't enough—your content needs to be realistic, engaging, and technically impressive.  
+  At Tech Craft, we specialize in creating custom CGI animations that transform your ideas into photorealistic visual experiences.  
+  Through advanced 3D modeling, texturing, lighting, and animation techniques, we ensure your CGI content not only looks stunning but also effectively communicates your message.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S CGI ANIMATION SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "What types of CGI animation services do you offer?",
+    content: `We provide comprehensive CGI animation services including 3D modeling and character creation, photorealistic rendering, architectural visualization, product animations, visual effects (VFX), medical and scientific visualizations, and virtual reality content. Each project is customized to meet your specific visual communication goals.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How does your CGI animation process work?",
+    content: `Our process begins with concept development and storyboarding to establish the creative direction. We then create 3D models, textures, and environments before setting up lighting and cameras. After client approval of initial renders, we proceed with animation, rendering, and post-production effects. Each step includes client feedback to ensure the final product exceeds expectations.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "What industries benefit most from CGI animation?",
+    content: `CGI animation provides significant value across numerous industries including architecture and real estate (for visualizing unbuilt properties), product manufacturing (for showcasing products before production), entertainment and media, healthcare (for medical visualizations), automotive, education, and advertising. Any field requiring clear visualization of complex concepts can benefit from CGI.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "What's the difference between CGI and traditional animation?",
+    content: `CGI (Computer Generated Imagery) animation uses 3D computer software to create digital models that can be manipulated in a virtual environment, allowing for photorealistic results and camera movements impossible in traditional animation. Traditional animation involves hand-drawing or manipulating physical objects frame-by-frame. CGI offers greater flexibility, realism, and efficiency for complex visual projects.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How can CGI animation benefit my business?",
+    content: `CGI animation helps businesses visualize products that don't yet exist, create immersive experiences that increase engagement, demonstrate complex processes clearly, reduce production costs compared to physical photography or video, maintain complete creative control, and easily update content as needed. It's particularly valuable for creating memorable brand experiences that stand out in today's competitive market.`,
   },
 ].map((panel) => (
           <motion.div

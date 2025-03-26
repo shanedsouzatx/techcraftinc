@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
 // Define the tab types to ensure type safety
-type TabKey = "seo" | "blogging" | "ecommerce" | "technical" | "branding"
+type TabKey = "platforms" | "design" | "features" | "payment" | "optimization"
 
 // Define the structure of a technology item
 interface Technology {
@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "ecommerce_platforms" | "store_design" | "core_features" | "payment_shipping" | "performance_optimization"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("ecommerce_platforms")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    ecommerce_platforms: {
+      title: "E-Commerce Platforms",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Choose the perfect platform for your online store. We develop on multiple e-commerce platforms to match your specific business needs and goals.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "Shopify",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Build scalable, feature-rich stores with the leading hosted e-commerce platform.",
         },
         {
-          name: "Semantic SEO",
+          name: "WooCommerce",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Create flexible WordPress-based online stores with unlimited customization options.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "Magento",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Develop enterprise-grade stores with advanced features for large-scale operations.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "BigCommerce",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Build SEO-friendly stores with robust built-in features and multi-channel selling.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Custom Solutions",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Create bespoke e-commerce applications tailored to unique business requirements.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    store_design: {
+      title: "Store Design & User Experience",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Create visually stunning online stores with intuitive navigation and seamless shopping experiences that drive conversions.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Responsive Design",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Ensure perfect functionality across all devices and screen sizes for maximum reach.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "UI/UX Optimization",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Create intuitive shopping experiences that guide customers to purchase completion.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Custom Theme Development",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Build unique store designs that perfectly reflect your brand identity and values.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "Product Showcase",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Implement effective product displays with high-quality images and compelling descriptions.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Conversion-Focused Design",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Optimize store layouts and elements to maximize conversion rates and sales.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    core_features: {
+      title: "E-Commerce Functionality",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Implement powerful features that enhance the shopping experience, streamline operations, and drive business growth.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "Product Management",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Create flexible catalog systems with advanced categorization and filtering options.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Shopping Cart & Checkout",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Develop streamlined checkout processes that minimize abandonment and maximize conversions.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Customer Accounts",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Implement user registration, profiles, wishlists, and order history tracking.",
         },
         {
-          name: "Broken Link Building",
+          name: "Inventory Management",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Set up automated stock tracking, low inventory alerts, and multi-location support.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Search & Navigation",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Implement advanced search functionality with filters, suggestions, and smart results.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    payment_shipping: {
+      title: "Payment & Shipping Solutions",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Integrate secure payment processing and efficient shipping options to provide a seamless checkout experience.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "Payment Gateways",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Integrate multiple payment options including credit cards, PayPal, Apple Pay, and more.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "Shipping Integrations",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Configure real-time shipping rates, label printing, and tracking with major carriers.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Tax Calculation",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Implement automated tax calculations for domestic and international transactions.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Subscription Billing",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Set up recurring payment systems for subscription-based products and services.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "Multi-Currency Support",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Enable international selling with multiple currencies and localized payment methods.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    performance_optimization: {
+      title: "Store Optimization & Growth",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Maximize your online store's performance, conversion rates, and search visibility for sustainable business growth.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Speed Optimization",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Enhance store performance with faster loading times for better user experience and SEO.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "E-Commerce SEO",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Optimize product pages, categories, and content for better search engine visibility.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "Analytics & Reporting",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Implement tracking tools to monitor performance and make data-driven decisions.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Mobile Commerce",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Optimize the mobile shopping experience for the growing smartphone user base.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Multi-Channel Selling",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Expand your reach by connecting your store with marketplaces and social platforms.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Transform Your Business with Custom <br/> E-Commerce Solutions
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Create a powerful online store that drives sales and delivers exceptional shopping experiences. Our expert e-commerce development services combine stunning design with robust functionality to help your business thrive in the digital marketplace.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="ecommerce_platforms"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="ecommerce_platforms"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Platforms
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="store_design"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Store Design
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="core_features"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Core Features
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="payment_shipping"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Payment & Shipping
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="performance_optimization"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Optimization
             </TabsTrigger>
           </TabsList>
         </div>

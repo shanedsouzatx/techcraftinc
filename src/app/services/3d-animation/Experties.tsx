@@ -7,49 +7,16 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
-    {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
-    },
-    {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
-    },
-    {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
-    },
-    {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
-    },
-    {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
-    },
-    {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
-    },
-    {
-      icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
-    },
-    {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
-    },
-   
+    { icon: "🎬", title: "3D Character Animation", description: "Bringing characters to life with realistic movements, expressions, and detailed animations for films, games, and commercials." },
+    { icon: "🏗️", title: "3D Architectural Visualization", description: "Creating immersive, photorealistic 3D renders and walkthroughs to showcase architectural designs before construction." },
+    { icon: "🎥", title: "Product Animation & Visualization", description: "Animating products with stunning 3D visuals to highlight features, functionality, and aesthetics for marketing and presentations." },
+    { icon: "🚀", title: "Motion Graphics & VFX", description: "Enhancing visuals with high-quality motion graphics, visual effects, and dynamic animations for ads, films, and branding." },
+    { icon: "🎮", title: "3D Game Asset Creation", description: "Designing and animating high-quality 3D models, characters, and environments optimized for game development." },
+    { icon: "📽️", title: "3D Animated Explainer Videos", description: "Telling compelling stories through animated explainer videos, perfect for branding, education, and marketing." },
+    { icon: "⚙️", title: "Industrial & Mechanical Animation", description: "Demonstrating complex industrial and mechanical processes with precision-engineered 3D animations." },
+    { icon: "🌎", title: "Virtual Reality (VR) & Augmented Reality (AR) Animation", description: "Developing immersive 3D experiences for VR and AR applications to engage users like never before." },
   ];
-  
+
   
 
   const handleNext = () => {
@@ -72,7 +39,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+    Immersive 3D Animation Solutions
         </motion.h1>
         
         <motion.p 
@@ -81,8 +48,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
+      Experience the power of high-quality 3D animation. From realistic character animations to stunning product visualizations, our expert team creates engaging and immersive 3D content for films, games, marketing, and more.
 
         </motion.p>
 

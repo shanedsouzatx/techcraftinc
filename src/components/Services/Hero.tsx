@@ -64,7 +64,7 @@ const Hero = React.forwardRef<HTMLElement, Heroprops>(
         whileInView={{ x: 0, opacity: 1 }}
         className="flex-1 flex flex-col items-start text-left space-y-4"
       >
-        <h1 className={cn("text-2xl !font-bold pb-2 bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  sm:text-3xl md:text-5xl lg:text-6xl ")}>
+        <h1 className={cn("text-2xl !font-bold pb-2 bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  sm:text-3xl md:text-5xl lg:text-6xl uppercase")}>
           {title}
         </h1>
         {subtitle && (
@@ -102,7 +102,7 @@ const Hero = React.forwardRef<HTMLElement, Heroprops>(
           src={'/services/hero1.png'} 
           alt="Hero Image" 
           width={500} 
-          height={300} 
+          height={400} 
           className="-mr-20 "
         />
       </motion.div>

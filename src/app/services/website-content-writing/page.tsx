@@ -41,11 +41,11 @@ export default function Home() {
       {/* <Feature/> */}
       {/* <Pricing1/> */}
       <NewsLetter/>
-      <Experties/>
+      {/* <Experties/> */}
       {/* <StatisticsSection/> */}
-      <Accordian/>
       <Testimonials1 />
-      <div className="!py-32 !bg-[url('https://res.cloudinary.com/dhggagqst/image/upload/v1742503688/White_Bg-08_rsfc7s.png')] bg-cover bg-center bg-no-repeat -z-50   ">
+      <Accordian/>
+      <div className="!py-20 bg-gradient-to-b from-[#48128A]  to-[#8B3791]   ">
 
 <ContactForm/>
       </div>

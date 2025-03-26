@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
 // Define the tab types to ensure type safety
-type TabKey = "seo" | "blogging" | "ecommerce" | "technical" | "branding"
+type TabKey = "themes" | "plugins" | "ecommerce" | "performance" | "security"
 
 // Define the structure of a technology item
 interface Technology {
@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "theme_development" | "plugin_integration" | "ecommerce_solutions" | "performance_optimization" | "security_maintenance"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("theme_development")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    theme_development: {
+      title: "Custom Theme Development",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Create unique, branded WordPress websites with custom themes that perfectly match your business identity and requirements.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "Responsive Design",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Build websites that look and function perfectly on all devices and screen sizes.",
         },
         {
-          name: "Semantic SEO",
+          name: "Custom Templates",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Develop specialized page templates tailored to your specific content needs.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "Theme Customization",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Modify premium themes to match your brand while maintaining built-in functionality.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "Child Themes",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Create child themes for safe customization that survives parent theme updates.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Gutenberg Blocks",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Build custom blocks for the WordPress editor to enhance content creation.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    plugin_integration: {
+      title: "Plugin Development & Integration",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Extend WordPress functionality with custom plugins and seamless integration of third-party solutions.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Custom Plugin Development",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Create bespoke plugins that add specific functionality to your WordPress site.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "API Integrations",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Connect WordPress with external services and applications via APIs.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Form Solutions",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Implement advanced contact forms, surveys, and user input collection tools.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "SEO Optimization",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Integrate and configure SEO tools for better search engine visibility.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Social Media Integration",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Connect your WordPress site with social platforms for sharing and engagement.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    ecommerce_solutions: {
+      title: "WordPress E-Commerce",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Transform your WordPress site into a powerful online store with WooCommerce and custom e-commerce solutions.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "WooCommerce Setup",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Configure WordPress's leading e-commerce platform for your online store.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Payment Gateways",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Integrate secure payment processing options for seamless transactions.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Product Catalogs",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Create attractive, organized product displays with filtering and search.",
         },
         {
-          name: "Broken Link Building",
+          name: "Shipping Integration",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Set up shipping calculations, labels, and tracking for physical products.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Subscription Systems",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Implement recurring payment models for subscription-based businesses.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    performance_optimization: {
+      title: "Speed & Performance",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Optimize your WordPress site for lightning-fast loading times and smooth user experience across all devices.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "Caching Solutions",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Implement advanced caching to dramatically improve page load times.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "Image Optimization",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Compress and serve optimized images for faster loading without quality loss.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Database Optimization",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Clean and optimize WordPress databases for improved performance.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "CDN Integration",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Set up content delivery networks for faster global access to your site.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "Core Web Vitals",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Optimize for Google's performance metrics to improve SEO and user experience.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    security_maintenance: {
+      title: "Security & Maintenance",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Protect your WordPress website from threats and keep it running smoothly with comprehensive security and maintenance.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Security Hardening",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Implement multiple layers of protection against common WordPress vulnerabilities.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "Backup Solutions",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Set up automated backup systems to protect against data loss.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "Updates Management",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Keep WordPress core, themes, and plugins updated for security and compatibility.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Malware Scanning",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Implement regular security scans to detect and remove malicious code.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "SSL Implementation",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Secure your site with HTTPS encryption for data protection and SEO benefits.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Create a Powerful Online Presence with <br/> WordPress Development
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Build a professional, feature-rich WordPress website that perfectly represents your brand and drives business results. Our expert WordPress development services combine stunning design with powerful functionality to create websites that stand out from the competition.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="theme_development"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="theme_development"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Theme Development
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="plugin_integration"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Plugin Integration
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="ecommerce_solutions"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              E-Commerce
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="performance_optimization"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Performance
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="security_maintenance"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Security
             </TabsTrigger>
           </TabsList>
         </div>

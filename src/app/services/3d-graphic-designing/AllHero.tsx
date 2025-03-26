@@ -21,7 +21,7 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-      title = "Stunning 3D Graphic Design That Brings Ideas to Life"
+      title ="3D Graphic Design That Brings Ideas to Life"
       subtitle = "Eye-catching, high-quality 3D visuals crafted to enhance branding, captivate audiences, and elevate your creative projects."
         image="/services/hero1.png"
         actions={[

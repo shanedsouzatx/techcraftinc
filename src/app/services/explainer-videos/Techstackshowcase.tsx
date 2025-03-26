@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
 // Define the tab types to ensure type safety
-type TabKey = "seo" | "blogging" | "ecommerce" | "technical" | "branding"
+type TabKey = "animation" | "scriptwriting" | "voiceover" | "production" | "distribution"
 
 // Define the structure of a technology item
 interface Technology {
@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "animation_styles" | "scriptwriting" | "voiceover" | "production" | "distribution"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("animation_styles")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    animation_styles: {
+      title: "Animation Styles & Techniques",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Choose from a variety of animation styles to match your brand identity and communication goals. Each style offers unique advantages for different types of messages.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "2D Character Animation",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Create engaging character-driven stories that connect emotionally with your audience.",
         },
         {
-          name: "Semantic SEO",
+          name: "Motion Graphics",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Transform abstract concepts into dynamic visual elements with smooth transitions and effects.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "Whiteboard Animation",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Simplify complex ideas with hand-drawn illustrations that unfold in real-time.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "Kinetic Typography",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Bring text to life with dynamic movement that enhances message retention and impact.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Isometric & 3D Elements",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Add depth and dimension to your explainer videos with modern 3D and isometric design.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    scriptwriting: {
+      title: "Scriptwriting & Storytelling",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Craft compelling narratives that simplify complex ideas and drive viewer action. Our scriptwriting process ensures clear, engaging messages.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Problem-Solution Framework",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Structure your explainer video to identify pain points and present your solution effectively.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "Brand Voice Development",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Create scripts that align with your brand personality and resonate with your target audience.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Message Simplification",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Distill complex concepts into clear, concise language that viewers can easily understand.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "Emotional Storytelling",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Connect with viewers through relatable scenarios and emotional hooks that drive engagement.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Call-to-Action Optimization",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Craft compelling CTAs that guide viewers toward the next step in their customer journey.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    voiceover: {
+      title: "Voiceover & Sound Design",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Enhance your explainer video with professional voiceover and immersive sound design that elevates the viewing experience.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "Professional Voice Talent",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Select from a diverse range of voice actors to find the perfect match for your brand and message.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Custom Music Composition",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Create a unique soundtrack that enhances mood and reinforces your brand identity.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Sound Effects Library",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Add depth and dimension to your animation with carefully selected sound effects.",
         },
         {
-          name: "Broken Link Building",
+          name: "Audio Mixing & Mastering",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Ensure professional sound quality with expert audio balancing and optimization.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Multilingual Adaptation",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Expand your reach with voiceover translations for international audiences.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    production: {
+      title: "Production & Quality Assurance",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Ensure a smooth production process and exceptional final product with our comprehensive production workflow and quality standards.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "Storyboard Development",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Plan every scene with detailed visual storyboards to streamline the animation process.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "Style Frame Creation",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Establish the visual style and color palette before animation begins.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Animatic Preview",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Review timing and flow with preliminary animations before final production.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Revision Management",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Refine your explainer video with our structured feedback and revision process.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "Quality Assurance Testing",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Ensure technical excellence with comprehensive quality checks before delivery.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    distribution: {
+      title: "Optimization & Distribution",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Maximize the impact of your explainer video with platform-specific optimization and strategic distribution tactics.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Video SEO Optimization",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Enhance discoverability with keyword-rich titles, descriptions, and tags.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "Multi-Platform Formatting",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Adapt your explainer video for various platforms including web, social media, and presentations.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "Subtitle & Caption Creation",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Improve accessibility and engagement with professional subtitles and captions.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Thumbnail Optimization",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Increase click-through rates with eye-catching, strategic video thumbnails.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Analytics & Performance Tracking",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Measure success with comprehensive video performance metrics and insights.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Simplify Complex Ideas with Engaging <br/> Explainer Videos
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Transform complicated concepts into clear, compelling visual stories that captivate your audience and drive action. Our professional explainer video services combine strategic messaging, creative animation, and expert production to deliver videos that inform, engage, and convert.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="animation_styles"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="animation_styles"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Animation Styles
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="scriptwriting"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Scriptwriting
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="voiceover"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Voiceover & Audio
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="production"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Production
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="distribution"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Distribution
             </TabsTrigger>
           </TabsList>
         </div>

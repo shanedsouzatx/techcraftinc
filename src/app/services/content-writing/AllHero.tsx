@@ -21,7 +21,7 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-        title="Content Writing That Inspires & Converts"
+        title="Inspiring Content That Converts"
         subtitle="High-quality, well-researched content tailored to inform, engage, and drive action across websites, blogs, and marketing channels.."
         image="/services/hero1.png"
         actions={[

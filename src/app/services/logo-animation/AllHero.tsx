@@ -21,7 +21,7 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-        title="Logo Animations for Lasting Impression"
+        title = "Logo Animations for Impact"
         subtitle="Eye-catching, professional animations that enhance brand identity and captivate your audience."
         image="/services/hero1.png"
         actions={[

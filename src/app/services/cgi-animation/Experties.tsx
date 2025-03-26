@@ -6,49 +6,49 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const industries = [
-    {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
-    },
-    {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
-    },
-    {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
-    },
-    {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
-    },
-    {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
-    },
-    {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
-    },
-    {
-      icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
-    },
-    {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
-    },
-   
-  ];
+  
+const industries = [
+  {
+    icon: "🎬",
+    title: "Realistic CGI Environments",
+    description: "Create stunning, lifelike 3D worlds with detailed textures, lighting, and depth for immersive storytelling.",
+  },
+  {
+    icon: "🤖",
+    title: "Character Animation",
+    description: "Develop expressive, high-quality CGI characters with smooth motion and emotional depth for films, games, and ads.",
+  },
+  {
+    icon: "🌌",
+    title: "VFX & Motion Graphics",
+    description: "Enhance your videos with mind-blowing CGI effects, from explosions to futuristic sci-fi elements.",
+  },
+  {
+    icon: "🎭",
+    title: "Facial & Motion Capture",
+    description: "Bring digital characters to life using advanced motion capture technology for realistic expressions and movements.",
+  },
+  {
+    icon: "🚗",
+    title: "Product Visualization",
+    description: "Showcase your products in photorealistic CGI renders with interactive 360° views and dynamic animations.",
+  },
+  {
+    icon: "⚡",
+    title: "Cinematic CGI Trailers",
+    description: "Deliver high-impact promotional trailers with Hollywood-level CGI and storytelling to engage your audience.",
+  },
+  {
+    icon: "📺",
+    title: "Animated CGI Advertisements",
+    description: "Craft visually compelling ads with engaging CGI elements to make your brand stand out.",
+  },
+  {
+    icon: "🔬",
+    title: "Medical & Scientific CGI",
+    description: "Visualize complex medical and scientific concepts with accurate, high-resolution CGI animation.",
+  },
+];
   
   
 
@@ -72,7 +72,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+       High-Impact CGI Animation for Stunning Visual Storytelling
         </motion.h1>
         
         <motion.p 
@@ -81,9 +81,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
-
+     Bring your ideas to life with breathtaking CGI animation, crafted with realistic visuals, fluid motion, and cinematic detail to captivate your audience.
         </motion.p>
 
         <div className="relative overflow-hidden">

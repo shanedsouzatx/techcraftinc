@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  CAPTIVATE YOUR AUDIENCE WITH ENGAGING 2D ANIMATION
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's visual-driven world, 2D animation offers a powerful way to communicate ideas, tell stories, and engage audiences.  
+  Simply having static visuals isn't enough—your content needs to be dynamic, memorable, and tailored to your specific goals.  
+  At Tech Craft, we specialize in creating custom 2D animations that simplify complex concepts, enhance brand identity, and drive audience engagement.  
+  Through creative storytelling, professional illustration, and strategic implementation, we ensure your animations not only look stunning but also deliver measurable results.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S 2D ANIMATION SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "What types of 2D animation services do you offer?",
+    content: `We provide a comprehensive range of 2D animation services including explainer videos, character animation, motion graphics, whiteboard animation, infographics, logo animation, and social media content. Our team tailors each animation style to match your brand identity and communication objectives.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How does your 2D animation process work?",
+    content: `Our process begins with concept development and scriptwriting to establish the creative direction. We then create storyboards and style frames for your approval. After finalizing the visual style, we move to illustration, animation, and sound design. Each step includes client feedback to ensure the final product meets your expectations.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How long does it take to create a 2D animation?",
+    content: `Project timelines vary based on complexity, length, and style. A typical 60-90 second explainer video takes 4-6 weeks from concept to completion. Simpler animations like logo animations or social media content can be completed in 1-2 weeks. We'll provide a detailed timeline during our initial consultation based on your specific project requirements.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How can 2D animation benefit my business?",
+    content: `2D animation helps businesses explain complex products or services in a simple, engaging way, increases website engagement and conversion rates, boosts social media performance, enhances email marketing campaigns, and creates memorable brand experiences. It's particularly effective for simplifying technical concepts and capturing attention in crowded digital spaces.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "What makes your 2D animation services stand out?",
+    content: `Our team combines artistic talent with strategic thinking to create animations that not only look great but also achieve business objectives. We focus on understanding your audience, crafting compelling narratives, and maintaining consistent quality. Additionally, we offer flexible revisions, custom illustration styles, and comprehensive project management to ensure a smooth experience.`,
   },
 ].map((panel) => (
           <motion.div

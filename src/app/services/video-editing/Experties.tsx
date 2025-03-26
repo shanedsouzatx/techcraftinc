@@ -8,47 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "🎬",
+      title: "Professional Video Editing",
+      description: "Crafting seamless, high-quality video edits that enhance storytelling, engagement, and visual appeal.",
     },
     {
       icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      title: "Data-Driven Video Optimization",
+      description: "Editing videos based on audience analytics and trends to maximize reach, watch time, and engagement.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      icon: "🎨",
+      title: "Visual Effects & Enhancements",
+      description: "Adding smooth transitions, animations, and effects to create eye-catching, professional-grade videos.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "🎙️",
+      title: "Audio Enhancement & Sound Design",
+      description: "Optimizing audio quality, removing noise, and adding background music or voiceovers for a polished final product.",
     },
     {
       icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      title: "Social Media Video Editing",
+      description: "Editing short-form and long-form videos tailored for platforms like YouTube, Instagram, and TikTok.",
     },
     {
       icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      title: "Multi-Platform Formatting",
+      description: "Resizing, cropping, and optimizing videos for different social media platforms while maintaining quality.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Content Repurposing",
+      description: "Transforming long videos into bite-sized clips, reels, and highlights for wider audience engagement.",
     },
     {
       icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      title: "Color Grading & Cinematic Looks",
+      description: "Enhancing visuals with professional color grading, ensuring a cohesive and stunning aesthetic.",
     },
-   
-  ];
+];
+
   
   
 
@@ -72,7 +72,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+       Professional Video Editing for Engaging & Impactful Content
         </motion.h1>
         
         <motion.p 
@@ -81,9 +81,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
-
+      Transform your raw footage into stunning, high-quality videos with expert editing. From seamless transitions and dynamic effects to audio enhancements and color grading, we craft engaging content tailored for social media, marketing, and storytelling. Whether you are optimizing for YouTube, Instagram, or other platforms, our data-driven approach ensures maximum reach, retention, and audience engagement
         </motion.p>
 
         <div className="relative overflow-hidden">

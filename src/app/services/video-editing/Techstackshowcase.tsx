@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
 // Define the tab types to ensure type safety
-type TabKey = "seo" | "blogging" | "ecommerce" | "technical" | "branding"
+type TabKey = "editing" | "color" | "audio" | "effects" | "delivery"
 
 // Define the structure of a technology item
 interface Technology {
@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "editing_techniques" | "color_grading" | "audio_production" | "visual_effects" | "delivery_formats"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("editing_techniques")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    editing_techniques: {
+      title: "Professional Editing Techniques",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Transform raw footage into compelling stories with advanced editing techniques that enhance pacing, flow, and viewer engagement.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "Narrative Structure",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Create compelling story arcs that maintain viewer interest from beginning to end.",
         },
         {
-          name: "Semantic SEO",
+          name: "Multi-Camera Editing",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Seamlessly blend footage from multiple camera angles for dynamic, professional results.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "Precision Cutting",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Perfect timing and pacing with frame-accurate cuts that enhance visual flow.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "Transition Effects",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Apply creative transitions that enhance storytelling and maintain viewer engagement.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Montage Creation",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Craft compelling sequences that condense time and convey complex ideas efficiently.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    color_grading: {
+      title: "Color Grading & Visual Enhancement",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Elevate your footage with professional color grading that creates mood, consistency, and visual impact across your entire project.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Color Correction",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Balance exposure, contrast, and white balance for natural, consistent footage.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "Cinematic Color Grading",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Apply stylistic color treatments that establish mood and enhance storytelling.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "LUT Development",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Create custom look-up tables for consistent color across multiple projects.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "Skin Tone Refinement",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Perfect skin tones while maintaining natural appearance in all lighting conditions.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "HDR Enhancement",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Optimize footage for high dynamic range displays with expanded contrast and color.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    audio_production: {
+      title: "Audio Enhancement & Sound Design",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Perfect your project's sound with professional audio editing, mixing, and sound design that complements your visual storytelling.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "Dialogue Enhancement",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Clean and enhance dialogue for crystal clear, professional sound quality.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Music Selection & Editing",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Select and edit music tracks that enhance emotional impact and pacing.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Sound Effects Design",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Create and integrate custom sound effects that enhance realism and impact.",
         },
         {
-          name: "Broken Link Building",
+          name: "Audio Mixing & Mastering",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Balance all audio elements for professional sound across all playback systems.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Voice-Over Production",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Record, edit and integrate professional narration that enhances your message.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    visual_effects: {
+      title: "Motion Graphics & Visual Effects",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Enhance your video with custom motion graphics and visual effects that add polish, clarity, and professional impact.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "Custom Title Design",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Create eye-catching titles and lower thirds that reinforce your brand identity.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "2D/3D Animation",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Integrate animated elements that explain concepts and enhance visual interest.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Screen Replacement",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Replace device screens with clean, professional content in post-production.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Tracking & Stabilization",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Smooth shaky footage and add tracked elements for professional results.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "Green Screen Compositing",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Seamlessly integrate subjects into new backgrounds with clean keying techniques.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    delivery_formats: {
+      title: "Format Optimization & Delivery",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Ensure your video looks perfect on every platform with format-specific optimization and professional delivery preparation.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Social Media Optimization",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Format videos specifically for each social platform's requirements and audience.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "Broadcast Standards Compliance",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Prepare content that meets professional broadcast specifications and standards.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "Compression Techniques",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Optimize file size while maintaining visual quality for efficient delivery.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Multi-Format Delivery",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Provide deliverables in multiple formats for maximum flexibility and usage.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Subtitle & Caption Integration",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Add professional subtitles and captions for accessibility and engagement.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Transform Your Footage Into Professional <br/> Video Content
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Elevate your raw footage with expert video editing that enhances storytelling, visual appeal, and audience engagement. Our professional editing services combine technical expertise with creative vision to deliver polished videos that achieve your goals.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="editing_techniques"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="editing_techniques"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Editing Techniques
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="color_grading"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Color Grading
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="audio_production"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Audio Production
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="visual_effects"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Visual Effects
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="delivery_formats"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Delivery Formats
             </TabsTrigger>
           </TabsList>
         </div>

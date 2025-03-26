@@ -8,48 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "📱",
+      title: "Mobile App Development",
+      description: "Designing and developing user-friendly mobile applications for iOS and Android, ensuring high performance and scalability.",
     },
     {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      icon: "💻",
+      title: "Web Application Development",
+      description: "Building robust, responsive, and secure web applications tailored to business needs with modern frameworks and technologies.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      icon: "⚙️",
+      title: "Custom Software Solutions",
+      description: "Creating bespoke software solutions that streamline workflows, enhance productivity, and meet specific business objectives.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
-    },
-    {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      icon: "☁️",
+      title: "Cloud-Based Applications",
+      description: "Developing cloud-native applications that ensure flexibility, scalability, and seamless data accessibility across devices.",
     },
     {
       icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      title: "API Development & Integration",
+      description: "Building and integrating APIs to enhance application functionality, improve connectivity, and support third-party integrations.",
     },
     {
-      icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      icon: "🛡️",
+      title: "Enterprise Software Development",
+      description: "Delivering large-scale enterprise solutions with advanced security, automation, and AI-driven capabilities.",
     },
     {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      icon: "🚀",
+      title: "Progressive Web Apps (PWA)",
+      description: "Creating lightweight yet powerful PWAs that deliver an app-like experience across all platforms without the need for downloads.",
     },
-   
-  ];
-  
+    {
+      icon: "🔧",
+      title: "Application Maintenance & Support",
+      description: "Providing continuous monitoring, updates, and troubleshooting to keep applications optimized and secure.",
+    },
+];
+
   
 
   const handleNext = () => {
@@ -72,7 +71,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+        Innovative Application Development for a Digital Future
         </motion.h1>
         
         <motion.p 
@@ -81,8 +80,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
+     Building high-performance, secure, and scalable applications tailored to your business needs. From mobile and web apps to enterprise solutions and API integrations, we create seamless digital experiences that drive growth and efficiency
 
         </motion.p>
 

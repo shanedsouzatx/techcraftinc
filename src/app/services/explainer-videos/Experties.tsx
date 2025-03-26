@@ -8,48 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "🎬",
+      title: "Custom Animated Explainers",
+      description: "Crafting unique, high-quality explainer videos tailored to your brand, message, and target audience.",
     },
     {
       icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      title: "Data-Driven Storytelling",
+      description: "Converting complex data and ideas into engaging, easy-to-understand animated videos.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
-    },
-    {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "🎥",
+      title: "Whiteboard Animation",
+      description: "Simplifying concepts through engaging whiteboard animations that captivate viewers.",
     },
     {
       icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      title: "Brand & Product Videos",
+      description: "Bringing your brand and products to life with compelling animated marketing videos.",
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "💡",
+      title: "Educational & Training Videos",
+      description: "Creating informative videos to educate employees, students, or customers with clear visuals and storytelling.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Motion Graphics & Infographics",
+      description: "Enhancing presentations with dynamic motion graphics and visually appealing infographics.",
     },
     {
       icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      title: "Scriptwriting & Storyboarding",
+      description: "Developing engaging scripts and storyboards to ensure a seamless production process.",
     },
-   
-  ];
-  
+    {
+      icon: "🎭",
+      title: "Character Animation",
+      description: "Bringing animated characters to life to create emotional connections with your audience.",
+    },
+];
+
   
 
   const handleNext = () => {
@@ -72,8 +71,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
-        </motion.h1>
+       Engaging Explainer Videos That Simplify Complex Ideas  </motion.h1>
         
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
@@ -81,8 +79,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
+   Transform your message into captivating explainer videos that engage, educate, and convert. Our expertly crafted animations break down complex topics into visually appealing, easy-to-understand stories that resonate with your audience.
 
         </motion.p>
 

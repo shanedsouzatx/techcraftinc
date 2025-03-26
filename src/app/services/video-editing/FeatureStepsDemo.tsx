@@ -1,25 +1,25 @@
 import { FeatureSteps } from "@/components/Services/Section2/FeatureSection"
 const features = [
-    { 
-      step: 'Step 1', 
-      title: 'In-Depth SEO Research & Planning',
-      content: 'We conduct thorough keyword research, analyze competitors, and map out a data-driven content strategy designed to maximize search rankings and engagement.',
-      image: '/services/seo-research.jpg' // Image of keyword research or analytics dashboard
-    },
-    { 
-      step: 'Step 2',
-      title: 'High-Quality, SEO-Optimized Blog Writing',
-      content: 'Our writers craft compelling, well-researched content that naturally integrates keywords, enhances readability, and aligns with search intent to attract organic traffic.',
-      image: '/services/seo-writing.jpg' // Image of content creation in progress
-    },
-    
-    { 
-      step: 'Step 3',
-      title: 'Publishing & Performance Tracking',
-      content: 'Once published, we track performance metrics, analyze user engagement, and make data-driven adjustments to improve rankings and conversions over time.',
-      image: '/services/content-publishing.jpg' // Image of analytics dashboard or SEO performance tracking
-    },
-  ];
+  { 
+    step: 'Step 1', 
+    title: 'Footage Selection & Organization',
+    content: 'We carefully review and organize raw footage, selecting the best clips to create a cohesive and compelling story.',
+    image: '/video-editing/footage-selection.jpg' // Image of video clips on an editing timeline
+  },
+  { 
+    step: 'Step 2',
+    title: 'Editing, Effects & Transitions',
+    content: 'We enhance videos with smooth transitions, motion graphics, color correction, and visual effects to create a polished final cut.',
+    image: '/video-editing/effects-transitions.jpg' // Image of a video editing software interface
+  },
+  { 
+    step: 'Step 3',
+    title: 'Final Touches & Export',
+    content: 'We fine-tune audio, add background music, optimize for different platforms, and export in high quality for maximum impact.',
+    image: '/video-editing/final-export.jpg' // Image of export settings in video editing software
+  },
+];
+
   
 
 export function FeatureStepsDemo() {

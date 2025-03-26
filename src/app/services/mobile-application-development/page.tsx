@@ -3,7 +3,7 @@ import AllHero from "./AllHero";
 import { FeatureStepsDemo } from "./FeatureStepsDemo";
 import Experties from "./Experties";
 import CircularGallery from "@/components/Services/Service2/CircularGallery";
-import TechStackShowcase from "./TechStackShowcase";
+import TechStackShowcase from "./Techstackshowcase";
 import Footer1 from "@/components/Services/Footer/Footer1";
 import ContactForm from "@/components/Anees/ContactForm";
 import Accordian from "./Accordian";

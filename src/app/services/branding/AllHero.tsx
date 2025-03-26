@@ -21,7 +21,7 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-        title="Brand Storytelling That Captivates & Converts "
+        title="Brand Storytelling That Converts "
         subtitle="Authentic, value-driven content that strengthens your brand identity, builds trust, and creates lasting connections with your audience."
         image="/services/hero1.png"
         actions={[

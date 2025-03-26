@@ -410,12 +410,12 @@ function MegaMenu() {
               <ServiceCategory
                 title="Development"
                 links={[
-                  { href: "/services/application-development", label: "Application Development" },
+                  { href: "/services/mobile-application-development", label: "Mobile Application Development" },
                   { href: "/services/wordpress-website-development", label: "WordPress Website Development" },
                   { href: "/services/custom-website-development", label: "Custom Website Development" },
                   { href: "/services/shopify-website-development", label: "Shopify Website Development" },
                   { href: "/services/ecommerce-website-development", label: "E-Commerce Website Development" },
-                  { href: "/services/mobile-application-development", label: "Mobile Application Development" },
+                  
                 ]}
               />
             </motion.div>
@@ -477,7 +477,7 @@ function MobileMenu() {
     {
       title: "Development",
       links: [
-        { href: "/services/application-development", label: "Application Development" },
+        { href: "/services/mobile-application-development", label: "Mobile Application Development" },
         { href: "/services/wordpress-website-development", label: "WordPress Website Development" },
         { href: "/services/custom-website-development", label: "Custom Website Development" },
       ],

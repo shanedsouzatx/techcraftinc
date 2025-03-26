@@ -1,25 +1,25 @@
 import { FeatureSteps } from "@/components/Services/Section2/FeatureSection"
 const features = [
-    { 
-      step: 'Step 1', 
-      title: 'In-Depth SEO Research & Planning',
-      content: 'We conduct thorough keyword research, analyze competitors, and map out a data-driven content strategy designed to maximize search rankings and engagement.',
-      image: '/services/seo-research.jpg' // Image of keyword research or analytics dashboard
-    },
-    { 
-      step: 'Step 2',
-      title: 'High-Quality, SEO-Optimized Blog Writing',
-      content: 'Our writers craft compelling, well-researched content that naturally integrates keywords, enhances readability, and aligns with search intent to attract organic traffic.',
-      image: '/services/seo-writing.jpg' // Image of content creation in progress
-    },
-    
-    { 
-      step: 'Step 3',
-      title: 'Publishing & Performance Tracking',
-      content: 'Once published, we track performance metrics, analyze user engagement, and make data-driven adjustments to improve rankings and conversions over time.',
-      image: '/services/content-publishing.jpg' // Image of analytics dashboard or SEO performance tracking
-    },
-  ];
+  { 
+    step: 'Step 1', 
+    title: 'Custom Shopify & WordPress Design',
+    content: 'We create visually stunning, user-friendly Shopify and WordPress websites tailored to your brand, ensuring seamless navigation and an engaging user experience.',
+    image: '/services/shopify-wordpress-design.jpg' // Image of a website design process
+  },
+  { 
+    step: 'Step 2',
+    title: 'E-Commerce Store Development',
+    content: 'From Shopify stores to WordPress WooCommerce setups, we develop powerful, high-performing e-commerce solutions optimized for conversions and scalability.',
+    image: '/services/ecommerce-development.jpg' // Image of an online store setup
+  },
+  { 
+    step: 'Step 3',
+    title: 'Performance Optimization & SEO',
+    content: 'We enhance website speed, security, and SEO to improve search rankings, boost traffic, and increase customer retention on Shopify and WordPress platforms.',
+    image: '/services/performance-seo.jpg' // Image of an SEO dashboard or website optimization process
+  },
+];
+
   
 
 export function FeatureStepsDemo() {

@@ -1,26 +1,25 @@
 import { FeatureSteps } from "@/components/Services/Section2/FeatureSection"
 const features = [
-    { 
-      step: 'Step 1', 
-      title: 'In-Depth SEO Research & Planning',
-      content: 'We conduct thorough keyword research, analyze competitors, and map out a data-driven content strategy designed to maximize search rankings and engagement.',
-      image: '/services/seo-research.jpg' // Image of keyword research or analytics dashboard
-    },
-    { 
-      step: 'Step 2',
-      title: 'High-Quality, SEO-Optimized Blog Writing',
-      content: 'Our writers craft compelling, well-researched content that naturally integrates keywords, enhances readability, and aligns with search intent to attract organic traffic.',
-      image: '/services/seo-writing.jpg' // Image of content creation in progress
-    },
-    
-    { 
-      step: 'Step 3',
-      title: 'Publishing & Performance Tracking',
-      content: 'Once published, we track performance metrics, analyze user engagement, and make data-driven adjustments to improve rankings and conversions over time.',
-      image: '/services/content-publishing.jpg' // Image of analytics dashboard or SEO performance tracking
-    },
-  ];
-  
+  { 
+    step: 'Step 1', 
+    title: 'Storyboarding & 3D Asset Creation',
+    content: 'We craft detailed storyboards and transform concepts into high-resolution 3D models, setting the foundation for stunning CGI animation.',
+    image: '/cgi/storyboard-3d-modeling.jpg' // Image of CGI storyboarding and 3D modeling
+  },
+  { 
+    step: 'Step 2',
+    title: 'Advanced CGI Animation & Motion',
+    content: 'Using cutting-edge CGI techniques, motion capture, and physics-based simulations, we animate characters and environments with lifelike realism.',
+    image: '/cgi/animation-motion-capture.jpg' // Image of motion capture and CGI character animation
+  },
+  { 
+    step: 'Step 3',
+    title: 'Rendering, VFX & Final Composition',
+    content: 'We apply hyper-realistic lighting, textures, and cinematic visual effects to produce a seamless, high-quality CGI animation experience.',
+    image: '/cgi/rendering-vfx.jpg' // Image of CGI rendering, VFX, and final compositing
+  },
+];
+
 
 export function FeatureStepsDemo() {
   return (

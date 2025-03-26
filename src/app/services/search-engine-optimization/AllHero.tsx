@@ -21,7 +21,7 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-        title="Boost Your Online Visibility with Expert SEO Strategies "
+        title="Boost Visibility with Expert SEO Strategies "
         subtitle="Optimize your website with data-driven SEO techniques to improve rankings, drive organic traffic, and enhance user engagement."
         image="/services/hero1.png"
         actions={[

@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  BUILD POWERFUL APPLICATIONS THAT TRANSFORM YOUR BUSINESS
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's digital landscape, custom applications are essential for businesses looking to streamline operations and create exceptional user experiences.  
+  Simply having a basic website isn't enough—you need tailored software solutions that address your specific business challenges.  
+  At Tech Craft, we specialize in developing custom applications that enhance efficiency, improve customer engagement, and drive business growth.  
+  Through innovative technology stacks, user-centered design, and agile development methodologies, we ensure your applications not only meet technical requirements but also deliver real business value.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S APPLICATION DEVELOPMENT SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "What types of applications can you develop?",
+    content: `We develop a wide range of applications including web applications, mobile apps (iOS and Android), progressive web apps (PWAs), enterprise software solutions, e-commerce platforms, and custom CRM/ERP systems. Our expertise spans across industries including healthcare, finance, retail, education, and manufacturing.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How does your application development process work?",
+    content: `Our process follows agile methodology with clear phases: discovery and planning (requirements gathering), design (UI/UX prototyping), development (iterative coding sprints), testing (quality assurance), deployment, and ongoing maintenance. We emphasize collaboration, with regular client check-ins and demonstrations throughout the project lifecycle.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "What technologies do you use for application development?",
+    content: `We utilize modern technology stacks tailored to each project's needs. For frontend, we work with React, Angular, Vue.js, and Next.js. Backend technologies include Node.js, Python, Java, and .NET. We're experienced with cloud platforms (AWS, Azure, Google Cloud), databases (SQL and NoSQL), and containerization technologies like Docker and Kubernetes.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How do you ensure application security and scalability?",
+    content: `Security is built into our development process with practices like code reviews, vulnerability scanning, and penetration testing. For scalability, we implement cloud-native architectures, microservices when appropriate, and design systems that can handle increased loads. We also conduct performance testing to identify and address bottlenecks before deployment.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "What ongoing support do you provide after launch?",
+    content: `We offer comprehensive post-launch support including bug fixes, performance monitoring, security updates, and feature enhancements. Our maintenance packages can be tailored to your needs, from basic support to dedicated development teams for continuous improvement. We also provide documentation and training to ensure your team can effectively use the application.`,
   },
 ].map((panel) => (
           <motion.div

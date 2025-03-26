@@ -8,48 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "🌐",
+      title: "Custom WordPress Website Development",
+      description: "We create fully customized WordPress websites tailored to your business needs, ensuring a unique and professional online presence.",
     },
     {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      icon: "🎨",
+      title: "WordPress Theme Customization",
+      description: "Enhancing and personalizing WordPress themes to align with your brand identity and deliver a seamless user experience.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      icon: "🔌",
+      title: "Plugin Development & Integration",
+      description: "Developing custom plugins and integrating essential tools to extend your website’s functionality and improve performance.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "🚀",
+      title: "Speed Optimization & Performance",
+      description: "Optimizing your WordPress website for lightning-fast speed, improved user experience, and better search engine rankings.",
     },
     {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      icon: "🔒",
+      title: "WordPress Security & Maintenance",
+      description: "Implementing security best practices, regular updates, and monitoring to keep your website safe and up to date.",
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "🛒",
+      title: "WooCommerce Development",
+      description: "Building and optimizing WooCommerce stores with secure payment gateways, custom functionalities, and seamless shopping experiences.",
     },
     {
-      icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      icon: "📈",
+      title: "SEO Optimization for WordPress",
+      description: "Implementing on-page SEO strategies, optimizing site structure, and improving rankings for better search visibility.",
     },
     {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      icon: "📤",
+      title: "WordPress Migration & Hosting Setup",
+      description: "Seamless migration to WordPress from any platform and setting up reliable hosting for optimal performance and security.",
     },
-   
-  ];
-  
+];
+
   
 
   const handleNext = () => {
@@ -72,7 +71,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+          Professional WordPress Website Development
         </motion.h1>
         
         <motion.p 
@@ -81,9 +80,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
-
+     Custom, scalable, and high-performance WordPress solutions designed to enhance your online presence and drive business growth
         </motion.p>
 
         <div className="relative overflow-hidden">

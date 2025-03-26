@@ -72,7 +72,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+        Custom E-Commerce Website Development for Seamless Online Shopping
         </motion.h1>
         
         <motion.p 
@@ -81,8 +81,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
+      We design and develop high-performance e-commerce websites that enhance user experience, drive sales, and support business growth. From intuitive UI/UX design to secure payment integration, our solutions ensure a seamless shopping experience for your customers. Whether you're launching a new store or upgrading an existing one, we create scalable and feature-rich e-commerce platforms tailored to your needs. 
 
         </motion.p>
 

@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  BRING YOUR IDEAS TO LIFE WITH STUNNING 3D ANIMATION
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's visual-driven world, 3D animation has become a powerful tool for storytelling, product visualization, and brand engagement.  
+  Simply having static visuals isn't enough—your content needs to be dynamic, immersive, and captivating to your audience.  
+  At Tech Craft, we specialize in creating high-quality 3D animations that transform complex ideas into compelling visual experiences.  
+  Through cutting-edge technology, artistic expertise, and strategic implementation, we ensure your animations not only look stunning but also effectively communicate your message.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S 3D ANIMATION SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "What types of 3D animation services do you offer?",
+    content: `We provide a comprehensive range of 3D animation services including character animation, product visualization, architectural visualization, medical and scientific animations, explainer videos, and VFX for film and advertising. Our team can handle projects of any complexity, from simple product rotations to complex character-driven narratives.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How does your 3D animation process work?",
+    content: `Our process begins with concept development and storyboarding to establish the creative direction. We then move to 3D modeling, texturing, and rigging of assets. This is followed by animation, lighting, and rendering. Finally, we enhance the animation with post-production effects, sound design, and color grading to deliver a polished final product.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "What software and technologies do you use for 3D animation?",
+    content: `We utilize industry-standard software including Autodesk Maya, Blender, Cinema 4D, ZBrush for modeling, and Substance Painter for texturing. For rendering, we employ powerful engines like Arnold, Redshift, and Octane. Our pipeline also incorporates motion capture technology and procedural animation tools when appropriate for the project.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How can 3D animation benefit my business?",
+    content: `3D animation helps businesses explain complex products or services in an engaging way, showcase products before they're physically produced, create memorable brand experiences, and stand out in crowded digital spaces. It's particularly effective for increasing engagement on websites and social media, enhancing presentations, and creating immersive training materials.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "What is the typical timeline and investment for a 3D animation project?",
+    content: `Project timelines vary based on complexity, ranging from 2-3 weeks for simple animations to 2-3 months for complex projects. Investment similarly scales with project scope, style requirements, animation complexity, and length. We work closely with clients to develop solutions that fit their timeline and budget while maintaining high quality standards.`,
   },
 ].map((panel) => (
           <motion.div

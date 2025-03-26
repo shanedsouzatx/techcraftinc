@@ -101,8 +101,8 @@ const Hero = React.forwardRef<HTMLElement, Heroprops>(
         <Image 
           src={'https://res.cloudinary.com/dhggagqst/image/upload/v1742937469/Vector-12_y0alhl.png'} 
           alt="Hero Image" 
-          width={500} 
-          height={300} 
+          width={560} 
+          height={570} 
           className="-mr-20 "
         />
       </motion.div>

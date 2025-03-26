@@ -15,15 +15,14 @@ const Accordioninner = () => {
 
     <div className="max-w-6xl mx-auto py-9 px-4 md:px-0  ">
       {/* Text Section */}
-      <div data-aos="zoom-in" className="text-center md:text-left">
-      <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+      <div data-aos="zoom-in" className="text-center md:text-left">      <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
+  CREATE A POWERFUL ONLINE PRESENCE WITH WORDPRESS DEVELOPMENT
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's digital landscape, a professional WordPress website is essential for establishing credibility and reaching your target audience.  
+  Simply having a basic website isn't enough—your online presence needs to be visually appealing, user-friendly, and optimized for performance.  
+  At Tech Craft, we specialize in creating custom WordPress websites that enhance your brand image, improve user experience, and drive business growth.  
+  Through expert design, development, and optimization, we ensure your WordPress site not only looks stunning but also delivers results for your business.
 </p>
 
       </div>
@@ -32,35 +31,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S WORDPRESS DEVELOPMENT SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "Why choose WordPress for my business website?",
+    content: `WordPress powers over 40% of all websites on the internet due to its flexibility, scalability, and user-friendly content management system. It offers robust security, regular updates, extensive plugin options, and SEO-friendly architecture. WordPress sites are also mobile-responsive and can be easily maintained by non-technical users after development.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "What types of WordPress websites can you develop?",
+    content: `We develop a wide range of WordPress websites including business websites, e-commerce stores (using WooCommerce), membership sites, online learning platforms, portfolio websites, blogs, news portals, and custom web applications. Our team can create any type of website that aligns with your business goals and target audience needs.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How do you ensure my WordPress site is secure and fast?",
+    content: `We implement multiple security layers including secure hosting, SSL certificates, regular updates, security plugins, and custom security configurations. For performance, we optimize images, implement caching solutions, use content delivery networks (CDNs), minimize HTTP requests, and follow WordPress performance best practices to ensure your site loads quickly on all devices.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "Can you customize existing WordPress themes or build from scratch?",
+    content: `We offer both options based on your needs and budget. We can customize premium themes to match your brand identity while maintaining their built-in functionality. For unique requirements, we develop custom themes from scratch using WordPress best practices, ensuring complete control over design, functionality, and performance without unnecessary bloat.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "What ongoing support do you provide after my WordPress site launches?",
+    content: `We offer comprehensive maintenance packages that include regular WordPress core updates, theme and plugin updates, security monitoring, performance optimization, content updates, and technical support. Our team remains available to address any issues, implement new features, or make design changes as your business evolves.`,
   },
 ].map((panel) => (
           <motion.div

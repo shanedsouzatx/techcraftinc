@@ -21,7 +21,7 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-     title = "Impactful Event & Social Media Designs That Engage"
+     title = "Impactful Event & Social Media Designs Engage"
      subtitle = "Creative and visually compelling designs that captivate audiences, boost engagement, and enhance brand presence across events and social platforms."
          image="/services/hero1.png"
         actions={[

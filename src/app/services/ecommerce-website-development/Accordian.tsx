@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  TRANSFORM YOUR BUSINESS WITH CUSTOM E-COMMERCE SOLUTIONS
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's digital marketplace, a powerful e-commerce website is essential for selling products online and growing your business.  
+  Simply having a basic online store isn't enough—your e-commerce presence needs to be visually appealing, user-friendly, and optimized for conversions.  
+  At Tech Craft, we specialize in creating custom e-commerce websites that enhance your brand image, improve customer experience, and drive sales growth.  
+  Through expert design, development, and optimization, we ensure your online store not only looks stunning but also converts visitors into loyal customers.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S E-COMMERCE DEVELOPMENT SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "What e-commerce platforms do you work with?",
+    content: `We develop e-commerce solutions on multiple platforms including Shopify, WooCommerce, Magento, BigCommerce, and custom-built solutions. Our team evaluates your specific business needs, product complexity, budget, and growth plans to recommend the most suitable platform for your online store.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How do you optimize e-commerce websites for conversions?",
+    content: `We implement conversion-focused design principles with clear product displays, streamlined checkout processes, and trust-building elements. Our optimization strategy includes persuasive product descriptions, high-quality images, effective upsell/cross-sell opportunities, mobile optimization, and strategic placement of calls-to-action to maximize your conversion rates.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "What payment and shipping integrations do you offer?",
+    content: `We integrate a wide range of payment gateways including PayPal, Stripe, Square, Authorize.net, and many others to provide your customers with flexible payment options. For shipping, we configure real-time shipping calculations, label printing, tracking systems, and can integrate with major carriers like UPS, FedEx, USPS, and DHL.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "Can you create a multi-vendor marketplace?",
+    content: `Yes, we specialize in developing multi-vendor marketplaces that allow multiple sellers to list products on your platform. These solutions include vendor registration, product management, commission systems, separate vendor dashboards, and secure payment distribution. We can build custom marketplaces or implement solutions on platforms like WooCommerce or Magento.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "What ongoing support do you provide after launch?",
+    content: `We offer comprehensive maintenance packages that include regular platform updates, security monitoring, performance optimization, content updates, and technical support. Our team remains available to implement new features, troubleshoot issues, and provide strategic guidance as your e-commerce business grows and evolves.`,
   },
 ].map((panel) => (
           <motion.div

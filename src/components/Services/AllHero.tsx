@@ -21,7 +21,7 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-        title="Website Content Writing That Works for You."
+        title="Website Content Writing That Works for You"
         subtitle="Engaging, SEO-driven content tailored to your brand's voice. Boost visibility, credibility, and conversions effortlessly."
         image="/services/hero1.png"
         actions={[

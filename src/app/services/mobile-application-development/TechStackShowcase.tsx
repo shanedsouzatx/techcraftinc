@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
 // Define the tab types to ensure type safety
-type TabKey = "seo" | "blogging" | "ecommerce" | "technical" | "branding"
+type TabKey = "frontend" | "backend" | "mobile" | "database" | "devops"
 
 // Define the structure of a technology item
 interface Technology {
@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "frontend_development" | "backend_development" | "mobile_development" | "database_solutions" | "devops_deployment"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("frontend_development")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    frontend_development: {
+      title: "Frontend Development",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Create responsive, interactive user interfaces with modern frontend technologies that deliver exceptional user experiences.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "React.js",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Build dynamic, component-based user interfaces with the industry-leading React library.",
         },
         {
-          name: "Semantic SEO",
+          name: "Next.js",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Develop high-performance, SEO-friendly applications with server-side rendering capabilities.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "TypeScript",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Enhance code quality and maintainability with static typing and advanced tooling.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "Tailwind CSS",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Create custom, responsive designs efficiently with utility-first CSS framework.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Redux/Context API",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Implement robust state management for complex application data flows.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    backend_development: {
+      title: "Backend Development",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Build scalable, secure server-side applications that power your business logic and handle data processing efficiently.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Node.js",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Develop high-performance, event-driven backend services with JavaScript runtime.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "Express.js",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Create robust APIs and web applications with minimal and flexible Node.js framework.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Python/Django",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Build feature-rich applications with Python's powerful web framework and ORM.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "GraphQL",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Implement efficient data fetching with flexible, client-driven API queries.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Microservices",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Design modular, independently deployable services for improved scalability and maintenance.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    mobile_development: {
+      title: "Mobile App Development",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Develop cross-platform and native mobile applications that provide seamless experiences across all devices.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "React Native",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Build native mobile apps for iOS and Android from a single codebase.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Flutter",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Create beautiful, natively compiled applications with Google's UI toolkit.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Swift",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Develop high-performance iOS applications with Apple's modern programming language.",
         },
         {
-          name: "Broken Link Building",
+          name: "Kotlin",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Build native Android applications with concise, safe, and interoperable language.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Progressive Web Apps",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Create web applications that offer mobile app-like experiences with offline capabilities.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    database_solutions: {
+      title: "Database & Storage Solutions",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Implement efficient, secure data storage systems that scale with your application needs and ensure data integrity.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "MongoDB",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Store flexible, document-based data with high-performance NoSQL database.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "PostgreSQL",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Implement robust relational database with advanced features and SQL compliance.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Firebase",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Leverage Google's platform for real-time databases, authentication, and cloud functions.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Redis",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Enhance application performance with in-memory data structure store and caching.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "AWS S3",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Store and retrieve any amount of data with scalable cloud object storage.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    devops_deployment: {
+      title: "DevOps & Deployment",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Streamline development workflows and ensure reliable, scalable application deployment with modern DevOps practices.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Docker",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Package applications into standardized containers for consistent deployment environments.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "Kubernetes",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Orchestrate containerized applications for automated deployment and scaling.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "CI/CD Pipelines",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Automate testing and deployment processes for faster, more reliable releases.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "AWS/Azure/GCP",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Deploy applications on enterprise-grade cloud platforms with global infrastructure.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Monitoring & Logging",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Implement comprehensive application monitoring for performance and issue detection.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Build Powerful Applications That Transform <br/> Your Business
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Develop custom applications that solve your unique business challenges and deliver exceptional user experiences. Our expert development team combines cutting-edge technologies with industry best practices to create scalable, secure, and high-performance solutions.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="frontend_development"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="frontend_development"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Frontend
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="backend_development"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Backend
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="mobile_development"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Mobile
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="database_solutions"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Database
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="devops_deployment"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              DevOps
             </TabsTrigger>
           </TabsList>
         </div>

@@ -502,27 +502,27 @@ class App {
   ) {
     const defaultItems = [
       {
-        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1742840744/unique-content-writershort-time-delivery_qkcimx.webp`,
+        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1743012843/Portfolio_Images-04_cmdhzl.jpg`,
         text: "doctor",
       },
       {
-        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1742840744/eg-blog2_ufw5bt.jpg`,
+        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1743012843/Portfolio_Images-01_pwqnpt.jpg`,
         text: "Metaverse",
       },
       {
-        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1742840743/write-content-or-research-article-for-you_cb8vfm.webp`,
+        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1743012843/Portfolio_Images-05_riu0y4.jpg`,
         text: "Bitcoin",
       },
       {
-        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1742840743/be-your-seo-website-content-writer-and-article-writer_t7ukgz.webp`,
+        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1743012843/Portfolio_Images-02_vdw2cd.jpg`,
         text: "World",
       },
       {
-        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1742840743/write-seo-articles-blog-post-and-website-content_dpiywl.webp`,
+        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1743012843/Portfolio_Images-06_xpme1h.jpg`,
         text: "Fitness",
       },
       {
-        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1742840743/write-articles-website-content-product-description-blogs_fsykfd.webp`,
+        image: `https://res.cloudinary.com/dhggagqst/image/upload/v1743012843/Portfolio_Images-03_kgy0h9.jpg`,
         text: "Jacket",
       },
       

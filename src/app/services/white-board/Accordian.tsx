@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  SIMPLIFY COMPLEX IDEAS WITH ENGAGING WHITEBOARD ANIMATIONS
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's fast-paced digital world, whiteboard animations have become a powerful tool for explaining complex concepts clearly and memorably.  
+  Simply having text and static images isn't enough—your audience needs engaging visual explanations that simplify information.  
+  At Tech Craft, we specialize in creating custom whiteboard animations that transform complicated ideas into simple, engaging stories.  
+  Through hand-drawn illustrations, strategic storytelling, and professional production, we ensure your whiteboard videos not only educate but also drive action.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S WHITEBOARD ANIMATION SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "What makes whiteboard animation effective for communication?",
+    content: `Whiteboard animation combines visual and auditory learning, making complex information up to 67% more memorable than traditional content. The drawing effect naturally captures attention and maintains viewer engagement, while the simplified visual style helps audiences focus on key messages without distractions.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How does your whiteboard animation process work?",
+    content: `Our process begins with scriptwriting and storyboarding to establish the narrative flow. We then create custom illustrations tailored to your message and brand. After client approval, we animate the drawings with professional hand-simulation techniques, add voiceover narration, and enhance with subtle sound effects for a polished final product.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "What types of content work best with whiteboard animation?",
+    content: `Whiteboard animation excels at explaining complex processes, abstract concepts, and educational content. It's particularly effective for product demonstrations, company introductions, training materials, educational content, and marketing campaigns where simplifying information is crucial for audience understanding and retention.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How can whiteboard animation benefit my business?",
+    content: `Whiteboard animation increases viewer retention by up to 15% compared to traditional video, boosts conversion rates on landing pages, simplifies complex information for better understanding, differentiates your brand with a unique visual style, and provides excellent ROI through versatile content that can be used across multiple platforms and campaigns.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How long does it take to create a whiteboard animation?",
+    content: `The timeline for a typical 1-2 minute whiteboard animation is 2-4 weeks from concept to completion. This includes scriptwriting (3-5 days), storyboarding (4-7 days), illustration (5-10 days), animation (5-10 days), and final production with voiceover and sound design (3-5 days). We can accommodate rush projects when needed.`,
   },
 ].map((panel) => (
           <motion.div

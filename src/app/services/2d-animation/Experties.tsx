@@ -8,48 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "🎬",
+      title: "Storyboarding & Concept Design",
+      description: "Crafting visually compelling storyboards to lay the foundation for engaging 2D animations."
     },
     {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      icon: "🎨",
+      title: "Character Design & Illustration",
+      description: "Creating unique, expressive characters that bring your animation to life with personality and style."
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      icon: "🎥",
+      title: "Frame-by-Frame Animation",
+      description: "Producing smooth, high-quality 2D animations using traditional and digital techniques for dynamic storytelling."
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "💡",
+      title: "Motion Graphics & Explainer Videos",
+      description: "Designing engaging motion graphics and explainer animations to simplify complex ideas and captivate audiences."
     },
     {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      icon: "🔊",
+      title: "Voiceover & Sound Design",
+      description: "Enhancing animations with professional voiceovers, background music, and sound effects for a complete experience."
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "🎭",
+      title: "2D Animation for Marketing & Ads",
+      description: "Creating attention-grabbing animated ads and promotional videos tailored for brands and social media engagement."
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Animated Educational Content",
+      description: "Developing engaging educational videos and e-learning animations for training, tutorials, and awareness campaigns."
     },
     {
       icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
-    },
-   
-  ];
-  
+      title: "Custom Animated Logo & Branding",
+      description: "Bringing your brand to life with unique, animated logos and branding elements for a lasting impression."
+    }
+];
+
   
 
   const handleNext = () => {
@@ -72,7 +71,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+         Engaging 2D Animation That Captivates & Inspires
         </motion.h1>
         
         <motion.p 
@@ -81,8 +80,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
+    High-quality, visually stunning 2D animations designed to tell compelling stories, engage audiences, and bring ideas to life.
 
         </motion.p>
 

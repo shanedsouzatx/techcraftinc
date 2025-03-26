@@ -8,47 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "🛒",
+      title: "Custom Shopify & WordPress Website Development",
+      description: "Building high-performance Shopify and WordPress websites tailored to your business needs with a focus on functionality and design.",
     },
     {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      icon: "🎨",
+      title: "Theme Customization & UI/UX Design",
+      description: "Personalizing Shopify and WordPress themes to reflect your brand identity and enhance the customer journey.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      icon: "🔌",
+      title: "App & Plugin Development",
+      description: "Extending website functionality with custom Shopify apps and WordPress plugins to optimize your business processes.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "🚀",
+      title: "Speed & Performance Optimization",
+      description: "Improving website loading times, ensuring smooth navigation, and enhancing overall user experience for better engagement.",
     },
     {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      icon: "🔒",
+      title: "Security & Maintenance",
+      description: "Implementing security best practices, regular updates, and ongoing maintenance to keep your Shopify and WordPress sites safe and up to date.",
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "📈",
+      title: "SEO & Conversion Rate Optimization",
+      description: "Enhancing your site’s search rankings and optimizing user journeys to increase conversions and sales.",
     },
     {
-      icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      icon: "📦",
+      title: "eCommerce Store Setup & Management",
+      description: "Launching and managing Shopify and WooCommerce stores with seamless integrations, payment gateways, and order processing systems.",
     },
     {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      icon: "🔄",
+      title: "Shopify & WordPress Migration",
+      description: "Seamlessly migrating your store or website to Shopify or WordPress without data loss or downtime.",
     },
-   
-  ];
+];
+
   
   
 
@@ -72,7 +72,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+       Shopify Development for Scalable & High-Performing Online Stores
         </motion.h1>
         
         <motion.p 
@@ -81,9 +81,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
-
+      We build customized Shopify stores that are fast, secure, and optimized for conversions. Whether you're launching a new e-commerce business or upgrading an existing store, our expert development ensures a seamless user experience, mobile responsiveness, and powerful integrations to help you grow your brand effortlessly. 
         </motion.p>
 
         <div className="relative overflow-hidden">

@@ -263,7 +263,7 @@ export default function TechStackShowcase() {
             className="mt-8"
           >
             <div className="text-center mb-8">
-              <h2 className="text-2xl md:text-3xl font-semibold text-black  mb-6">{tabData[activeTab].title}</h2>
+              <h2 className="text-2xl bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase md:text-3xl font-semibold text-black  mb-6">{tabData[activeTab].title}</h2>
               <p className="text-slate-600 max-w-3xl mx-auto">{tabData[activeTab].description}</p>
             </div>
 
@@ -277,20 +277,16 @@ export default function TechStackShowcase() {
                   className="flex flex-col items-center group"
                 >
                   <motion.div
-                    className="relative w-28 h-28 flex items-center justify-center bg-white rounded-xl shadow-sm mb-4 overflow-hidden transition-all duration-300 group-hover:shadow-md"
+                    className="relative w-36 h-28 flex items-center justify-center bg-gradient-to-b from-[#48128A] to-[#8B3791] text-white rounded-xl shadow-sm mb-4 overflow-hidden transition-all duration-300 group-hover:shadow-md"
                     whileHover={{
                       scale: 1.05,
                       y: -5,
                       transition: { duration: 0.2 },
                     }}
                   >
-                    <Image src={tech.icon || "/placeholder.svg"} alt={tech.name} 
-                    width={100}
-                    height={100}
-                    className="w-[100%] h-[100%] object-contain !p-0 !m-0 " />
+                    <p className="text-center font-medium px-2 text-md p-4 uppercase ">{tech.name}</p>
                   </motion.div>
-                  <h3 className="text-md font-medium text-[#221E46] text-center">{tech.name}</h3>
-                  <div className="mt-2  group-hover:scale-105 group-hover:max-h-24 transition-all duration-300 overflow-hidden">
+                  <div className="mt-2 group-hover:scale-105 group-hover:max-h-24 transition-all duration-300 overflow-hidden">
                     <p className="text-base text-slate-600 text-center px-2">{tech.description}</p>
                   </div>
                 </motion.div>
