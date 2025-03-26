@@ -4,8 +4,6 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
-// Define the tab types to ensure type safety
-type TabKey = "seo" | "blogging" | "ecommerce" | "technical" | "branding"
 
 // Define the structure of a technology item
 interface Technology {
@@ -27,177 +25,175 @@ interface TabDataMap {
 }
 
 export default function TechStackShowcase() {
-  // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  // Define the tab types specific to SEO
+  type TabKey = "on_page_seo" | "off_page_seo" | "technical_seo" | "local_seo" | "analytics_reporting"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("on_page_seo")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    on_page_seo: {
+      title: "On-Page SEO Optimization",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Optimize your website's content and structure to improve search visibility and user experience.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "Keyword Research & Strategy",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Identify high-value keywords with optimal search volume and competition levels.",
         },
         {
-          name: "Semantic SEO",
+          name: "Content Optimization",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Enhance existing content with strategic keyword placement and semantic relevance.",
         },
         {
-          name: "Search Intent Optimization",
-          icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
-        },
-        {
-          name: "Competitor Keyword Gap Analysis",
-          icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
-        },
-        {
-          name: "Long-Tail Keyword Strategy",
-          icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
-        },
-      ],
-    },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
-      description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
-      technologies: [
-        {
-          name: "SEO Blog Writing",
-          icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
-        },
-        {
-          name: "Meta Titles & Descriptions",
+          name: "Meta Tag Optimization",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Craft compelling titles and descriptions that improve click-through rates from search results.",
         },
         {
-          name: "Headings & Structure Optimization",
-          icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
-        },
-        {
-          name: "Internal Linking Strategy",
+          name: "Internal Linking Structure",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Build strategic internal links to distribute page authority and improve site navigation.",
         },
         {
-          name: "Content Refresh & Updates",
-          icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          name: "User Experience Signals",
+          icon: "/services/intent-optimization.svg",
+          description: "Optimize for engagement metrics that influence rankings like dwell time and bounce rate.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    off_page_seo: {
+      title: "Off-Page SEO & Link Building",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Build your site's authority and reputation through strategic backlink acquisition and brand mentions.",
       technologies: [
         {
-          name: "Guest Blogging",
-          icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
-        },
-        {
-          name: "Link-Worthy Content Creation",
+          name: "Authority Link Building",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Earn high-quality backlinks from authoritative websites in your industry.",
         },
         {
-          name: "Skyscraper Technique",
-          icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          name: "Digital PR Strategies",
+          icon: "/services/guest-posting.svg",
+          description: "Gain brand mentions and links through strategic digital public relations campaigns.",
         },
         {
-          name: "Broken Link Building",
-          icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
-        },
-        {
-          name: "Resource Page Outreach",
+          name: "Content Outreach",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
-        },
-      ],
-    },
-    content_strategy: {
-      title: "Content Planning & Strategy",
-      description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
-      technologies: [
-        {
-          name: "Content Calendar Development",
-          icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Promote valuable content to relevant websites and influencers for natural link acquisition.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
-          icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          name: "Competitor Backlink Analysis",
+          icon: "/services/competitor-gap.svg",
+          description: "Identify and target valuable link opportunities your competitors have already secured.",
         },
         {
-          name: "Competitive Content Analysis",
-          icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
-        },
-        {
-          name: "Evergreen Content Strategy",
-          icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
-        },
-        {
-          name: "Content Distribution & Promotion",
-          icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          name: "Brand Mention Monitoring",
+          icon: "/services/broken-link.svg",
+          description: "Track and convert unlinked brand mentions into valuable backlinks.",
         },
       ],
     },
     technical_seo: {
-      title: "Technical SEO & Content Performance",
+      title: "Technical SEO Implementation",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Resolve technical issues that prevent search engines from properly crawling, indexing, and ranking your site.",
       technologies: [
+        {
+          name: "Site Architecture Optimization",
+          icon: "/services/crawlability.svg",
+          description: "Improve your website's structure for better crawling efficiency and indexation.",
+        },
         {
           name: "Page Speed Optimization",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Enhance loading times to improve both user experience and search rankings.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "Mobile Optimization",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Ensure your site performs flawlessly on all devices with mobile-first indexing.",
         },
         {
           name: "Schema Markup Implementation",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Add structured data to help search engines understand your content and display rich snippets.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Core Web Vitals Improvement",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Optimize key performance metrics that directly impact search rankings and user experience.",
+        },
+      ],
+    },
+    local_seo: {
+      title: "Local SEO & Business Visibility",
+      description:
+        "Increase visibility in local search results to attract nearby customers and drive foot traffic.",
+      technologies: [
+        {
+          name: "Google Business Profile Optimization",
+          icon: "/services/content-calendar.svg",
+          description: "Optimize your business listing to appear in local searches and Google Maps.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
-          icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          name: "Local Citation Building",
+          icon: "/services/topic-clusters.svg",
+          description: "Create consistent business listings across directories to strengthen local presence.",
+        },
+        {
+          name: "Review Management",
+          icon: "/services/competitive-analysis.svg",
+          description: "Generate and manage customer reviews to improve local rankings and reputation.",
+        },
+        {
+          name: "Local Content Strategy",
+          icon: "/services/evergreen-content.svg",
+          description: "Create location-specific content that resonates with local audiences and search queries.",
+        },
+        {
+          name: "Local Link Building",
+          icon: "/services/content-distribution.svg",
+          description: "Acquire backlinks from local organizations and businesses to boost local relevance.",
+        },
+      ],
+    },
+    analytics_reporting: {
+      title: "SEO Analytics & Reporting",
+      description:
+        "Track, measure, and analyze your SEO performance to demonstrate ROI and guide ongoing strategy.",
+      technologies: [
+        {
+          name: "Keyword Ranking Tracking",
+          icon: "/services/longtail-keywords.svg",
+          description: "Monitor your positions for target keywords and track improvements over time.",
+        },
+        {
+          name: "Traffic Analysis",
+          icon: "/services/seo-blog.svg",
+          description: "Analyze organic traffic patterns, user behavior, and conversion pathways.",
+        },
+        {
+          name: "Competitor Performance Tracking",
+          icon: "/services/skyscraper.svg",
+          description: "Benchmark your SEO performance against competitors to identify opportunities.",
+        },
+        {
+          name: "Conversion Rate Optimization",
+          icon: "/services/headings.svg",
+          description: "Improve how effectively your organic traffic converts into leads and customers.",
+        },
+        {
+          name: "Custom SEO Reporting",
+          icon: "/services/content-refresh.svg",
+          description: "Receive clear, actionable reports that demonstrate progress and guide strategy.",
         },
       ],
     },
   };
   
-  
-
   return (
     <div className=" bg-[url('https://res.cloudinary.com/dhggagqst/image/upload/v1742503688/White_Bg-08_rsfc7s.png')] bg-cover bg-center bg-no-repeat">
 
@@ -205,19 +201,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Dominate Search Results with Strategic <br/> Search Engine Optimization
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Increase your website's visibility and drive qualified traffic with our comprehensive SEO services. We combine technical expertise, content optimization, and strategic link building to help your business achieve sustainable rankings and measurable results.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="on_page_seo"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +221,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="on_page_seo"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              On-Page SEO
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="off_page_seo"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
-            </TabsTrigger>
-            <TabsTrigger
-              value="link_building"
-              className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
-            >
-              Link Building
-            </TabsTrigger>
-            <TabsTrigger
-              value="content_strategy"
-              className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
-            >
-              Content Strategy
+              Off-Page SEO
             </TabsTrigger>
             <TabsTrigger
               value="technical_seo"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
               Technical SEO
+            </TabsTrigger>
+            <TabsTrigger
+              value="local_seo"
+              className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
+            >
+              Local SEO
+            </TabsTrigger>
+            <TabsTrigger
+              value="analytics_reporting"
+              className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
+            >
+              Analytics
             </TabsTrigger>
           </TabsList>
         </div>

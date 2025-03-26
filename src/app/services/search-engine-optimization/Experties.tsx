@@ -8,48 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
-    },
-    {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
-    },
-    {
       icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      title: "Keyword Research & Strategy",
+      description: "Identifying high-value keywords and search trends to develop an effective SEO strategy tailored to your business.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "⚙️",
+      title: "On-Page Optimization",
+      description: "Enhancing meta tags, headers, and content structure to improve search engine rankings and user experience.",
     },
     {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      icon: "📈",
+      title: "Technical SEO",
+      description: "Optimizing site speed, mobile-friendliness, and indexing to ensure search engines can easily crawl and rank your website.",
     },
     {
       icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      title: "Link Building & Authority",
+      description: "Developing a strong backlink profile through ethical link-building strategies to boost domain authority.",
+    },
+    {
+      icon: "✍️",
+      title: "SEO Content Marketing",
+      description: "Creating high-quality, search-optimized content to attract organic traffic and establish brand credibility.",
+    },
+    {
+      icon: "📊",
+      title: "SEO Performance Tracking",
+      description: "Using analytics tools to monitor keyword rankings, traffic growth, and user engagement for ongoing improvements.",
+    },
+    {
+      icon: "📢",
+      title: "Local SEO & Google My Business",
+      description: "Optimizing local listings and citations to improve visibility in location-based searches and Google Maps.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "E-Commerce SEO",
+      description: "Optimizing product pages, category structures, and site navigation to increase online store visibility and conversions.",
     },
-    {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
-    },
-   
-  ];
-  
+];
+
   
 
   const handleNext = () => {
@@ -67,24 +66,23 @@ export default function Experties() {
   return (
     <div className="bg-gradient-to-b from-[#48128A]  to-[#8B3791] text-white py-16 px-4">
       <div className="container mx-auto">
-        <motion.h1 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-bold mb-6"
-        >
-         Boost Your Rankings with SEO-Optimized Blog Writing
-        </motion.h1>
-        
-        <motion.p 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="text-lg !w-full mb-12 "
-        >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
+      <motion.h1 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  className="text-4xl md:text-5xl font-bold mb-6"
+>
+  Maximize Visibility with Expert SEO Strategies
+</motion.h1>
 
+<motion.p 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.2 }}
+  className="text-lg !w-full mb-12"
+>
+  Our comprehensive SEO services help businesses dominate search rankings by optimizing content, enhancing technical performance, and driving organic traffic for long-term success.
+</motion.p>
 
-        </motion.p>
 
         <div className="relative overflow-hidden">
           <div className="absolute right-0 -top-16 space-x-2">

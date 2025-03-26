@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  BUILD A POWERFUL BRAND IDENTITY THAT STANDS OUT FROM THE CROWD
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's competitive marketplace, a strong brand identity is essential for making a lasting impression and building customer loyalty.  
+  Simply having a logo isn't enough—your brand needs to communicate your values, connect emotionally with your audience, and remain consistent across all touchpoints.  
+  At Tech Craft, we specialize in creating comprehensive brand identities that capture your unique essence, resonate with your target market, and position you for long-term success.  
+  Through strategic brand development, creative design, and consistent implementation, we ensure your brand not only looks professional but also tells your authentic story.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          GET EXCEPTIONAL RESULTS WITH TECH CRAFT'S PROFESSIONAL BRANDING SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "Why is professional branding important for my business?",
+    content: `Professional branding helps your business stand out in a crowded marketplace, builds trust with customers, and creates emotional connections with your audience. A strong brand identity increases recognition, commands premium pricing, attracts ideal customers, and turns satisfied clients into brand advocates.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "What does a complete branding package include?",
+    content: `Our comprehensive branding packages typically include brand strategy development, logo design, color palette selection, typography guidelines, brand voice development, messaging frameworks, visual identity systems, brand style guides, and implementation across key touchpoints like websites, social media, and marketing materials.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How do you ensure my brand reflects my company's values?",
+    content: `We begin with a thorough discovery process to understand your company's mission, vision, values, and unique selling propositions. Through collaborative workshops, competitor analysis, and audience research, we identify what makes your business special and develop brand elements that authentically communicate your core values and personality.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How long does the branding process typically take?",
+    content: `A complete branding project typically takes 4-8 weeks depending on the scope and complexity. This includes discovery and strategy (1-2 weeks), creative development (2-3 weeks), refinement (1-2 weeks), and finalization of deliverables (1 week). We work with you to establish a timeline that meets your specific needs and business goals.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How can consistent branding impact my bottom line?",
+    content: `Consistent branding directly impacts your revenue by increasing brand recognition (up to 33% higher), building trust (59% of consumers prefer familiar brands), commanding premium pricing (customers will pay 40% more for branded experiences), and improving customer loyalty (64% of consumers cite shared values as the primary reason for brand relationships).`,
   },
 ].map((panel) => (
           <motion.div

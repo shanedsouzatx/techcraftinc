@@ -12,9 +12,9 @@ export default function NewsLetter() {
   }
 
   return (
-    <div className=" bg-gradient-to-b from-white via-white to-[#BCBEC0] max-w-[1440px] mx-auto py-16 my-8 rounded-3xl  ">
+    <div className=" bg-gradient-to-b from-[#BCBEC0]  to-[#BCBEC0] max-w-[1440px] mx-auto py-16 my-8 rounded-3xl  ">
       <div className="max-w-[1100px] mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6">
-        <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold birder-2 border-[#BCBEC0]  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase text-center md:text-left">
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold birder-2 border-[#BCBEC0]  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase z-[999] brightness-125 text-center md:text-left">
           Ready to work with us?
         </h2>
         <button

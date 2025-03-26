@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  CONVERT VISITORS INTO CUSTOMERS WITH PERSUASIVE COPYWRITING
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's competitive digital marketplace, compelling copy is the difference between being ignored and making sales.  
+  Simply having a website isn't enough—your words need to captivate, persuade, and drive action from your audience.  
+  At Tech Craft, we specialize in crafting conversion-focused copy that speaks directly to your customers' needs, highlights your unique value, and motivates them to take action.  
+  Through strategic messaging, persuasive techniques, and deep audience understanding, we ensure your copy not only engages readers but transforms them into loyal customers.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          GET EXCEPTIONAL RESULTS WITH TECH CRAFT'S PROFESSIONAL COPYWRITING SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "How can professional copywriting benefit my business?",
+    content: `Professional copywriting drives more conversions by clearly communicating your value proposition and addressing customer pain points. Compelling copy builds trust, differentiates your brand from competitors, and guides prospects through the buying journey. Well-crafted words can significantly improve your marketing ROI across all channels.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "What types of copywriting services do you offer?",
+    content: `We provide comprehensive copywriting services including website copy, landing pages, email campaigns, product descriptions, ad copy, social media content, brochures, case studies, white papers, and brand messaging frameworks. Each type of copy is strategically crafted to achieve specific business objectives and connect with your target audience.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How do you ensure copy reflects my brand voice?",
+    content: `We begin with a thorough brand discovery process to understand your unique voice, values, and positioning. Our copywriters then create a consistent tone that aligns with your brand personality—whether professional, conversational, authoritative, or playful. We provide revisions until the copy perfectly captures your brand's distinctive voice.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "What makes copy effective at driving conversions?",
+    content: `Conversion-focused copy speaks directly to customer needs, emphasizes benefits over features, creates emotional connections, addresses objections, and includes clear calls-to-action. Our copywriters use proven persuasive techniques like social proof, scarcity, and value demonstration to motivate readers to take the next step in their customer journey.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How do you approach the copywriting process?",
+    content: `Our process begins with understanding your business goals, target audience, and competitive landscape. We then develop messaging strategies, create compelling headlines and content, and refine the copy through collaborative feedback. We test different approaches when possible and optimize based on performance data to maximize your results.`,
   },
 ].map((panel) => (
           <motion.div

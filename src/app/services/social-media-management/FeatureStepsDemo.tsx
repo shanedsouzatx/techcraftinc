@@ -1,26 +1,31 @@
 import { FeatureSteps } from "@/components/Services/Section2/FeatureSection"
 const features = [
-    { 
-      step: 'Step 1', 
-      title: 'In-Depth SEO Research & Planning',
-      content: 'We conduct thorough keyword research, analyze competitors, and map out a data-driven content strategy designed to maximize search rankings and engagement.',
-      image: '/services/seo-research.jpg' // Image of keyword research or analytics dashboard
-    },
-    { 
-      step: 'Step 2',
-      title: 'High-Quality, SEO-Optimized Blog Writing',
-      content: 'Our writers craft compelling, well-researched content that naturally integrates keywords, enhances readability, and aligns with search intent to attract organic traffic.',
-      image: '/services/seo-writing.jpg' // Image of content creation in progress
-    },
-    
-    { 
-      step: 'Step 3',
-      title: 'Publishing & Performance Tracking',
-      content: 'Once published, we track performance metrics, analyze user engagement, and make data-driven adjustments to improve rankings and conversions over time.',
-      image: '/services/content-publishing.jpg' // Image of analytics dashboard or SEO performance tracking
-    },
-  ];
-  
+  { 
+    step: 'Step 1', 
+    title: 'Social Media Strategy & Planning',
+    content: 'We craft a tailored social media strategy, analyzing your audience, competitors, and industry trends to maximize engagement and brand growth.',
+    image: '/services/social-strategy.jpg' // Image of social media planning or analytics
+  },
+  { 
+    step: 'Step 2',
+    title: 'Content Creation & Scheduling',
+    content: 'Our team designs eye-catching graphics, compelling captions, and engaging posts, ensuring consistent and high-quality content across all platforms.',
+    image: '/services/content-creation.jpg' // Image of social media posts being designed
+  },
+  { 
+    step: 'Step 3',
+    title: 'Community Engagement & Growth',
+    content: 'We actively engage with your audience, respond to comments, and foster meaningful connections to build a loyal and active community.',
+    image: '/services/community-engagement.jpg' // Image of social media interactions
+  },
+  { 
+    step: 'Step 4',
+    title: 'Analytics & Performance Optimization',
+    content: 'We track key metrics, analyze post performance, and refine strategies to ensure continuous growth, improved reach, and maximum ROI.',
+    image: '/services/social-analytics.jpg' // Image of social media insights dashboard
+  },
+];
+
 
 export function FeatureStepsDemo() {
   return (

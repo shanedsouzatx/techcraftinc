@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  CAPTIVATE YOUR AUDIENCE WITH STUNNING EVENT & SOCIAL MEDIA DESIGNS
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's visually-driven world, eye-catching designs are essential for standing out at events and across social media platforms.  
+  Generic templates and basic graphics aren't enough—your brand needs custom, cohesive visuals that capture attention and drive engagement.  
+  At Tech Craft, we specialize in creating stunning event materials and social media designs that elevate your brand presence, increase engagement, and create memorable experiences.  
+  Through strategic visual storytelling, on-trend aesthetics, and platform-specific optimization, we ensure your designs not only look impressive but also achieve your marketing objectives.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          GET EXCEPTIONAL RESULTS WITH TECH CRAFT'S EVENT & SOCIAL MEDIA DESIGN SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "How can professional event and social media design benefit my business?",
+    content: `Professional design creates a cohesive brand experience that increases recognition by up to 80%. For events, it enhances attendee experience and creates memorable impressions. On social media, custom designs increase engagement rates by 48% compared to generic content, driving more followers, interactions, and conversions while establishing your brand as professional and trustworthy.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "What types of event and social media design services do you offer?",
+    content: `For events, we create invitation designs, banners, backdrops, signage, presentation templates, name badges, promotional materials, and complete event branding packages. Our social media services include platform-specific post designs, story templates, profile graphics, cover images, carousel posts, animated content, promotional graphics for campaigns, and consistent design systems for your entire social presence.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How do you ensure designs work across different platforms and formats?",
+    content: `We implement responsive design principles that adapt to various platforms while maintaining brand consistency. Each design is created with platform-specific dimensions, aspect ratios, and technical requirements in mind. We provide multiple format variations for each design and follow a comprehensive brand style guide to ensure cohesive visuals across all touchpoints, from physical event materials to digital social posts.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "What's your process for creating event and social media designs?",
+    content: `Our process begins with understanding your brand, audience, and objectives through a detailed discovery phase. We then develop concept designs based on your brand guidelines and event/campaign goals. After your feedback and revisions, we finalize the designs and deliver them in all necessary formats. For ongoing social media design, we can establish templates and systems for consistent content creation at scale.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How can I measure the success of my event and social media designs?",
+    content: `For events, success metrics include attendee feedback, participation rates, brand recall, lead generation, and conversion metrics. For social media, we track engagement rates (likes, comments, shares), reach and impressions, follower growth, click-through rates, and conversion metrics. We can help establish KPIs before launching designs and provide guidance on tracking these metrics to demonstrate ROI on your design investment.`,
   },
 ].map((panel) => (
           <motion.div

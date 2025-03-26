@@ -9,45 +9,44 @@ export default function Experties() {
   const industries = [
     {
       icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      title: "Engaging Blog Articles",
+      description: "Crafting well-researched, informative, and reader-friendly articles that educate, inspire, and drive audience engagement.",
     },
     {
       icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      title: "Data-Driven Articles",
+      description: "Writing insightful content backed by thorough research, statistics, and expert analysis to provide value and credibility.",
     },
     {
       icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      title: "Content Audits & Refinement",
+      description: "Reviewing and optimizing existing articles to enhance readability, structure, and search performance.",
     },
     {
       icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      title: "Long-Form In-Depth Articles",
+      description: "Developing comprehensive, research-backed content that offers detailed insights, storytelling, and industry expertise.",
     },
     {
       icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      title: "Editorial & Thought Leadership",
+      description: "Creating authoritative opinion pieces and industry insights that position brands and individuals as thought leaders.",
     },
     {
       icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      title: "Informative & Evergreen Content",
+      description: "Producing timeless, high-quality articles that remain relevant and continue attracting readers over time.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Content Repurposing & Expansion",
+      description: "Transforming existing content into new formats, expanding ideas, and enhancing engagement across multiple platforms.",
     },
     {
       icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      title: "Structured & Well-Organized Articles",
+      description: "Writing clear, logically structured articles with strong headlines, subheadings, and engaging storytelling.",
     },
-   
   ];
   
   

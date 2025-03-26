@@ -99,7 +99,7 @@ const Hero = React.forwardRef<HTMLElement, Heroprops>(
         className="flex-1 -mr-[200px] "
       >
         <Image 
-          src={'https://res.cloudinary.com/dhggagqst/image/upload/v1742849852/Vector-02_lbbsdr.png'} 
+          src={'https://res.cloudinary.com/dhggagqst/image/upload/v1742939046/Vector-15_1_qlamya.png'} 
           alt="Hero Image" 
           width={400} 
           height={300} 

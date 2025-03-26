@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "logo_design" | "visual_identity" | "design_process" | "file_formats" | "logo_applications"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("logo_design")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    logo_design: {
+      title: "Logo Design Styles",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Explore different logo design approaches to find the perfect style that represents your brand's personality and resonates with your audience.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
-          icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          name: "Wordmark Logos",
+          icon: "/services/wordmark-logo.svg",
+          description: "Text-based logos that showcase your brand name with distinctive typography and styling.",
         },
         {
-          name: "Semantic SEO",
-          icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          name: "Lettermark Logos",
+          icon: "/services/lettermark-logo.svg",
+          description: "Monogram-style logos using initials or abbreviations for a clean, memorable identity.",
         },
         {
-          name: "Search Intent Optimization",
-          icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          name: "Symbol & Icon Logos",
+          icon: "/services/symbol-logo.svg",
+          description: "Distinctive graphic elements that create instant brand recognition without text.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
-          icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          name: "Combination Marks",
+          icon: "/services/combination-mark.svg",
+          description: "Integrated text and symbol designs that offer versatility and comprehensive branding.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
-          icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          name: "Emblem Logos",
+          icon: "/services/emblem-logo.svg",
+          description: "Traditional designs with text inside a symbol for a classic, established feel.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    visual_identity: {
+      title: "Visual Identity Elements",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Create a complete visual identity system with complementary elements that enhance your logo and strengthen brand recognition.",
       technologies: [
         {
-          name: "SEO Blog Writing",
-          icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          name: "Color Psychology",
+          icon: "/services/color-psychology.svg",
+          description: "Strategic color selection that evokes specific emotions and aligns with your brand personality.",
         },
         {
-          name: "Meta Titles & Descriptions",
-          icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          name: "Typography Selection",
+          icon: "/services/typography-selection.svg",
+          description: "Choosing fonts that complement your logo and reinforce your brand's character.",
         },
         {
-          name: "Headings & Structure Optimization",
-          icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          name: "Secondary Graphics",
+          icon: "/services/secondary-graphics.svg",
+          description: "Supporting visual elements that create a cohesive brand system beyond your primary logo.",
         },
         {
-          name: "Internal Linking Strategy",
-          icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          name: "Logo Variations",
+          icon: "/services/logo-variations.svg",
+          description: "Alternative versions of your logo optimized for different contexts and applications.",
         },
         {
-          name: "Content Refresh & Updates",
-          icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          name: "Visual Style Guide",
+          icon: "/services/style-guide.svg",
+          description: "Comprehensive documentation of your visual identity for consistent implementation.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    design_process: {
+      title: "Logo Design Process",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Our proven design methodology ensures we create a logo that perfectly captures your brand essence and meets your business objectives.",
       technologies: [
         {
-          name: "Guest Blogging",
-          icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          name: "Brand Discovery",
+          icon: "/services/brand-discovery.svg",
+          description: "In-depth exploration of your brand values, audience, and competitive landscape.",
         },
         {
-          name: "Link-Worthy Content Creation",
-          icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          name: "Concept Development",
+          icon: "/services/concept-development.svg",
+          description: "Creative ideation and sketching to explore multiple design directions.",
         },
         {
-          name: "Skyscraper Technique",
-          icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          name: "Digital Rendering",
+          icon: "/services/digital-rendering.svg",
+          description: "Transforming concepts into polished digital designs with precision and detail.",
         },
         {
-          name: "Broken Link Building",
-          icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          name: "Refinement & Iteration",
+          icon: "/services/refinement.svg",
+          description: "Collaborative feedback process to perfect your logo design.",
         },
         {
-          name: "Resource Page Outreach",
-          icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          name: "Finalization & Delivery",
+          icon: "/services/finalization.svg",
+          description: "Preparing and delivering your logo in all necessary formats for immediate use.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    file_formats: {
+      title: "Logo File Formats & Deliverables",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Receive your logo in all the formats you need for seamless implementation across digital and print applications.",
       technologies: [
         {
-          name: "Content Calendar Development",
-          icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          name: "Vector Files",
+          icon: "/services/vector-files.svg",
+          description: "Scalable formats (AI, EPS, SVG) that maintain quality at any size.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
-          icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          name: "Raster Files",
+          icon: "/services/raster-files.svg",
+          description: "Web-ready formats (PNG, JPG) optimized for digital applications.",
         },
         {
-          name: "Competitive Content Analysis",
-          icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          name: "Color Variations",
+          icon: "/services/color-variations.svg",
+          description: "Full-color, black, white, and reversed versions for different backgrounds.",
         },
         {
-          name: "Evergreen Content Strategy",
-          icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          name: "Transparent Backgrounds",
+          icon: "/services/transparent-bg.svg",
+          description: "Clean logo files without backgrounds for flexible placement.",
         },
         {
-          name: "Content Distribution & Promotion",
-          icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          name: "Source Files",
+          icon: "/services/source-files.svg",
+          description: "Original design files for future modifications and adaptations.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    logo_applications: {
+      title: "Logo Applications & Implementation",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "See how your new logo can be effectively implemented across various touchpoints to build a consistent brand presence.",
       technologies: [
         {
-          name: "Page Speed Optimization",
-          icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          name: "Digital Applications",
+          icon: "/services/digital-applications.svg",
+          description: "Website, social media, email signatures, and digital marketing materials.",
         },
         {
-          name: "Mobile-First SEO",
-          icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          name: "Print Materials",
+          icon: "/services/print-materials.svg",
+          description: "Business cards, letterheads, brochures, and promotional items.",
         },
         {
-          name: "Schema Markup Implementation",
-          icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          name: "Signage & Environmental",
+          icon: "/services/signage.svg",
+          description: "Office signs, retail displays, vehicle wraps, and physical spaces.",
         },
         {
-          name: "Core Web Vitals Optimization",
-          icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          name: "Merchandise & Products",
+          icon: "/services/merchandise.svg",
+          description: "Branded products, packaging, labels, and promotional items.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
-          icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          name: "Digital Advertising",
+          icon: "/services/digital-advertising.svg",
+          description: "Banner ads, social media graphics, and digital marketing assets.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Create a Distinctive Logo That Makes <br/> Your Brand Unforgettable
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Design a professional, memorable logo that captures your brand's essence and creates instant recognition. Our expert logo design services deliver custom visual identities that stand out from competitors and resonate with your target audience.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="logo_design"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="logo_design"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Logo Styles
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="visual_identity"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Visual Identity
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="design_process"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Design Process
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="file_formats"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              File Formats
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="logo_applications"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Applications
             </TabsTrigger>
           </TabsList>
         </div>

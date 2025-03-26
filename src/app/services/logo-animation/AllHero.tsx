@@ -1,5 +1,5 @@
 'use client'
-import { Hero } from "@/components/Services/Hero"
+import { Hero } from "./Hero"
 import { closeModal } from "@/app/utils/HelperFunction"
 import React, { useState } from "react"
 import Modal from "@/components/Modal/Modal"

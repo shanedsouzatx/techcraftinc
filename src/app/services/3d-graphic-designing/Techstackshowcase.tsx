@@ -4,8 +4,6 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
-// Define the tab types to ensure type safety
-type TabKey = "seo" | "blogging" | "ecommerce" | "technical" | "branding"
 
 // Define the structure of a technology item
 interface Technology {
@@ -27,170 +25,170 @@ interface TabDataMap {
 }
 
 export default function TechStackShowcase() {
-  // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  // Define the tab types specific to 3D graphic design
+  type TabKey = "3d_modeling" | "3d_animation" | "3d_rendering" | "3d_visualization" | "3d_software"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("3d_modeling")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    "3d_modeling": {
+      title: "3D Modeling & Design",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Create stunning three-dimensional models with precision and detail. Our expert modeling techniques bring your concepts to life with realistic proportions and textures.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "Character Modeling",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Design expressive, anatomically accurate characters for games, animations, and marketing.",
         },
         {
-          name: "Semantic SEO",
+          name: "Product Modeling",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Create photorealistic 3D models of products for marketing, e-commerce, and presentations.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "Architectural Modeling",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Build detailed 3D models of buildings, interiors, and landscapes for visualization.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "Organic Modeling",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Sculpt natural forms and organic shapes with realistic textures and details.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Hard Surface Modeling",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Design mechanical objects, vehicles, and industrial products with precision engineering.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    "3d_animation": {
+      title: "3D Animation & Motion",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Bring your 3D models to life with fluid, realistic animation. Our motion expertise creates engaging visual stories that captivate your audience.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Character Animation",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Create lifelike movement and expressions for 3D characters with realistic physics.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "Product Animation",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Showcase product features and functionality through dynamic 3D animations.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Architectural Walkthroughs",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Guide viewers through 3D spaces with immersive camera movements and lighting.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "Motion Graphics",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Combine 3D elements with typography and effects for engaging visual presentations.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Simulation & Physics",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Create realistic physical interactions, fluid dynamics, and particle effects.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    "3d_rendering": {
+      title: "Rendering & Visualization",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Transform 3D models into photorealistic images and videos with advanced rendering techniques that showcase lighting, materials, and atmosphere.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "Photorealistic Rendering",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Create images indistinguishable from photographs with advanced lighting and materials.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Stylized Rendering",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Develop non-photorealistic visuals with artistic styles for unique brand aesthetics.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Lighting & Composition",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Craft mood and atmosphere through strategic lighting setups and visual composition.",
         },
         {
-          name: "Broken Link Building",
+          name: "Material Development",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Create realistic or stylized surface properties with advanced shader techniques.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Environment Design",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Build immersive 3D environments with atmospheric effects and detailed scenery.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    "3d_visualization": {
+      title: "3D Applications & Use Cases",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Leverage 3D graphics across various industries and applications to enhance marketing, improve product development, and create immersive experiences.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "Product Visualization",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Showcase products in photorealistic 3D for marketing materials and e-commerce.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "Architectural Visualization",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Present buildings and spaces before construction with realistic lighting and materials.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Medical & Scientific",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Visualize complex scientific concepts and medical procedures with accurate 3D models.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Virtual Reality Content",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Create immersive 3D environments and objects optimized for VR experiences.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "Augmented Reality Assets",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Design 3D elements that integrate seamlessly with real-world environments in AR.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    "3d_software": {
+      title: "3D Software & Technology",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Utilize industry-leading software and cutting-edge technology to create exceptional 3D graphics with efficiency and innovation.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Blender Expertise",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Leverage the power of open-source 3D creation with advanced Blender workflows.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "Maya & 3ds Max",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Create professional 3D content with industry-standard Autodesk software.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "ZBrush Sculpting",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Craft highly detailed organic models with digital sculpting techniques.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Substance Texturing",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Develop realistic PBR materials and textures for photorealistic rendering.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Unreal Engine & Unity",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Create interactive 3D experiences and real-time visualizations with game engines.",
         },
       ],
     },
@@ -205,19 +203,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Transform Your Vision with Stunning <br/> 3D Graphic Design
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Create immersive visual experiences with photorealistic 3D models, animations, and renderings that captivate your audience. Our expert 3D graphic design services bring your ideas to life with depth, dimension, and stunning detail for marketing, product visualization, and interactive experiences.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="3d_modeling"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +223,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="3d_modeling"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              3D Modeling
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="3d_animation"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              3D Animation
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="3d_rendering"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              3D Rendering
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="3d_visualization"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              3D Applications
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="3d_software"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              3D Software
             </TabsTrigger>
           </TabsList>
         </div>

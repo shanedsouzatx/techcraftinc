@@ -8,47 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "🎨",
+      title: "Brand-Driven Content Strategy",
+      description: "Crafting compelling narratives that align with your brand identity, values, and audience expectations.",
     },
     {
       icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      title: "Data-Backed Brand Messaging",
+      description: "Using market research and analytics to create content that strengthens brand positioning and engagement.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      icon: "🏗️",
+      title: "Brand Storytelling & Identity",
+      description: "Developing a unique and memorable brand voice that resonates across all content and marketing channels.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "🖋️",
+      title: "Authority-Building Thought Leadership",
+      description: "Creating insightful, value-driven content that establishes your brand as an industry leader.",
     },
     {
       icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      title: "Brand-Focused Copywriting",
+      description: "Writing persuasive, on-brand messaging that connects with your audience and drives conversions.",
     },
     {
       icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      title: "Brand Cohesion Across Platforms",
+      description: "Ensuring consistent messaging and visual identity across blogs, websites, and social media.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Brand Refresh & Repositioning",
+      description: "Revitalizing your brand’s content strategy to stay relevant, engaging, and competitive in the market.",
     },
     {
       icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      title: "Branded Content Frameworks",
+      description: "Structuring content around core brand themes to enhance recognition and customer loyalty.",
     },
-   
   ];
+  
   
   
 
@@ -72,7 +72,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+      Build a Powerful Brand with Impactful Storytelling
         </motion.h1>
         
         <motion.p 
@@ -81,7 +81,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
+   Your brand is more than just a logo—it’s a story that connects, inspires, and influences. Through strategic storytelling and compelling content, we help you craft a unique brand voice that resonates with your audience, builds trust, and leaves a lasting impression
 
 
         </motion.p>

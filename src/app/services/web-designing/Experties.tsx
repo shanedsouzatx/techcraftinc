@@ -8,48 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
-    },
-    {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
-    },
-    {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
-    },
-    {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
-    },
-    {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
-    },
-    {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "🎨",
+      title: "Custom Website Design",
+      description: "Crafting visually stunning and user-friendly websites that reflect your brand identity and engage your audience.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Responsive Web Development",
+      description: "Building fully responsive websites that provide a seamless experience across all devices and screen sizes.",
     },
     {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      icon: "🚀",
+      title: "Performance-Optimized Websites",
+      description: "Ensuring lightning-fast loading times and smooth functionality to enhance user experience and SEO rankings.",
     },
-   
-  ];
-  
+    {
+      icon: "📱",
+      title: "Mobile-First Web Design",
+      description: "Designing mobile-friendly websites that prioritize usability, speed, and engagement on smaller screens.",
+    },
+    {
+      icon: "🛒",
+      title: "E-Commerce Web Design",
+      description: "Developing high-converting online stores with seamless navigation, secure payments, and an optimized shopping experience.",
+    },
+    {
+      icon: "🔍",
+      title: "SEO-Friendly Web Design",
+      description: "Structuring websites with best SEO practices to improve visibility, search rankings, and organic traffic.",
+    },
+    {
+      icon: "🖌️",
+      title: "UI/UX Design & Prototyping",
+      description: "Creating intuitive user interfaces and interactive prototypes for an engaging and smooth user journey.",
+    },
+    {
+      icon: "🔗",
+      title: "Website Maintenance & Support",
+      description: "Providing ongoing updates, security patches, and performance improvements to keep your website running flawlessly.",
+    },
+];
+
   
 
   const handleNext = () => {

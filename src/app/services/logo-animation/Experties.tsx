@@ -66,24 +66,22 @@ export default function Experties() {
   return (
     <div className="bg-gradient-to-b from-[#48128A]  to-[#8B3791] text-white py-16 px-4">
       <div className="container mx-auto">
-        <motion.h1 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-bold mb-6"
-        >
-         Boost Your Rankings with SEO-Optimized Blog Writing
-        </motion.h1>
-        
-        <motion.p 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="text-lg !w-full mb-12 "
-        >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
+      <motion.h1 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  className="text-4xl md:text-5xl font-bold mb-6"
+>
+  Bring Your Brand to Life with Stunning Logo Animation
+</motion.h1>
 
-
-        </motion.p>
+<motion.p 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.2 }}
+  className="text-lg !w-full mb-12"
+>
+  Elevate your brand identity with dynamic logo animations that captivate audiences, enhance recognition, and add a professional touch to your digital presence.
+</motion.p>
 
         <div className="relative overflow-hidden">
           <div className="absolute right-0 -top-16 space-x-2">

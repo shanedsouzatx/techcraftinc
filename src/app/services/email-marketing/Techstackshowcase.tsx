@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "campaign_strategy" | "content_creation" | "automation" | "list_management" | "analytics"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("campaign_strategy")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    campaign_strategy: {
+      title: "Strategic Campaign Planning",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Develop targeted email campaigns that engage subscribers and drive measurable business results.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "Customer Journey Mapping",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Create personalized email sequences aligned with each stage of the customer journey.",
         },
         {
-          name: "Semantic SEO",
+          name: "Audience Segmentation",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Divide your audience into targeted groups for more relevant, personalized messaging.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "Campaign Calendar Development",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Plan strategic email deployments aligned with business goals and seasonal opportunities.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "A/B Testing Strategy",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Implement systematic testing to optimize subject lines, content, and send times.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Multi-Channel Integration",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Coordinate email campaigns with social media, SMS, and other marketing channels.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    content_creation: {
+      title: "Email Content & Design",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Craft compelling, conversion-focused emails that capture attention and drive action.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Responsive Email Design",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Create mobile-optimized templates that display perfectly across all devices.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "Persuasive Copywriting",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Develop engaging subject lines and body content that drives opens and clicks.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Visual Content Creation",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Design eye-catching graphics and imagery that enhance message effectiveness.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "Call-to-Action Optimization",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Craft compelling CTAs that increase click-through rates and conversions.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Personalization & Dynamic Content",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Implement content that adapts based on subscriber data and behavior.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    automation: {
+      title: "Email Automation & Workflows",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Implement automated email sequences that nurture leads, onboard customers, and drive repeat business.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "Welcome Series Development",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Create engaging onboarding sequences that convert new subscribers into customers.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Abandoned Cart Recovery",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Implement automated reminders that recapture lost sales and boost revenue.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Behavioral Trigger Emails",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Set up automated messages based on specific user actions and engagement patterns.",
         },
         {
-          name: "Broken Link Building",
+          name: "Lead Nurturing Sequences",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Develop multi-stage workflows that guide prospects through the sales funnel.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Re-engagement Campaigns",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Create automated sequences to win back inactive subscribers and customers.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    list_management: {
+      title: "List Growth & Management",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Build and maintain a healthy, engaged email list that delivers consistent results.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "Opt-in Strategy & Form Design",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Create compelling sign-up forms and lead magnets that grow your subscriber base.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "List Hygiene & Maintenance",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Implement regular cleaning processes to maintain deliverability and engagement.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Subscriber Preference Management",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Give subscribers control over content preferences to improve relevance and retention.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Compliance & Permission Management",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Ensure all email practices adhere to GDPR, CAN-SPAM, and other regulations.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "List Segmentation & Targeting",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Develop sophisticated segments based on demographics, behavior, and engagement.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    analytics: {
+      title: "Performance Analytics & Optimization",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Track, analyze, and continuously improve email performance to maximize ROI.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Key Metric Tracking",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Monitor open rates, click-through rates, conversions, and other critical metrics.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "Deliverability Monitoring",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Track inbox placement and implement strategies to avoid spam filters.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "Revenue Attribution",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Measure the direct impact of email campaigns on sales and customer lifetime value.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Performance Benchmarking",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Compare your results against industry standards to identify improvement areas.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Continuous Optimization",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Implement data-driven improvements to consistently enhance campaign performance.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Drive Conversions with Strategic <br/> Email Marketing
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Connect directly with your audience through personalized, conversion-focused email campaigns. Our comprehensive email marketing services combine strategic planning, compelling content, and data-driven optimization to deliver measurable results.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="campaign_strategy"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="campaign_strategy"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Campaign Strategy
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="content_creation"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Content & Design
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="automation"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Automation
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="list_management"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              List Management
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="analytics"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Analytics
             </TabsTrigger>
           </TabsList>
         </div>

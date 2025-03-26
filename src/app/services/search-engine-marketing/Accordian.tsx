@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  DRIVE TARGETED TRAFFIC & CONVERSIONS WITH SEARCH ENGINE MARKETING
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's competitive digital landscape, effective search engine marketing is essential for capturing high-intent traffic and driving measurable business results.  
+  Simply having an online presence isn't enough—your paid search strategy needs to be targeted, optimized, and continuously refined.  
+  At Tech Craft, we specialize in developing comprehensive SEM campaigns that maximize visibility, generate qualified leads, and deliver exceptional ROI.  
+  Through strategic keyword targeting, compelling ad creative, and data-driven optimization, we ensure your advertising budget is invested for maximum impact.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S SEARCH ENGINE MARKETING SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "What platforms do your SEM services cover?",
+    content: `Our SEM services encompass all major search engines and advertising platforms including Google Ads, Microsoft Advertising (Bing), YouTube, and display networks. We develop tailored strategies for each platform based on your target audience, industry, and specific business goals to maximize your reach and ROI.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How do you structure SEM campaigns for optimal performance?",
+    content: `We build campaigns with a logical, scalable structure that groups keywords by theme, intent, and performance metrics. Our approach includes strategic ad group organization, targeted keyword selection, and implementation of appropriate campaign types (search, display, shopping, etc.) based on your objectives. This structured approach improves quality scores, enhances relevance, and maximizes your advertising budget.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "What goes into your ad creation process?",
+    content: `Our ad creation process begins with competitor analysis and audience research to identify compelling messaging opportunities. We develop multiple ad variations with attention-grabbing headlines, persuasive descriptions, and strong calls-to-action. We implement all relevant ad extensions to maximize visibility and implement systematic A/B testing to continuously improve performance over time.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How do you optimize landing pages for SEM campaigns?",
+    content: `We ensure landing pages are tightly aligned with ad messaging and user intent to maximize conversion rates. Our optimization process includes improving page load speed, enhancing mobile responsiveness, streamlining forms, and creating compelling calls-to-action. We continuously test and refine landing pages based on performance data to improve quality scores and conversion rates.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How do you measure and report on SEM campaign performance?",
+    content: `We track comprehensive metrics including impressions, clicks, conversions, cost-per-click, cost-per-acquisition, and return on ad spend. Our custom reporting dashboards provide clear visibility into campaign performance with actionable insights. We conduct regular performance reviews to identify optimization opportunities and ensure your campaigns continuously improve over time.`,
   },
 ].map((panel) => (
           <motion.div

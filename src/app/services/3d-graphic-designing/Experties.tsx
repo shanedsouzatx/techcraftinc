@@ -8,47 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "🎨",
+      title: "3D Concept Development",
+      description: "Bringing ideas to life with conceptual 3D sketches and designs that form the foundation of stunning visuals.",
     },
     {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      icon: "🖥️",
+      title: "3D Modeling & Sculpting",
+      description: "Creating highly detailed 3D models for gaming, animation, branding, and product visualization with precision and realism.",
     },
     {
       icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      title: "Texturing & Material Design",
+      description: "Adding lifelike textures, shading, and materials to 3D models to enhance realism and depth in designs.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "💡",
+      title: "Lighting & Rendering",
+      description: "Applying advanced lighting techniques and high-resolution rendering to create photorealistic 3D visuals.",
     },
     {
       icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      title: "3D Motion Graphics & Animation",
+      description: "Designing dynamic motion graphics and animations for marketing, branding, and interactive media.",
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "🏗️",
+      title: "Architectural & Product Visualization",
+      description: "Bringing architecture, interior designs, and product prototypes to life with stunning 3D renders.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Virtual & Augmented Reality Assets",
+      description: "Developing optimized 3D assets for immersive VR and AR experiences, enhancing digital interaction.",
     },
     {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      icon: "🎮",
+      title: "Game & Cinematic Asset Creation",
+      description: "Designing detailed 3D characters, environments, and props for video games, films, and animation projects.",
     },
-   
-  ];
+];
+
   
   
 
@@ -72,7 +72,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+         Transform Your Vision with Stunning 3D Graphic Design
         </motion.h1>
         
         <motion.p 
@@ -81,9 +81,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
-
+       Our 3D graphic design services combine artistic creativity, technical expertise, and innovative visualization to create immersive visuals that captivate, engage, and elevate your brand
         </motion.p>
 
         <div className="relative overflow-hidden">

@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  ELEVATE YOUR BRAND WITH PROFESSIONAL SCRIPT WRITING
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's competitive digital landscape, compelling scripts are essential for engaging your audience and conveying your message effectively.  
+  A well-crafted script can transform ordinary content into powerful storytelling that resonates with viewers and drives action.  
+  At Tech Craft, we specialize in creating custom scripts for videos, commercials, presentations, and more that capture your brand voice and connect with your target audience.  
+  Through strategic messaging, creative storytelling, and professional structure, we ensure your scripts not only communicate clearly but also inspire your audience to respond.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          GET EXCEPTIONAL RESULTS WITH TECH CRAFT'S PROFESSIONAL SCRIPT WRITING SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "Why is professional script writing important for my business?",
+    content: `Professional script writing ensures your message is clear, engaging, and effective. Well-crafted scripts save production time, maintain audience attention, and increase conversion rates. They help establish brand consistency across all your video content while effectively communicating your unique value proposition.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "What types of scripts do you write?",
+    content: `We create scripts for a wide range of content including explainer videos, commercials, corporate videos, product demonstrations, training materials, webinars, social media content, YouTube videos, podcast intros/outros, and brand storytelling. Each script is tailored to your specific platform, audience, and business objectives.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How do you ensure my script reflects my brand voice?",
+    content: `We begin with a comprehensive brand discovery process to understand your company's unique voice, values, and messaging style. Our writers then craft scripts that authentically represent your brand while engaging your target audience. We provide revisions until the script perfectly captures your desired tone and message.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "What makes a script effective for video content?",
+    content: `Effective video scripts balance concise messaging with engaging storytelling. They include a strong hook, clear structure, conversational language, and compelling calls-to-action. Our scripts account for timing, visual elements, and audience attention spans while ensuring your key messages are memorable and impactful.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How does the script writing process work?",
+    content: `Our process begins with understanding your goals, audience, and key messages. We then develop a creative brief and outline before crafting your first draft. After your review, we refine the script through collaborative revisions until it perfectly meets your needs. We also provide guidance on timing, pacing, and visual elements to ensure smooth production.`,
   },
 ].map((panel) => (
           <motion.div

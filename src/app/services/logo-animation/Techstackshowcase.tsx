@@ -4,8 +4,6 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
-// Define the tab types to ensure type safety
-type TabKey = "seo" | "blogging" | "ecommerce" | "technical" | "branding"
 
 // Define the structure of a technology item
 interface Technology {
@@ -27,177 +25,175 @@ interface TabDataMap {
 }
 
 export default function TechStackShowcase() {
-  // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  // Define the tab types specific to logo animation
+  type TabKey = "animation_styles" | "technical_aspects" | "applications" | "production_process" | "delivery_formats"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("animation_styles")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    animation_styles: {
+      title: "Logo Animation Styles",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Bring your brand to life with dynamic logo animations that capture attention and enhance brand recognition.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "Kinetic Typography",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Transform your text-based logo into dynamic, moving typography that captures attention.",
         },
         {
-          name: "Semantic SEO",
+          name: "Morphing Animation",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Seamlessly transform your logo between different shapes and forms for a fluid visual experience.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "3D Logo Animation",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Add depth and dimension to your logo with realistic 3D movement and perspective shifts.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "Particle Effects",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Create stunning particle assemblies and disintegrations that add energy to your logo reveal.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Character Animation",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Bring mascot or character-based logos to life with personality-driven animation.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    technical_aspects: {
+      title: "Technical Excellence",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Leverage cutting-edge animation techniques and software to create professional, high-impact logo animations.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Smooth Motion Curves",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Implement precise easing and timing for natural, professional movement in your logo animation.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "High-Resolution Rendering",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Ensure your logo animation looks crisp and professional across all devices and screen sizes.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Seamless Looping",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Create perfect loop animations that can play continuously without visible transitions.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "Sound Design Integration",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Enhance your logo animation with custom sound effects and audio that reinforce your brand.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Responsive Animation",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Adapt your logo animation for different aspect ratios and platforms while maintaining impact.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    applications: {
+      title: "Logo Animation Applications",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Implement your animated logo across multiple platforms and touchpoints for consistent brand experiences.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "Website Integration",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Incorporate your animated logo into website headers, loading screens, and interactive elements.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Video Production",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Create professional video intros and outros featuring your animated logo for consistent branding.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Social Media Content",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Develop attention-grabbing animated logos optimized for various social media platforms.",
         },
         {
-          name: "Broken Link Building",
+          name: "Digital Advertising",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Enhance digital ad campaigns with eye-catching animated logos that increase brand recall.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Presentation Templates",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Integrate your animated logo into presentation templates for consistent professional branding.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    production_process: {
+      title: "Animation Production Process",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Experience a streamlined, collaborative process that transforms your static logo into a dynamic brand asset.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "Concept Development",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Create storyboards and animation concepts that align with your brand personality and goals.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "Motion Design",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Develop detailed motion plans that define how your logo elements will move and interact.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Animation Production",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Bring your logo to life through expert animation techniques and professional software.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Refinement & Feedback",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Fine-tune animations through collaborative feedback to achieve the perfect brand expression.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "Final Delivery",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Receive your animated logo in multiple formats optimized for different platforms and uses.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    delivery_formats: {
+      title: "File Formats & Delivery",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Receive your animated logo in multiple optimized formats ready for immediate implementation across all platforms.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Video Files (MP4/MOV)",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "High-quality video files with transparency for versatile use across multiple platforms.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "GIF Animation",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Lightweight animated GIFs perfect for email signatures, messaging apps, and simple web uses.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "JSON Animation",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Lottie/JSON files for lightweight, scalable web animations with interactive capabilities.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Source Files",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Editable project files for future modifications and adaptations of your animated logo.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Social Media Packages",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Platform-specific formats optimized for each social media channel's requirements.",
         },
       ],
     },
   };
   
-  
-
   return (
     <div className=" bg-[url('https://res.cloudinary.com/dhggagqst/image/upload/v1742503688/White_Bg-08_rsfc7s.png')] bg-cover bg-center bg-no-repeat">
 
@@ -205,19 +201,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Bring Your Brand to Life with Dynamic <br/> Logo Animation
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Transform your static logo into a memorable motion experience that captures attention and strengthens brand recognition. Our expert logo animation services create dynamic visual assets that enhance your digital presence across all platforms.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="animation_styles"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +221,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="animation_styles"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Animation Styles
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="technical_aspects"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Technical Excellence
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="applications"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Applications
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="production_process"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Production Process
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="delivery_formats"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              File Formats
             </TabsTrigger>
           </TabsList>
         </div>

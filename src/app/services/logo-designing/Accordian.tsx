@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  CREATE A MEMORABLE LOGO THAT CAPTURES YOUR BRAND ESSENCE
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's visually-driven marketplace, a distinctive logo is essential for making a powerful first impression and building brand recognition.  
+  Simply having a business isn't enough—your logo needs to communicate your values, resonate with your audience, and stand out from competitors.  
+  At Tech Craft, we specialize in designing custom logos that capture your brand's unique personality, create instant recognition, and establish a strong visual foundation.  
+  Through strategic design thinking, creative craftsmanship, and meticulous attention to detail, we ensure your logo not only looks professional but also tells your brand story at a glance.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          GET EXCEPTIONAL RESULTS WITH TECH CRAFT'S PROFESSIONAL LOGO DESIGN SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "Why is a professional logo important for my business?",
+    content: `A professional logo establishes credibility, creates brand recognition, and makes a memorable first impression. It helps your business stand out in a crowded marketplace, builds trust with customers, and provides a visual foundation for all your marketing materials. A well-designed logo can communicate your brand values and personality instantly.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "What's included in your logo design process?",
+    content: `Our comprehensive logo design process includes discovery and research, concept development, design exploration, refinement, and finalization. We begin by understanding your brand, audience, and industry, then create multiple concept directions, refine based on your feedback, and deliver a complete logo package with all necessary file formats for various applications.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How many logo concepts will I receive?",
+    content: `Our standard packages include 3-5 initial logo concepts, each with a unique approach to your brand. After you select your preferred direction, we'll refine that concept with up to 2-3 rounds of revisions to perfect the design. This process ensures you receive a logo that truly represents your brand while exploring different creative possibilities.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "What file formats will I receive with my final logo?",
+    content: `You'll receive a complete logo package with files optimized for every use case: vector formats (AI, EPS, SVG) for scalability, raster formats (JPG, PNG) for digital use, versions with transparent backgrounds, color variations (full color, black, white, reversed), and both horizontal and vertical arrangements when applicable.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How long does the logo design process take?",
+    content: `A typical logo design project takes 2-3 weeks from start to finish. This includes the discovery phase (3-5 days), concept development (5-7 days), refinement (3-5 days), and finalization (2-3 days). We can accommodate rush projects when needed, but allowing adequate time ensures the best creative results for your brand.`,
   },
 ].map((panel) => (
           <motion.div

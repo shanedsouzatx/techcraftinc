@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "ppc_strategy" | "campaign_management" | "ad_creation" | "conversion_optimization" | "analytics_reporting"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("ppc_strategy")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    ppc_strategy: {
+      title: "Strategic PPC Planning",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Develop data-driven paid search strategies that maximize visibility and ROI across search engines and platforms.",
       technologies: [
         {
           name: "Keyword Research & Analysis",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Identify high-converting keywords with optimal cost-per-click and search volume.",
         },
         {
-          name: "Semantic SEO",
+          name: "Competitor PPC Analysis",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Analyze competitor ad strategies to identify opportunities and optimize spend.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "Budget Allocation",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Strategic distribution of ad spend across campaigns, platforms, and audience segments.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "Campaign Structure Planning",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Design logical, scalable campaign architectures for maximum performance.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "Bidding Strategy Development",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Create custom bidding approaches based on goals, competition, and platform dynamics.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    campaign_management: {
+      title: "Campaign Management & Optimization",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Execute and continuously refine paid search campaigns to improve performance and reduce wasted ad spend.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Google Ads Management",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Expert management of search, display, shopping, and video campaigns on Google.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "Microsoft Ads Optimization",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Leverage Bing, Yahoo, and partner networks for additional qualified traffic.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Bid Management & Adjustments",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Implement device, location, audience, and time-based bid adjustments for better ROI.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "Quality Score Improvement",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Enhance ad relevance and landing page experience to lower costs and improve ad position.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Negative Keyword Management",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Continuously refine campaigns by eliminating irrelevant search terms and wasted spend.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    ad_creation: {
+      title: "Ad Creative & Copy Development",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Craft compelling ad copy and creative assets that capture attention, drive clicks, and improve conversion rates.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "Responsive Search Ads",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Create flexible, high-performing ads that adapt to maximize relevance for each search.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Ad Extension Strategy",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Implement sitelinks, callouts, structured snippets, and other extensions to enhance visibility.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Display & Video Creative",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Design attention-grabbing visual assets that communicate value and drive engagement.",
         },
         {
-          name: "Broken Link Building",
+          name: "A/B Testing Framework",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Systematically test ad variations to identify top-performing messages and creative elements.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Ad Copy Optimization",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Refine messaging based on performance data to improve CTR and conversion rates.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    conversion_optimization: {
+      title: "Conversion Rate Optimization",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Maximize the value of paid traffic by optimizing landing pages and conversion paths for better results.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "Landing Page Design",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Create high-converting landing pages aligned with ad messaging and user intent.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "Conversion Tracking Setup",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Implement comprehensive tracking for leads, sales, and micro-conversions across platforms.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "User Experience Optimization",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Enhance page speed, mobile experience, and navigation to improve conversion rates.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Form & CTA Optimization",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Refine forms and calls-to-action to reduce friction and increase completion rates.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "Conversion Path Analysis",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Identify and eliminate bottlenecks in the conversion process to maximize results.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    analytics_reporting: {
+      title: "Analytics & Performance Reporting",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Gain actionable insights through comprehensive tracking, analysis, and reporting of campaign performance.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Custom Dashboard Creation",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Build tailored dashboards that visualize key metrics and performance indicators.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "Attribution Modeling",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Implement multi-touch attribution to understand the full customer journey and touchpoints.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "ROI & ROAS Analysis",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Calculate and optimize return on investment and return on ad spend across campaigns.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Competitive Benchmarking",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Compare performance against industry standards and direct competitors.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Forecasting & Trend Analysis",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Predict future performance and identify emerging opportunities based on historical data.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Drive Targeted Traffic & Conversions with <br/> Search Engine Marketing
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Maximize your online visibility and ROI with strategic paid search campaigns that deliver qualified traffic and measurable results. Our comprehensive SEM services combine data-driven strategy, compelling ad creative, and continuous optimization.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="ppc_strategy"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="ppc_strategy"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              PPC Strategy
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="campaign_management"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Campaign Management
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="ad_creation"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Ad Creation
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="conversion_optimization"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Conversion Optimization
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="analytics_reporting"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Analytics & Reporting
             </TabsTrigger>
           </TabsList>
         </div>

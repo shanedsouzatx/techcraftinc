@@ -9,46 +9,46 @@ export default function Experties() {
   const industries = [
     {
       icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      title: "Website & Landing Page Copy",
+      description: "Writing persuasive website content that enhances brand messaging, improves user engagement, and drives conversions.",
     },
     {
       icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      title: "Data-Driven Ad Copywriting",
+      description: "Creating high-converting ad copy for social media, Google Ads, and PPC campaigns based on audience insights and performance data.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      icon: "📧",
+      title: "Email Marketing Copy",
+      description: "Crafting compelling email sequences that boost open rates, engagement, and customer retention.",
     },
     {
       icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      title: "Storytelling & Brand Messaging",
+      description: "Developing authentic brand stories that connect emotionally with audiences and reinforce brand identity.",
     },
     {
       icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      title: "Social Media Copywriting",
+      description: "Writing engaging social media captions, posts, and campaign content to increase reach and interaction.",
     },
     {
       icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      title: "SEO Copywriting",
+      description: "Blending creativity with SEO strategies to craft content that ranks well and resonates with readers.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Sales & Persuasive Copy",
+      description: "Writing powerful sales copy that persuades, influences, and encourages action.",
     },
     {
       icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      title: "Content Editing & Optimization",
+      description: "Enhancing existing copy to improve clarity, engagement, and effectiveness.",
     },
-   
-  ];
+];
+
   
   
 
@@ -72,7 +72,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+         Persuasive Copywriting That Captivates & Converts
         </motion.h1>
         
         <motion.p 
@@ -81,7 +81,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
+Crafting compelling, high-impact copy designed to engage audiences, build brand authority, and drive conversions across digital and print platforms
 
 
         </motion.p>

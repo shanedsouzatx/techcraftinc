@@ -1,26 +1,25 @@
 import { FeatureSteps } from "@/components/Services/Section2/FeatureSection"
 const features = [
-    { 
-      step: 'Step 1', 
-      title: 'In-Depth SEO Research & Planning',
-      content: 'We conduct thorough keyword research, analyze competitors, and map out a data-driven content strategy designed to maximize search rankings and engagement.',
-      image: '/services/seo-research.jpg' // Image of keyword research or analytics dashboard
-    },
-    { 
-      step: 'Step 2',
-      title: 'High-Quality, SEO-Optimized Blog Writing',
-      content: 'Our writers craft compelling, well-researched content that naturally integrates keywords, enhances readability, and aligns with search intent to attract organic traffic.',
-      image: '/services/seo-writing.jpg' // Image of content creation in progress
-    },
-    
-    { 
-      step: 'Step 3',
-      title: 'Publishing & Performance Tracking',
-      content: 'Once published, we track performance metrics, analyze user engagement, and make data-driven adjustments to improve rankings and conversions over time.',
-      image: '/services/content-publishing.jpg' // Image of analytics dashboard or SEO performance tracking
-    },
-  ];
-  
+  { 
+    step: 'Step 1', 
+    title: 'Brand Research & Message Development',
+    content: 'We dive deep into your brand, target audience, and industry to craft a compelling brand message that resonates and drives engagement.',
+    image: '/services/brand-research.jpg' // Image of brand strategy or research documents
+  },
+  { 
+    step: 'Step 2',
+    title: 'Persuasive & Engaging Copywriting',
+    content: 'Our writers create powerful, results-driven copy that captivates readers, strengthens brand identity, and compels action—whether it’s a sale, a signup, or a share.',
+    image: '/services/copywriting.jpg' // Image of a writer crafting compelling content
+  },
+  { 
+    step: 'Step 3',
+    title: 'Optimization & Performance Tracking',
+    content: 'We refine and optimize your copy using data-driven insights, ensuring maximum impact, audience engagement, and high conversion rates.',
+    image: '/services/copy-optimization.jpg' // Image of analytics dashboard or performance tracking
+  },
+];
+
 
 export function FeatureStepsDemo() {
   return (

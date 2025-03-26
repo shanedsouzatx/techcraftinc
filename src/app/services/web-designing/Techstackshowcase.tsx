@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "design_elements" | "responsive_design" | "frontend_tech" | "user_experience" | "website_features"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("design_elements")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    design_elements: {
+      title: "Modern Design Elements",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Create visually stunning websites with contemporary design elements that capture attention and reflect your brand identity.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
-          icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          name: "Custom Typography",
+          icon: "/services/typography.svg",
+          description: "Unique font selections and text styling that enhance readability and brand personality.",
         },
         {
-          name: "Semantic SEO",
-          icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          name: "Color Psychology",
+          icon: "/services/color-palette.svg",
+          description: "Strategic color schemes that evoke specific emotions and reinforce brand messaging.",
         },
         {
-          name: "Search Intent Optimization",
-          icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          name: "Visual Hierarchy",
+          icon: "/services/visual-hierarchy.svg",
+          description: "Thoughtful arrangement of elements to guide users' attention to key information and actions.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
-          icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          name: "Micro-Interactions",
+          icon: "/services/micro-interactions.svg",
+          description: "Subtle animations and feedback that create engaging, interactive user experiences.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
-          icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          name: "White Space Utilization",
+          icon: "/services/whitespace.svg",
+          description: "Strategic use of negative space to improve readability, focus, and overall aesthetic appeal.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    responsive_design: {
+      title: "Responsive & Adaptive Design",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Ensure your website looks and functions perfectly across all devices with fluid layouts and device-specific optimizations.",
       technologies: [
         {
-          name: "SEO Blog Writing",
-          icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          name: "Mobile-First Approach",
+          icon: "/services/mobile-first.svg",
+          description: "Design that prioritizes mobile experience first, then scales up for larger screens.",
         },
         {
-          name: "Meta Titles & Descriptions",
-          icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          name: "Fluid Grid Layouts",
+          icon: "/services/fluid-grid.svg",
+          description: "Flexible grid systems that adapt seamlessly to different screen sizes and orientations.",
         },
         {
-          name: "Headings & Structure Optimization",
-          icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          name: "Responsive Images",
+          icon: "/services/responsive-images.svg",
+          description: "Image optimization techniques that ensure fast loading and proper display across devices.",
         },
         {
-          name: "Internal Linking Strategy",
-          icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          name: "Breakpoint Optimization",
+          icon: "/services/breakpoints.svg",
+          description: "Strategic screen size thresholds where layouts adjust for optimal viewing experience.",
         },
         {
-          name: "Content Refresh & Updates",
-          icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          name: "Touch-Friendly Elements",
+          icon: "/services/touch-friendly.svg",
+          description: "Interactive components designed specifically for touchscreen usability and navigation.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    frontend_tech: {
+      title: "Frontend Technologies",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Leverage cutting-edge web technologies to create fast, interactive, and feature-rich website experiences.",
       technologies: [
         {
-          name: "Guest Blogging",
-          icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          name: "React.js Development",
+          icon: "/services/react.svg",
+          description: "Component-based architecture for building dynamic, high-performance user interfaces.",
         },
         {
-          name: "Link-Worthy Content Creation",
-          icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          name: "CSS Frameworks",
+          icon: "/services/css-frameworks.svg",
+          description: "Tailwind, Bootstrap, and custom frameworks for efficient, consistent styling.",
         },
         {
-          name: "Skyscraper Technique",
-          icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          name: "JavaScript Animation",
+          icon: "/services/js-animation.svg",
+          description: "GSAP, Framer Motion, and custom animations that bring your website to life.",
         },
         {
-          name: "Broken Link Building",
-          icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          name: "Next.js Implementation",
+          icon: "/services/nextjs.svg",
+          description: "Server-side rendering and static site generation for optimal performance and SEO.",
         },
         {
-          name: "Resource Page Outreach",
-          icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          name: "Progressive Web Apps",
+          icon: "/services/pwa.svg",
+          description: "App-like experiences with offline capabilities, push notifications, and home screen installation.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    user_experience: {
+      title: "User Experience & Interface Design",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Create intuitive, user-centered designs that guide visitors through your website and encourage desired actions.",
       technologies: [
         {
-          name: "Content Calendar Development",
-          icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          name: "Intuitive Navigation",
+          icon: "/services/navigation.svg",
+          description: "Clear, logical menu structures that help users find information quickly and easily.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
-          icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          name: "Call-to-Action Optimization",
+          icon: "/services/cta-design.svg",
+          description: "Strategic button design and placement to maximize conversion rates and user engagement.",
         },
         {
-          name: "Competitive Content Analysis",
-          icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          name: "User Flow Mapping",
+          icon: "/services/user-flow.svg",
+          description: "Planned user journeys that guide visitors toward specific goals and conversions.",
         },
         {
-          name: "Evergreen Content Strategy",
-          icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          name: "Accessibility Compliance",
+          icon: "/services/accessibility.svg",
+          description: "WCAG-compliant designs ensuring your website is usable by people with diverse abilities.",
         },
         {
-          name: "Content Distribution & Promotion",
-          icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          name: "Form Design & Validation",
+          icon: "/services/form-design.svg",
+          description: "User-friendly forms with inline validation and error handling for higher completion rates.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    website_features: {
+      title: "Advanced Website Features",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Enhance your website with powerful functionality that improves user engagement and supports business goals.",
       technologies: [
         {
-          name: "Page Speed Optimization",
-          icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          name: "Content Management Systems",
+          icon: "/services/cms.svg",
+          description: "User-friendly backends that allow easy content updates without technical knowledge.",
         },
         {
-          name: "Mobile-First SEO",
-          icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          name: "E-commerce Integration",
+          icon: "/services/ecommerce.svg",
+          description: "Secure, feature-rich online stores with product management and payment processing.",
         },
         {
-          name: "Schema Markup Implementation",
-          icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          name: "Search Functionality",
+          icon: "/services/search.svg",
+          description: "Advanced search capabilities with filters and suggestions for improved user experience.",
         },
         {
-          name: "Core Web Vitals Optimization",
-          icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          name: "Performance Optimization",
+          icon: "/services/performance.svg",
+          description: "Speed enhancements through code splitting, lazy loading, and resource optimization.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
-          icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          name: "Analytics Integration",
+          icon: "/services/analytics.svg",
+          description: "Data collection and reporting tools to track user behavior and website performance.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Create a Stunning Website That Drives <br/> Results for Your Business
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Design a professional, user-friendly website that not only looks impressive but also converts visitors into customers. Our expert web design services combine visual appeal with strategic functionality to create digital experiences that elevate your brand and achieve your business goals.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="design_elements"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="design_elements"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Design Elements
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="responsive_design"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Responsive Design
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="frontend_tech"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Frontend Tech
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="user_experience"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              User Experience
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="website_features"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Website Features
             </TabsTrigger>
           </TabsList>
         </div>

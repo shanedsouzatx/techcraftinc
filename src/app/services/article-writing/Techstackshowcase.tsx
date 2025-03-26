@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "research_writing" | "thought_leadership" | "industry_articles" | "educational_content" | "content_formats"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("research_writing")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    research_writing: {
+      title: "Research-Based Articles",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Create authoritative, well-researched articles that establish credibility and provide valuable insights to your audience.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
-          icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          name: "In-Depth Research",
+          icon: "/services/research.svg",
+          description: "Thorough investigation using credible sources and expert insights for accurate content.",
         },
         {
-          name: "Semantic SEO",
-          icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          name: "Data Analysis",
+          icon: "/services/data-analysis.svg",
+          description: "Transform complex data into clear, actionable insights and compelling narratives.",
         },
         {
-          name: "Search Intent Optimization",
-          icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          name: "Expert Interviews",
+          icon: "/services/expert-interviews.svg",
+          description: "Incorporate industry expert perspectives to add authority and unique viewpoints.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
-          icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          name: "Fact Verification",
+          icon: "/services/fact-checking.svg",
+          description: "Rigorous fact-checking process to ensure accuracy and build reader trust.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
-          icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          name: "Source Citation",
+          icon: "/services/citations.svg",
+          description: "Professional citation of sources to strengthen credibility and provide further reading.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    thought_leadership: {
+      title: "Thought Leadership Articles",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Position your brand as an industry authority with forward-thinking articles that showcase expertise and innovative perspectives.",
       technologies: [
         {
-          name: "SEO Blog Writing",
-          icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          name: "Opinion Pieces",
+          icon: "/services/opinion-pieces.svg",
+          description: "Articulate well-reasoned perspectives on industry trends, challenges, and opportunities.",
         },
         {
-          name: "Meta Titles & Descriptions",
-          icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          name: "Industry Analysis",
+          icon: "/services/industry-analysis.svg",
+          description: "Provide expert analysis of market developments and their implications for stakeholders.",
         },
         {
-          name: "Headings & Structure Optimization",
-          icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          name: "Future Trends",
+          icon: "/services/future-trends.svg",
+          description: "Forecast emerging trends and provide strategic insights for industry evolution.",
         },
         {
-          name: "Internal Linking Strategy",
-          icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          name: "Problem-Solution Articles",
+          icon: "/services/problem-solution.svg",
+          description: "Address industry pain points with innovative approaches and practical solutions.",
         },
         {
-          name: "Content Refresh & Updates",
-          icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          name: "Executive Viewpoints",
+          icon: "/services/executive-viewpoints.svg",
+          description: "Develop leadership narratives that reflect your organization's vision and expertise.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    industry_articles: {
+      title: "Industry-Specific Content",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Craft specialized articles tailored to your industry's unique language, challenges, and audience needs.",
       technologies: [
         {
-          name: "Guest Blogging",
-          icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          name: "Technical Articles",
+          icon: "/services/technical-articles.svg",
+          description: "Translate complex technical concepts into accessible, valuable content for your audience.",
         },
         {
-          name: "Link-Worthy Content Creation",
-          icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          name: "Case Studies",
+          icon: "/services/case-studies.svg",
+          description: "Showcase real-world applications, challenges, and results through compelling narratives.",
         },
         {
-          name: "Skyscraper Technique",
-          icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          name: "Industry News Analysis",
+          icon: "/services/news-analysis.svg",
+          description: "Provide context and insights on breaking news and developments in your field.",
         },
         {
-          name: "Broken Link Building",
-          icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          name: "Regulatory Updates",
+          icon: "/services/regulatory-updates.svg",
+          description: "Explain complex regulatory changes and their practical implications for your industry.",
         },
         {
-          name: "Resource Page Outreach",
-          icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          name: "Comparative Analysis",
+          icon: "/services/comparative-analysis.svg",
+          description: "Evaluate competing approaches, technologies, or methodologies with expert insight.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    educational_content: {
+      title: "Educational & Informative Articles",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Educate your audience with clear, comprehensive articles that build understanding and demonstrate your expertise.",
       technologies: [
         {
-          name: "Content Calendar Development",
-          icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          name: "How-To Guides",
+          icon: "/services/how-to-guides.svg",
+          description: "Step-by-step instructions that solve problems and build practical skills for readers.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
-          icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          name: "Explanatory Articles",
+          icon: "/services/explanatory-articles.svg",
+          description: "Clear explanations of complex concepts that build understanding and awareness.",
         },
         {
-          name: "Competitive Content Analysis",
-          icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          name: "Resource Compilations",
+          icon: "/services/resource-compilations.svg",
+          description: "Curated collections of valuable tools, references, and information for your audience.",
         },
         {
-          name: "Evergreen Content Strategy",
-          icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          name: "Glossaries & Definitions",
+          icon: "/services/glossaries.svg",
+          description: "Clarify industry terminology and concepts to educate newcomers and stakeholders.",
         },
         {
-          name: "Content Distribution & Promotion",
-          icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          name: "FAQ Content",
+          icon: "/services/faq-content.svg",
+          description: "Address common questions with thorough, authoritative answers that build trust.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    content_formats: {
+      title: "Versatile Article Formats",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Engage your audience with diverse article formats designed for maximum impact and readability across platforms.",
       technologies: [
         {
-          name: "Page Speed Optimization",
-          icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          name: "Listicles",
+          icon: "/services/listicles.svg",
+          description: "Scannable, engaging list-based articles that organize information for easy consumption.",
         },
         {
-          name: "Mobile-First SEO",
-          icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          name: "Long-Form Features",
+          icon: "/services/longform-features.svg",
+          description: "In-depth explorations of topics that demonstrate comprehensive expertise and authority.",
         },
         {
-          name: "Schema Markup Implementation",
-          icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          name: "Interview Articles",
+          icon: "/services/interview-articles.svg",
+          description: "Engaging Q&A formats that capture expert insights and authentic perspectives.",
         },
         {
-          name: "Core Web Vitals Optimization",
-          icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          name: "News & Trend Reports",
+          icon: "/services/trend-reports.svg",
+          description: "Timely analysis of current developments with context and expert commentary.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
-          icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          name: "Narrative Articles",
+          icon: "/services/narrative-articles.svg",
+          description: "Story-driven content that uses compelling narratives to engage and inform readers.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Elevate Your Brand With Professional <br/> Article Writing Services
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Craft authoritative, engaging articles that establish your expertise, educate your audience, and enhance your brand's credibility. Our professional article writing services deliver well-researched, compelling content that resonates with readers and achieves your communication goals.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="research_writing"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="research_writing"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Research Articles
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="thought_leadership"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Thought Leadership
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="industry_articles"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Industry Content
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="educational_content"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Educational Articles
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="content_formats"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Article Formats
             </TabsTrigger>
           </TabsList>
         </div>

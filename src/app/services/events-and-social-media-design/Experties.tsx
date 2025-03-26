@@ -8,47 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "🎨",
+      title: "Event Branding & Visual Identity",
+      description: "Crafting unique and cohesive branding for events, including logos, color schemes, and promotional materials that make a lasting impact.",
     },
     {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      icon: "📱",
+      title: "Social Media Graphics",
+      description: "Designing eye-catching social media visuals, including posts, stories, banners, and ads, to boost engagement and brand awareness.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
-    },
-    {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "🎟️",
+      title: "Event Posters & Flyers",
+      description: "Creating attention-grabbing posters and flyers tailored to your event’s theme, ensuring maximum reach and audience interest.",
     },
     {
       icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      title: "Promotional Banners & Ads",
+      description: "Developing high-quality banners and digital ads for social media, websites, and email campaigns to drive event participation.",
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "🎥",
+      title: "Motion Graphics & Video Teasers",
+      description: "Producing engaging motion graphics and teaser videos to create excitement and anticipation for upcoming events.",
+    },
+    {
+      icon: "🖥️",
+      title: "Live Event Screen Designs",
+      description: "Designing captivating visuals for event screens, presentations, and digital displays to enhance the audience experience.",
+    },
+    {
+      icon: "🗓️",
+      title: "Event Invitations & RSVP Designs",
+      description: "Designing custom event invitations and RSVP cards that set the right tone and increase attendance.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Branded Merchandise & Swag",
+      description: "Creating high-quality designs for event merchandise, such as t-shirts, badges, and giveaways, to strengthen brand recognition.",
     },
-    {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
-    },
-   
   ];
+  
   
   
 
@@ -67,24 +67,23 @@ export default function Experties() {
   return (
     <div className="bg-gradient-to-b from-[#48128A]  to-[#8B3791] text-white py-16 px-4">
       <div className="container mx-auto">
-        <motion.h1 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-bold mb-6"
-        >
-         Boost Your Rankings with SEO-Optimized Blog Writing
-        </motion.h1>
-        
-        <motion.p 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="text-lg !w-full mb-12 "
-        >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
+      <motion.h1 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  className="text-4xl md:text-5xl font-bold mb-6"
+>
+  Elevate Your Brand with Stunning Event & Social Media Designs
+</motion.h1>
 
+<motion.p 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.2 }}
+  className="text-lg !w-full mb-12"
+>
+  We create eye-catching event graphics and social media designs that captivate audiences, enhance engagement, and amplify your brand's online presence.
+</motion.p>
 
-        </motion.p>
 
         <div className="relative overflow-hidden">
           <div className="absolute right-0 -top-16 space-x-2">

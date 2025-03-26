@@ -1,25 +1,26 @@
 import { FeatureSteps } from "@/components/Services/Section2/FeatureSection"
 const features = [
-    { 
-      step: 'Step 1', 
-      title: 'In-Depth SEO Research & Planning',
-      content: 'We conduct thorough keyword research, analyze competitors, and map out a data-driven content strategy designed to maximize search rankings and engagement.',
-      image: '/services/seo-research.jpg' // Image of keyword research or analytics dashboard
-    },
-    { 
-      step: 'Step 2',
-      title: 'High-Quality, SEO-Optimized Blog Writing',
-      content: 'Our writers craft compelling, well-researched content that naturally integrates keywords, enhances readability, and aligns with search intent to attract organic traffic.',
-      image: '/services/seo-writing.jpg' // Image of content creation in progress
-    },
-    
-    { 
-      step: 'Step 3',
-      title: 'Publishing & Performance Tracking',
-      content: 'Once published, we track performance metrics, analyze user engagement, and make data-driven adjustments to improve rankings and conversions over time.',
-      image: '/services/content-publishing.jpg' // Image of analytics dashboard or SEO performance tracking
-    },
-  ];
+  { 
+    step: 'Step 1', 
+    title: 'Concept Development & Sketching',
+    content: 'We begin with brainstorming and sketching ideas to create a strong foundation for visually compelling 3D designs that align with your vision.',
+    image: '/services/3d-concept.jpg' // Image of concept sketches or 3D wireframes
+  },
+  { 
+    step: 'Step 2',
+    title: '3D Modeling & Texturing',
+    content: 'Our designers craft high-quality 3D models with intricate details, realistic textures, and stunning visual effects to enhance your brand’s identity.',
+    image: '/services/3d-modeling.jpg' // Image of 3D modeling software in action
+  },
+  
+  { 
+    step: 'Step 3',
+    title: 'Rendering & Final Touches',
+    content: 'We bring your 3D visuals to life with high-resolution rendering, lighting adjustments, and finishing touches to ensure a professional and polished look.',
+    image: '/services/3d-rendering.jpg' // Image of a final 3D render in progress
+  },
+];
+
   
 
 export function FeatureStepsDemo() {

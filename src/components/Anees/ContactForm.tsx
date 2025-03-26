@@ -73,7 +73,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className=" py-20 ">
+    <div className=" py-11 ">
 
     <div className="max-w-6xl mx-auto bg-gradient-to-b from-[#48128A]  to-[#8B3791] py-9 px-8 footer-form-shadow rounded-2xl">
       <div className="flex flex-col ">

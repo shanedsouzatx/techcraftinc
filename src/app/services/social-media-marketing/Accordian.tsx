@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  AMPLIFY YOUR BRAND WITH STRATEGIC SOCIAL MEDIA MARKETING
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's connected world, effective social media marketing is essential for building brand awareness and driving customer engagement.  
+  Simply having social profiles isn't enough—your strategy needs to be targeted, consistent, and aligned with your business goals.  
+  At Tech Craft, we specialize in creating data-driven social media campaigns that increase visibility, boost engagement, and convert followers into loyal customers.  
+  Through platform-specific strategies, compelling content creation, and performance analytics, we ensure your social media presence not only grows but also delivers measurable ROI.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S SOCIAL MEDIA MARKETING SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "How can social media marketing benefit my business?",
+    content: `Social media marketing builds brand awareness by reaching millions of potential customers where they already spend time. It increases website traffic, generates qualified leads, and improves conversion rates through targeted campaigns. Additionally, it enhances customer relationships through direct engagement, provides valuable audience insights, and offers a cost-effective alternative to traditional advertising with measurable ROI.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "Which social media platforms should my business focus on?",
+    content: `The ideal platforms depend on your specific business goals, target audience demographics, and industry. We conduct thorough audience research to determine where your customers are most active. For B2B companies, LinkedIn and Twitter often yield the best results, while B2C brands typically see stronger engagement on Instagram, Facebook, and increasingly TikTok. Our strategy focuses on quality presence on the most relevant platforms rather than spreading resources too thin.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How do you create engaging social media content?",
+    content: `We develop platform-specific content strategies based on audience research and platform best practices. Our approach includes creating a diverse content mix (educational, entertaining, promotional) to maintain audience interest, incorporating trending formats and topics while staying true to your brand voice, and using high-quality visuals, videos, and graphics optimized for each platform. We also implement data-driven testing to continuously refine what resonates with your audience.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How do you measure social media marketing success?",
+    content: `We track both vanity metrics (followers, likes, shares) and more meaningful KPIs tied to business objectives. For awareness campaigns, we measure reach, impressions, and audience growth. For engagement, we analyze interaction rates, comments, and shares. For conversion-focused campaigns, we track click-through rates, lead generation, and direct sales attribution. We provide comprehensive monthly reports with actionable insights and recommendations for ongoing optimization.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How does paid social media advertising fit into the strategy?",
+    content: `Paid social advertising complements organic efforts by accelerating results and reaching specific audience segments with precision. We develop targeted ad campaigns across relevant platforms using advanced demographic, interest, and behavioral targeting. Our approach includes creating platform-optimized ad creative, implementing strategic retargeting, and continuously optimizing campaigns based on performance data to maximize ROI and minimize cost-per-acquisition.`,
   },
 ].map((panel) => (
           <motion.div

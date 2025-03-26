@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  ELEVATE YOUR BRAND WITH STUNNING 3D GRAPHIC DESIGN
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's visually-driven world, captivating 3D graphics are essential for standing out and making a lasting impression.  
+  Basic 2D visuals are no longer enough—your brand needs depth, dimension, and immersive experiences to engage modern audiences.  
+  At Tech Craft, we specialize in creating photorealistic 3D models, animations, and visualizations that transform your ideas into stunning visual assets.  
+  Through cutting-edge technology, artistic expertise, and attention to detail, we ensure your 3D graphics not only look impressive but also effectively communicate your brand message.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE ADVANTAGES OF TECH CRAFT'S 3D GRAPHIC DESIGN SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "How can 3D graphic design benefit my business?",
+    content: `3D graphic design creates more engaging and memorable visual experiences that capture attention in crowded marketplaces. It allows for photorealistic product visualization before manufacturing, enhances marketing materials with dynamic visuals, and creates immersive experiences that increase user engagement and conversion rates.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "What types of 3D design services do you offer?",
+    content: `We provide comprehensive 3D design services including product modeling and visualization, architectural rendering, character design and animation, 3D logo design, virtual reality and augmented reality content creation, medical and scientific visualization, and custom 3D animations for marketing and explainer videos.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "What is the process for creating 3D graphics?",
+    content: `Our 3D design process includes concept development and planning, 3D modeling of objects or environments, texturing and material application, lighting setup, rendering for photorealistic results, and post-production enhancements. For animations, we add rigging, animation, and special effects to bring designs to life.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "Which industries benefit most from 3D graphic design?",
+    content: `While 3D design benefits nearly all industries, it's particularly valuable for e-commerce (product visualization), architecture (building renderings), entertainment (characters and environments), healthcare (medical visualization), manufacturing (product prototyping), advertising (eye-catching campaigns), and education (interactive learning materials).`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How can 3D visualization improve my marketing strategy?",
+    content: `3D visualization dramatically improves marketing by creating more engaging content that increases audience attention by up to 40%. It allows customers to interact with products virtually, reduces returns in e-commerce, builds stronger emotional connections with your brand, and differentiates your marketing materials from competitors using standard photography or 2D graphics.`,
   },
 ].map((panel) => (
           <motion.div

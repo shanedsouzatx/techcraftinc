@@ -16,14 +16,14 @@ const Accordioninner = () => {
     <div className="max-w-6xl mx-auto py-9 px-4 md:px-0  ">
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
-      <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
+  ESTABLISH YOUR AUTHORITY WITH EXPERT ARTICLE WRITING
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's information-driven world, high-quality articles are essential for building credibility and connecting with your audience.  
+  Simply publishing content isn't enough—your articles need to be well-researched, engaging, and valuable to your readers.  
+  At Tech Craft, we specialize in crafting expert articles that showcase your knowledge, address your audience's needs, and establish your brand as a trusted authority.  
+  Through thorough research, compelling storytelling, and professional writing, we ensure your articles not only inform but also inspire and engage your readers.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          GET EXCEPTIONAL RESULTS WITH TECH CRAFT'S PROFESSIONAL ARTICLE WRITING SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "What types of articles do you write?",
+    content: `We create a wide range of articles including thought leadership pieces, industry analyses, how-to guides, opinion pieces, feature articles, news articles, case studies, interviews, and educational content. Our versatile writers adapt to your specific needs and publication requirements.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How do you ensure articles are well-researched and accurate?",
+    content: `Our process includes comprehensive research using credible sources, fact-checking, and expert consultation when necessary. We verify information from multiple sources, cite references properly, and ensure all statistics and claims are accurate and up-to-date.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "Can you write articles for specific publications or platforms?",
+    content: `Absolutely! We tailor articles to meet the specific requirements, style guidelines, and audience expectations of different publications—whether it's industry journals, news sites, magazines, or your own company blog. We can adapt tone, format, and content to suit any platform.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How do you make technical or complex topics accessible?",
+    content: `Our writers excel at translating complex concepts into clear, engaging content that resonates with your target audience. We use analogies, examples, visual explanations, and structured narratives to make even the most technical subjects approachable without sacrificing accuracy.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How can professional article writing benefit my business?",
+    content: `Professional articles establish your brand as an authority in your industry, build trust with potential customers, and improve your visibility. Well-crafted articles can generate leads, support your marketing goals, open doors to media opportunities, and create valuable content assets that continue to work for your business long-term.`,
   },
 ].map((panel) => (
           <motion.div

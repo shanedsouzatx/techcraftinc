@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  DRIVE CONVERSIONS WITH STRATEGIC EMAIL MARKETING
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's digital landscape, email marketing remains one of the most effective channels for nurturing leads and driving conversions.  
+  Simply having an email list isn't enough—your campaigns need to be strategic, personalized, and designed to engage your audience.  
+  At Tech Craft, we specialize in crafting results-driven email campaigns that build relationships, increase engagement, and generate measurable ROI.  
+  Through audience segmentation, compelling content, and continuous optimization, we ensure your emails not only reach the inbox but also resonate with your subscribers.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE BENEFITS OF TECH CRAFT'S EMAIL MARKETING SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "Why is email marketing important for my business?",
+    content: `Email marketing offers one of the highest ROIs of any digital marketing channel, averaging $36 for every $1 spent. It provides direct access to your audience, builds customer relationships, drives website traffic, and generates sales. Unlike social media, you own your email list, giving you control over your communication channel.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How do you create effective email campaigns?",
+    content: `We develop email campaigns based on your specific business goals and audience needs. Our process includes audience segmentation, compelling subject lines, mobile-responsive design, personalized content, and strategic CTAs. We also implement A/B testing to continuously improve open rates, click-through rates, and conversions.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "What types of email campaigns do you offer?",
+    content: `We create a variety of email campaigns including welcome sequences, promotional emails, newsletters, abandoned cart recovery, post-purchase follow-ups, re-engagement campaigns, and event-based emails. Each campaign is tailored to your specific business objectives and customer journey stages.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How do you measure email marketing success?",
+    content: `We track key metrics including open rates, click-through rates, conversion rates, list growth, and ROI. Our comprehensive reporting provides insights into campaign performance, subscriber behavior, and revenue attribution. We use these metrics to continuously refine your email strategy for optimal results.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "How do you ensure emails reach the inbox and not spam folders?",
+    content: `We implement deliverability best practices including proper authentication (SPF, DKIM, DMARC), list hygiene maintenance, engagement-focused content, and compliance with anti-spam regulations like GDPR and CAN-SPAM. We also monitor deliverability metrics and make adjustments to ensure your emails consistently reach the inbox.`,
   },
 ].map((panel) => (
           <motion.div

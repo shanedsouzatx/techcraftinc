@@ -1,5 +1,5 @@
 'use client'
-import { Hero } from "@/components/Services/Hero"
+import { Hero } from "./Hero"
 import { closeModal } from "@/app/utils/HelperFunction"
 import React, { useState } from "react"
 import Modal from "@/components/Modal/Modal"
@@ -21,8 +21,8 @@ export default function AllHero() {
   return (
     <div>
       <Hero
-        title="SEO Blog Writing That Ranks & Engages "
-        subtitle="High-quality, search-optimized content designed to improve rankings, attract organic traffic, and keep readers engaged."
+        title="Transform Your Vision into a Powerful Logo"
+        subtitle="Craft a visually stunning and memorable logo that captures your brand’s essence, builds recognition, and leaves a lasting impact"
         image="/services/hero1.png"
         actions={[
           {

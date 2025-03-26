@@ -8,46 +8,45 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
-    },
-    {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      icon: "📢",
+      title: "PPC Campaign Management",
+      description: "Creating and optimizing pay-per-click campaigns on Google Ads and Bing to maximize ROI and drive targeted traffic.",
     },
     {
       icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      title: "Keyword Research & Bidding Strategy",
+      description: "Identifying high-converting keywords and implementing competitive bidding strategies to enhance ad performance.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "📊",
+      title: "Ad Copywriting & A/B Testing",
+      description: "Crafting compelling ad copies and continuously testing variations to improve click-through rates and conversions.",
     },
     {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      icon: "🎯",
+      title: "Retargeting & Audience Targeting",
+      description: "Reaching potential customers through strategic remarketing and advanced audience segmentation for better engagement.",
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "💰",
+      title: "Budget Management & Optimization",
+      description: "Allocating and optimizing ad spend efficiently to ensure maximum return on investment without overspending.",
+    },
+    {
+      icon: "📈",
+      title: "Landing Page Optimization",
+      description: "Designing and optimizing landing pages to enhance user experience and increase conversion rates.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Google Shopping & Display Ads",
+      description: "Running highly targeted shopping and display ads to boost eCommerce sales and brand visibility.",
     },
     {
       icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      title: "Performance Tracking & Analytics",
+      description: "Monitoring key SEM metrics and analyzing data to make data-driven adjustments for continuous improvement.",
     },
-   
   ];
   
   
@@ -72,7 +71,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+        Maximize Visibility & Conversions with Expert Search Engine Marketing (SEM)
         </motion.h1>
         
         <motion.p 
@@ -81,7 +80,15 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
+      Drive targeted traffic, increase brand awareness, and boost conversions with data-driven paid search strategies. From PPC campaign management to audience targeting, we help you achieve measurable success.
+
+
+
+
+
+
+
+
 
 
         </motion.p>

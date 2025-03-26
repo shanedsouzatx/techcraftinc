@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  CREATE A STUNNING WEBSITE THAT DRIVES RESULTS FOR YOUR BUSINESS
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's digital-first world, your website is often the first impression potential customers have of your business.  
+  Simply having an online presence isn't enough—your website needs to be visually appealing, user-friendly, and strategically designed to convert visitors.  
+  At Tech Craft, we specialize in creating custom websites that combine beautiful design with powerful functionality to enhance your brand, improve user experience, and drive measurable business results.  
+  Through responsive layouts, intuitive navigation, and conversion-focused elements, we ensure your website not only looks impressive but also performs exceptionally well.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          GET EXCEPTIONAL RESULTS WITH TECH CRAFT'S PROFESSIONAL WEB DESIGN SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "Why is professional web design important for my business?",
+    content: `Professional web design establishes credibility, creates a positive first impression, and builds trust with your visitors. A well-designed website improves user experience, increases engagement, enhances conversion rates, and provides a competitive advantage in your industry. In today's digital marketplace, your website is often your most important marketing asset.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "What's included in your web design process?",
+    content: `Our comprehensive web design process includes discovery and planning, wireframing and prototyping, visual design, development and coding, content integration, testing and quality assurance, and launch and post-launch support. We begin with understanding your business goals and target audience, then create a strategic design that aligns with your objectives and brand identity.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "How long does it take to design and build a website?",
+    content: `A typical website project takes 6-12 weeks from start to finish, depending on the complexity and scope. Simple brochure websites may take 4-6 weeks, while more complex e-commerce or custom functionality sites can take 12-16 weeks. We'll provide a detailed timeline during our initial consultation based on your specific requirements and project scope.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "Will my website be mobile-friendly and responsive?",
+    content: `Absolutely! All our websites are built with responsive design principles, ensuring they look and function perfectly on all devices—smartphones, tablets, laptops, and desktop computers. With mobile traffic accounting for over 50% of web visits, we prioritize mobile-first design approaches that provide an optimal viewing experience regardless of screen size.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "Do you include SEO in your web design services?",
+    content: `Yes, we integrate SEO best practices throughout the web design process. This includes proper HTML structure, optimized page loading speed, mobile responsiveness, secure connections (HTTPS), schema markup, and user-friendly navigation. While comprehensive SEO campaigns require ongoing effort, our websites provide a strong technical foundation that supports your search engine visibility from day one.`,
   },
 ].map((panel) => (
           <motion.div

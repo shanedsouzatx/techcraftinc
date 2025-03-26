@@ -8,46 +8,45 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "📢",
+      title: "Strategic Social Media Campaigns",
+      description: "Developing data-driven social media strategies to boost brand visibility, engagement, and conversions across platforms.",
+    },
+    {
+      icon: "✍️",
+      title: "Engaging Content Creation",
+      description: "Crafting eye-catching posts, compelling captions, and viral-worthy content that resonates with your audience.",
     },
     {
       icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      title: "Performance Analytics & Optimization",
+      description: "Tracking key metrics, analyzing engagement trends, and refining strategies for maximum reach and ROI.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      icon: "🎨",
+      title: "Branded Visual Content",
+      description: "Designing high-quality graphics, videos, and animations to make your social media presence visually stunning.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "🤝",
+      title: "Influencer & Community Engagement",
+      description: "Connecting with influencers and fostering a loyal community to amplify brand awareness and trust.",
     },
     {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      icon: "🎯",
+      title: "Targeted Social Media Ads",
+      description: "Running highly targeted ad campaigns to reach the right audience and drive real business results.",
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "📆",
+      title: "Social Media Management",
+      description: "Scheduling, monitoring, and managing posts to keep your brand active and relevant on all social platforms.",
     },
     {
-      icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      icon: "🚀",
+      title: "Viral Marketing Strategies",
+      description: "Leveraging trends, challenges, and innovative campaigns to maximize reach and engagement.",
     },
-    {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
-    },
-   
   ];
   
   
@@ -67,25 +66,22 @@ export default function Experties() {
   return (
     <div className="bg-gradient-to-b from-[#48128A]  to-[#8B3791] text-white py-16 px-4">
       <div className="container mx-auto">
-        <motion.h1 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-bold mb-6"
-        >
-         Boost Your Rankings with SEO-Optimized Blog Writing
-        </motion.h1>
-        
-        <motion.p 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="text-lg !w-full mb-12 "
-        >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
+      <motion.h1 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  className="text-4xl md:text-5xl font-bold mb-6 uppercase"
+>
+  Elevate Your Brand with Powerful Social Media Marketing
+</motion.h1>
 
-
-        </motion.p>
-
+<motion.p 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.2 }}
+  className="text-lg !w-full mb-12"
+>
+  We create data-driven social media strategies, engaging content, and targeted ad campaigns to grow your brand’s online presence. From viral marketing to influencer collaborations, we help you connect with your audience and drive real results.
+</motion.p>
         <div className="relative overflow-hidden">
           <div className="absolute right-0 -top-16 space-x-2">
             <button

@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "brand_strategy" | "visual_identity" | "brand_messaging" | "brand_experience" | "brand_management"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("brand_strategy")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    brand_strategy: {
+      title: "Brand Strategy Development",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Create a solid foundation for your brand with strategic planning that defines your unique position in the market and connects with your target audience.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
-          icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          name: "Brand Positioning",
+          icon: "/services/brand-positioning.svg",
+          description: "Define your unique place in the market that differentiates you from competitors.",
         },
         {
-          name: "Semantic SEO",
-          icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          name: "Target Audience Analysis",
+          icon: "/services/audience-analysis.svg",
+          description: "Identify and understand your ideal customers to create resonant brand experiences.",
         },
         {
-          name: "Search Intent Optimization",
-          icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          name: "Competitive Research",
+          icon: "/services/competitive-research.svg",
+          description: "Analyze competitor brands to identify opportunities and establish your unique advantage.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
-          icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          name: "Brand Architecture",
+          icon: "/services/brand-architecture.svg",
+          description: "Structure your brand portfolio to maximize clarity and business value.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
-          icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          name: "Brand Value Proposition",
+          icon: "/services/value-proposition.svg",
+          description: "Articulate the unique value and benefits your brand delivers to customers.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    visual_identity: {
+      title: "Visual Identity Design",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Develop a distinctive visual system that communicates your brand personality and creates instant recognition across all touchpoints.",
       technologies: [
         {
-          name: "SEO Blog Writing",
-          icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          name: "Logo Design",
+          icon: "/services/logo-design.svg",
+          description: "Create a memorable, versatile mark that embodies your brand essence.",
         },
         {
-          name: "Meta Titles & Descriptions",
-          icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          name: "Color Palette Development",
+          icon: "/services/color-palette.svg",
+          description: "Select strategic colors that evoke the right emotions and enhance brand recognition.",
         },
         {
-          name: "Headings & Structure Optimization",
-          icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          name: "Typography Selection",
+          icon: "/services/typography.svg",
+          description: "Choose fonts that reflect your brand personality and ensure readability.",
         },
         {
-          name: "Internal Linking Strategy",
-          icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          name: "Visual Elements & Iconography",
+          icon: "/services/visual-elements.svg",
+          description: "Design supporting graphics and icons that strengthen your visual identity system.",
         },
         {
-          name: "Content Refresh & Updates",
-          icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          name: "Brand Style Guide",
+          icon: "/services/style-guide.svg",
+          description: "Create comprehensive guidelines for consistent application of visual elements.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    brand_messaging: {
+      title: "Brand Voice & Messaging",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Develop a distinctive verbal identity that communicates your brand's personality and resonates with your audience.",
       technologies: [
         {
-          name: "Guest Blogging",
-          icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          name: "Brand Story Development",
+          icon: "/services/brand-story.svg",
+          description: "Craft a compelling narrative that communicates your purpose and connects emotionally.",
         },
         {
-          name: "Link-Worthy Content Creation",
-          icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          name: "Messaging Framework",
+          icon: "/services/messaging-framework.svg",
+          description: "Create a structured approach to what your brand says and how it says it.",
         },
         {
-          name: "Skyscraper Technique",
-          icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          name: "Tagline & Slogan Creation",
+          icon: "/services/tagline-creation.svg",
+          description: "Develop memorable phrases that capture your brand essence and value proposition.",
         },
         {
-          name: "Broken Link Building",
-          icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          name: "Brand Voice Guidelines",
+          icon: "/services/brand-voice.svg",
+          description: "Define your brand's tone, personality, and language for consistent communication.",
         },
         {
-          name: "Resource Page Outreach",
-          icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          name: "Brand Naming",
+          icon: "/services/brand-naming.svg",
+          description: "Create distinctive, meaningful names for your company, products, or services.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    brand_experience: {
+      title: "Brand Experience Design",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Create cohesive, memorable interactions across all customer touchpoints that bring your brand to life.",
       technologies: [
         {
-          name: "Content Calendar Development",
-          icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          name: "Customer Journey Mapping",
+          icon: "/services/customer-journey.svg",
+          description: "Visualize every interaction to ensure consistent brand experiences at each touchpoint.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
-          icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          name: "Website Branding",
+          icon: "/services/website-branding.svg",
+          description: "Translate your brand identity into engaging digital experiences that convert visitors.",
         },
         {
-          name: "Competitive Content Analysis",
-          icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          name: "Social Media Branding",
+          icon: "/services/social-branding.svg",
+          description: "Develop platform-specific strategies that maintain brand consistency while maximizing engagement.",
         },
         {
-          name: "Evergreen Content Strategy",
-          icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          name: "Environmental Branding",
+          icon: "/services/environmental-branding.svg",
+          description: "Design physical spaces that immerse customers in your brand experience.",
         },
         {
-          name: "Content Distribution & Promotion",
-          icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          name: "Packaging Design",
+          icon: "/services/packaging-design.svg",
+          description: "Create packaging that stands out on shelves and reinforces your brand identity.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    brand_management: {
+      title: "Brand Management & Growth",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Protect and evolve your brand over time with strategic management practices that build long-term equity.",
       technologies: [
         {
-          name: "Page Speed Optimization",
-          icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          name: "Brand Guidelines",
+          icon: "/services/brand-guidelines.svg",
+          description: "Develop comprehensive documentation to ensure consistent brand implementation.",
         },
         {
-          name: "Mobile-First SEO",
-          icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          name: "Brand Audit & Analysis",
+          icon: "/services/brand-audit.svg",
+          description: "Evaluate your current brand performance and identify opportunities for improvement.",
         },
         {
-          name: "Schema Markup Implementation",
-          icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          name: "Brand Extension Strategy",
+          icon: "/services/brand-extension.svg",
+          description: "Plan strategic growth of your brand into new products, services, or markets.",
         },
         {
-          name: "Core Web Vitals Optimization",
-          icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          name: "Rebranding & Refresh",
+          icon: "/services/rebranding.svg",
+          description: "Update or transform your brand identity to stay relevant and competitive.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
-          icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          name: "Brand Training Programs",
+          icon: "/services/brand-training.svg",
+          description: "Educate your team on brand standards to ensure consistent implementation.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Build a Powerful Brand Identity That <br/> Captivates Your Audience
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Create a distinctive, memorable brand that resonates with your target audience and sets you apart from competitors. Our comprehensive branding services help you develop a cohesive identity that builds recognition, trust, and lasting customer loyalty.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="brand_strategy"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="brand_strategy"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Brand Strategy
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="visual_identity"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Visual Identity
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="brand_messaging"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Brand Messaging
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="brand_experience"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Brand Experience
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="brand_management"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Brand Management
             </TabsTrigger>
           </TabsList>
         </div>

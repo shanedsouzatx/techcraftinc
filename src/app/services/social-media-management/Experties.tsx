@@ -8,48 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "📅",
+      title: "Social Media Strategy & Planning",
+      description: "Developing data-driven social media strategies tailored to your brand’s goals and audience engagement.",
     },
     {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
-    },
-    {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
-    },
-    {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "✍️",
+      title: "Content Creation & Scheduling",
+      description: "Crafting visually compelling graphics, engaging captions, and timely posts to captivate your audience.",
     },
     {
       icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      title: "Social Media Advertising",
+      description: "Optimizing ad campaigns for maximum reach, engagement, and conversion across multiple platforms.",
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "💬",
+      title: "Community Management",
+      description: "Engaging with followers, responding to comments, and building strong brand-consumer relationships.",
     },
     {
-      icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      icon: "📊",
+      title: "Performance Analytics & Reporting",
+      description: "Tracking key metrics, analyzing performance, and refining strategies to maximize social media success.",
     },
     {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      icon: "🤝",
+      title: "Influencer & Brand Partnerships",
+      description: "Collaborating with influencers and brands to boost reach and credibility in your industry.",
     },
-   
-  ];
-  
+    {
+      icon: "🎥",
+      title: "Video & Reels Marketing",
+      description: "Creating engaging video content, from short-form reels to long-form storytelling, to captivate audiences.",
+    },
+    {
+      icon: "🔄",
+      title: "Reputation & Crisis Management",
+      description: "Monitoring brand mentions, handling negative feedback, and ensuring a positive online reputation.",
+    },
+];
+
   
 
   const handleNext = () => {
@@ -72,7 +71,8 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+        
+  Elevate Your Brand with Expert Social Media Management
         </motion.h1>
         
         <motion.p 
@@ -81,9 +81,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
-
+      Maximize engagement, grow your audience, and build a strong online presence with our strategic social media management services. From content creation to analytics, we handle it all.
         </motion.p>
 
         <div className="relative overflow-hidden">

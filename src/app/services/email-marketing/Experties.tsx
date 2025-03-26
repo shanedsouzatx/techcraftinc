@@ -8,47 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "📧",
+      title: "Targeted Email Campaigns",
+      description: "Crafting personalized email campaigns designed to engage your audience, nurture leads, and drive conversions effectively.",
     },
     {
       icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      title: "Data-Driven Email Strategy",
+      description: "Leveraging analytics and A/B testing to optimize subject lines, email copy, and send times for maximum performance.",
     },
     {
       icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      title: "Email List Management",
+      description: "Building and maintaining high-quality subscriber lists through segmentation, automation, and list hygiene best practices.",
     },
     {
       icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      title: "Compelling Email Copywriting",
+      description: "Writing persuasive and engaging email content that boosts open rates, click-throughs, and conversions.",
     },
     {
       icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      title: "Automated Email Sequences",
+      description: "Setting up drip campaigns, welcome series, and transactional emails to ensure consistent engagement and customer retention.",
     },
     {
       icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      title: "Lead Nurturing & Retention",
+      description: "Developing email sequences that guide prospects through the customer journey and encourage long-term brand loyalty.",
     },
     {
       icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      title: "Email Deliverability Optimization",
+      description: "Ensuring your emails land in inboxes, not spam folders, by following best practices for sender reputation and authentication.",
     },
     {
       icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      title: "Ecommerce & Promotional Emails",
+      description: "Designing high-converting emails for product launches, discounts, and sales promotions that drive revenue growth.",
     },
-   
   ];
+
   
   
 
@@ -72,7 +72,7 @@ export default function Experties() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-         Boost Your Rankings with SEO-Optimized Blog Writing
+         Strategic Email Marketing for Maximum Engagement
         </motion.h1>
         
         <motion.p 
@@ -81,8 +81,7 @@ export default function Experties() {
           transition={{ delay: 0.2 }}
           className="text-lg !w-full mb-12 "
         >
-       Our SEO blog writing services combine data-driven research engaging storytelling, and technical optimization to create content that attracts, informs, and converts
-
+     Crafting high-converting email campaigns that nurture leads, boost engagement, and drive sales through targeted messaging and automation.
 
         </motion.p>
 

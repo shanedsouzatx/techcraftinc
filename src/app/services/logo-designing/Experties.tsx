@@ -8,47 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
-      icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      icon: "🎨",
+      title: "Custom Logo Design",
+      description: "Creating unique, visually appealing logos that represent your brand’s identity and values.",
     },
     {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
+      icon: "🔥",
+      title: "Brand Identity Development",
+      description: "Crafting logos that align with your overall brand strategy, ensuring consistency and recognition.",
     },
     {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
+      icon: "📐",
+      title: "Minimalist Logo Design",
+      description: "Designing sleek, modern logos with a clean aesthetic for a timeless brand presence.",
     },
     {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
+      icon: "✨",
+      title: "Luxury & Premium Logos",
+      description: "Elevating high-end brands with sophisticated, elegant, and prestigious logo designs.",
     },
     {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
+      icon: "🖋️",
+      title: "Hand-Drawn & Illustrative Logos",
+      description: "Bringing artistic flair to your brand with custom, hand-drawn logo illustrations.",
     },
     {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
+      icon: "🌎",
+      title: "Corporate & Business Logos",
+      description: "Designing professional logos that establish trust and credibility in competitive industries.",
     },
     {
-      icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
+      icon: "🎭",
+      title: "Creative & Artistic Logos",
+      description: "Infusing creativity and uniqueness into logos that make a bold statement.",
     },
     {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
+      icon: "🔄",
+      title: "Logo Redesign & Refresh",
+      description: "Updating and refining existing logos to align with modern design trends and brand evolution.",
     },
-   
-  ];
+];
+
   
   
 

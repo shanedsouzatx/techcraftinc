@@ -8,47 +8,47 @@ export default function Experties() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const industries = [
     {
+      icon: "🎬",
+      title: "Film & TV Script Writing",
+      description: "Crafting compelling screenplays with strong narratives, engaging dialogue, and cinematic storytelling.",
+    },
+    {
+      icon: "📺",
+      title: "Commercial & Advertising Scripts",
+      description: "Writing persuasive scripts for TV commercials, online ads, and promotional videos that captivate audiences.",
+    },
+    {
+      icon: "🎙️",
+      title: "Podcast & Radio Scripts",
+      description: "Developing structured, engaging scripts tailored for audio storytelling, interviews, and narrative-driven podcasts.",
+    },
+    {
+      icon: "📜",
+      title: "Corporate & Explainer Video Scripts",
+      description: "Creating clear, concise scripts for corporate videos, brand storytelling, and product explainers that inform and inspire.",
+    },
+    {
+      icon: "🎭",
+      title: "Theater & Playwriting",
+      description: "Bringing stories to life on stage with immersive scripts, compelling characters, and dramatic storytelling.",
+    },
+    {
+      icon: "🕹️",
+      title: "Video Game Script Writing",
+      description: "Developing interactive storylines, rich dialogues, and immersive narratives for engaging gaming experiences.",
+    },
+    {
+      icon: "📖",
+      title: "Narrative & Storytelling Scripts",
+      description: "Writing captivating stories for animation, documentaries, and digital storytelling projects.",
+    },
+    {
       icon: "📝",
-      title: "Keyword-Optimized Blog Writing",
-      description: "Creating engaging, SEO-friendly blog content with strategic keyword placement to improve search engine rankings.",
+      title: "YouTube & Social Media Scripts",
+      description: "Creating short-form and long-form scripts optimized for online platforms, keeping audiences engaged and entertained.",
     },
-    {
-      icon: "📊",
-      title: "Data-Driven SEO Blogging",
-      description: "Writing content backed by analytics, keyword research, and search intent to drive organic traffic and user engagement.",
-    },
-    {
-      icon: "🔍",
-      title: "Content Audits & Optimization",
-      description: "Enhancing existing blog content with updated keywords, internal linking, and readability improvements for better rankings.",
-    },
-    {
-      icon: "🖊️",
-      title: "Long-Form SEO Articles",
-      description: "Developing in-depth, research-backed articles designed to improve dwell time, authority, and search visibility.",
-    },
-    {
-      icon: "📢",
-      title: "SEO Copywriting for Blogs",
-      description: "Writing compelling blog copy that balances search engine optimization with reader engagement and conversions.",
-    },
-    {
-      icon: "🔗",
-      title: "Internal Linking Strategies",
-      description: "Structuring content with SEO-friendly internal links to improve site navigation, authority, and indexing.",
-    },
-    {
-      icon: "⚡",
-      title: "Content Refresh & Repurposing",
-      description: "Updating old blog posts with fresh insights, keywords, and formatting to maintain search rankings and relevance.",
-    },
-    {
-      icon: "📌",
-      title: "Topic Clusters & Pillar Content",
-      description: "Building interconnected blog topics to enhance authority and improve rankings through structured SEO content.",
-    },
-   
   ];
+  
   
   
 

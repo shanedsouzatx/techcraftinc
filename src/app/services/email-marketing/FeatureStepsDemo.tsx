@@ -1,26 +1,25 @@
 import { FeatureSteps } from "@/components/Services/Section2/FeatureSection"
 const features = [
-    { 
-      step: 'Step 1', 
-      title: 'In-Depth SEO Research & Planning',
-      content: 'We conduct thorough keyword research, analyze competitors, and map out a data-driven content strategy designed to maximize search rankings and engagement.',
-      image: '/services/seo-research.jpg' // Image of keyword research or analytics dashboard
-    },
-    { 
-      step: 'Step 2',
-      title: 'High-Quality, SEO-Optimized Blog Writing',
-      content: 'Our writers craft compelling, well-researched content that naturally integrates keywords, enhances readability, and aligns with search intent to attract organic traffic.',
-      image: '/services/seo-writing.jpg' // Image of content creation in progress
-    },
-    
-    { 
-      step: 'Step 3',
-      title: 'Publishing & Performance Tracking',
-      content: 'Once published, we track performance metrics, analyze user engagement, and make data-driven adjustments to improve rankings and conversions over time.',
-      image: '/services/content-publishing.jpg' // Image of analytics dashboard or SEO performance tracking
-    },
-  ];
-  
+  { 
+    step: 'Step 1', 
+    title: 'Comprehensive Audience Research & Segmentation',
+    content: 'We analyze your audience, segment them based on behaviors, and create personalized email strategies that resonate and drive action.',
+    image: '/services/email-research.jpg' // Image of email analytics or audience segmentation
+  },
+  { 
+    step: 'Step 2',
+    title: 'Compelling Email Content & Design',
+    content: 'Our team crafts engaging subject lines, persuasive email copy, and visually appealing designs to ensure high open and conversion rates.',
+    image: '/services/email-content.jpg' // Image of email content creation in progress
+  },
+  { 
+    step: 'Step 3',
+    title: 'Automated Campaign Execution & Optimization',
+    content: 'We set up automated email sequences, track key metrics, and optimize campaigns in real time for maximum effectiveness and ROI.',
+    image: '/services/email-automation.jpg' // Image of email analytics dashboard or performance tracking
+  },
+];
+
 
 export function FeatureStepsDemo() {
   return (

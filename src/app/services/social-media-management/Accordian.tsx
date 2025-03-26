@@ -17,13 +17,13 @@ const Accordioninner = () => {
       {/* Text Section */}
       <div data-aos="zoom-in" className="text-center md:text-left">
       <h2 className="text-2xl md:text-5xl text-center font-bold bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text mb-4">
-  BOOST YOUR SEARCH RANKINGS WITH SEO-OPTIMIZED CONTENT
+  AMPLIFY YOUR BRAND WITH STRATEGIC SOCIAL MEDIA MANAGEMENT
 </h2>
 <p className="text-center text-sm md:text-base text-[#687087]">
-  In today’s digital landscape, high-quality content is the key to ranking higher on search engines and attracting organic traffic.  
-  Simply having a website isn’t enough—your content needs to be optimized, engaging, and valuable to your audience.  
-  At Tech Craft, we specialize in crafting SEO-driven blog posts that enhance visibility, improve rankings, and establish your brand as an authority.  
-  Through strategic keyword placement, compelling storytelling, and expert optimization, we ensure your content not only ranks but also resonates with your readers.
+  In today's connected world, effective social media presence is essential for building brand awareness and driving business growth.  
+  Simply having social profiles isn't enough—your strategy needs to be consistent, engaging, and aligned with your business objectives.  
+  At Tech Craft, we specialize in comprehensive social media management that enhances visibility, builds community, and generates measurable results.  
+  Through platform-specific strategies, compelling content creation, and data-driven optimization, we ensure your social presence not only grows but also converts followers into customers.
 </p>
 
       </div>
@@ -32,35 +32,35 @@ const Accordioninner = () => {
       <div className="" data-aos="zoom-in">
         <h2 className="text-xl text-center md:text-2xl font-semibold text-[#333] my-6 md:my-8">
          
-          GET ULTIMATE BENEFITS BY CHOOSING TECH CRAFT AS YOUR SEO BLOG WRITING 
+          DISCOVER THE BENEFITS OF TECH CRAFT'S SOCIAL MEDIA MANAGEMENT SERVICES
         </h2>
 
         {/* Panel Template */}
         { [
   {
     id: "accordion-panel-1",
-    title: "Why is SEO blog writing important for my website?",
-    content: `SEO blog writing helps your website rank higher on search engines by targeting relevant keywords, improving user engagement, and increasing organic traffic. Quality blog content establishes authority in your industry, keeps visitors on your site longer, and boosts conversion rates.`,
+    title: "What platforms do you manage for social media?",
+    content: `We provide comprehensive management across all major social platforms including Instagram, Facebook, LinkedIn, Twitter, TikTok, Pinterest, and YouTube. Our team specializes in platform-specific strategies that leverage each network's unique features, audience behaviors, and algorithm requirements to maximize your brand's impact and engagement.`,
   },
   {
     id: "accordion-panel-2",
-    title: "How do you ensure my blog content is SEO-optimized?",
-    content: `We conduct in-depth keyword research, optimize meta tags, structure content with headings, and ensure proper internal linking. Our writers focus on readability, engagement, and search intent while following Google's best practices for content ranking.`,
+    title: "How do you develop a social media strategy?",
+    content: `We begin with a thorough audit of your current social presence and competitive landscape. Based on this analysis, we develop a customized strategy that includes platform selection, content themes, posting frequency, and growth tactics. Our approach aligns with your specific business goals—whether that's brand awareness, community building, lead generation, or direct sales.`,
   },
   {
     id: "accordion-panel-3",
-    title: "How often should I publish SEO blogs?",
-    content: `Consistency is key! We recommend publishing high-quality blog posts at least once a week or biweekly. However, the ideal frequency depends on your industry, competition, and content goals. Regular updates keep your website fresh and improve search rankings.`,
+    title: "What does your content creation process include?",
+    content: `Our content creation process encompasses professional photography, graphic design, video production, and copywriting tailored to each platform. We develop monthly content calendars with a strategic mix of promotional, educational, and engagement-focused posts. All content is crafted to reflect your brand voice while optimizing for each platform's best practices and algorithm preferences.`,
   },
   {
     id: "accordion-panel-4",
-    title: "What types of SEO blogs perform best?",
-    content: `Long-form, informative blogs that address specific questions or problems perform best. Lists, how-to guides, case studies, and pillar content that interlink with other pages on your site also tend to rank higher and attract more readers.`,
+    title: "How do you measure social media success?",
+    content: `We track comprehensive metrics including follower growth, engagement rates, reach, impressions, website traffic, and conversion data. Monthly performance reports provide clear insights into what's working and opportunities for improvement. We focus on metrics that align with your business objectives, ensuring social media efforts contribute directly to your bottom line.`,
   },
   {
     id: "accordion-panel-5",
-    title: "Can SEO blog writing help convert readers into customers?",
-    content: `Absolutely! Well-written blogs not only attract visitors but also guide them through the buyer’s journey. By addressing pain points, providing solutions, and including strong calls-to-action, your blogs can turn casual readers into loyal customers.`,
+    title: "Do you handle social media advertising?",
+    content: `Yes! Our social media advertising services include campaign strategy, audience targeting, ad creative development, and budget management. We specialize in creating high-performing ads across platforms with detailed performance tracking and optimization. Our approach focuses on maximizing ROI through continuous testing and refinement of targeting, creative elements, and conversion pathways.`,
   },
 ].map((panel) => (
           <motion.div

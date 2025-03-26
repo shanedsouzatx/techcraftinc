@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "website_copy" | "marketing_copy" | "brand_copy" | "product_copy" | "digital_copy"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("website_copy")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    website_copy: {
+      title: "Website Copywriting",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Create compelling website content that engages visitors, communicates your value proposition, and drives conversions.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
-          icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          name: "Homepage Copy",
+          icon: "/services/homepage-copy.svg",
+          description: "Craft attention-grabbing headlines and content that clearly communicate your brand's value.",
         },
         {
-          name: "Semantic SEO",
-          icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          name: "About Us Pages",
+          icon: "/services/about-us-copy.svg",
+          description: "Tell your brand story in a way that builds trust and emotional connection with visitors.",
         },
         {
-          name: "Search Intent Optimization",
-          icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          name: "Service Pages",
+          icon: "/services/service-pages.svg",
+          description: "Highlight benefits and solutions that address your customers' specific pain points.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
-          icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          name: "Landing Pages",
+          icon: "/services/landing-pages.svg",
+          description: "Create high-converting pages focused on specific offers, products, or campaigns.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
-          icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          name: "Contact & CTA Copy",
+          icon: "/services/cta-copy.svg",
+          description: "Develop persuasive calls-to-action that motivate visitors to take the next step.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    marketing_copy: {
+      title: "Marketing & Advertising Copy",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Develop persuasive marketing materials that capture attention, communicate value, and drive action across channels.",
       technologies: [
         {
-          name: "SEO Blog Writing",
-          icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          name: "Email Campaigns",
+          icon: "/services/email-copy.svg",
+          description: "Create engaging email sequences that nurture leads and drive conversions.",
         },
         {
-          name: "Meta Titles & Descriptions",
-          icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          name: "Ad Copy",
+          icon: "/services/ad-copy.svg",
+          description: "Write compelling ads for PPC, social media, and display advertising that maximize ROI.",
         },
         {
-          name: "Headings & Structure Optimization",
-          icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          name: "Sales Letters",
+          icon: "/services/sales-letters.svg",
+          description: "Craft persuasive long-form content that guides prospects through the buying journey.",
         },
         {
-          name: "Internal Linking Strategy",
-          icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          name: "Brochures & Flyers",
+          icon: "/services/brochure-copy.svg",
+          description: "Develop print materials that effectively communicate your offerings and value.",
         },
         {
-          name: "Content Refresh & Updates",
-          icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          name: "Case Studies",
+          icon: "/services/case-studies.svg",
+          description: "Tell customer success stories that demonstrate your solutions' real-world impact.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    brand_copy: {
+      title: "Brand Messaging & Voice",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Establish a consistent, compelling brand voice that resonates with your audience and differentiates your business.",
       technologies: [
         {
-          name: "Guest Blogging",
-          icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          name: "Brand Messaging Framework",
+          icon: "/services/brand-messaging.svg",
+          description: "Develop core messaging that clearly articulates your value proposition and brand promise.",
         },
         {
-          name: "Link-Worthy Content Creation",
-          icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          name: "Taglines & Slogans",
+          icon: "/services/taglines.svg",
+          description: "Create memorable phrases that capture your brand essence and stick in customers' minds.",
         },
         {
-          name: "Skyscraper Technique",
-          icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          name: "Brand Story Development",
+          icon: "/services/brand-story.svg",
+          description: "Craft authentic narratives that communicate your purpose, values, and unique position.",
         },
         {
-          name: "Broken Link Building",
-          icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          name: "Mission & Vision Statements",
+          icon: "/services/mission-vision.svg",
+          description: "Articulate your organization's purpose and future aspirations in clear, inspiring language.",
         },
         {
-          name: "Resource Page Outreach",
-          icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          name: "Brand Voice Guidelines",
+          icon: "/services/brand-voice.svg",
+          description: "Establish consistent tone and personality guidelines for all brand communications.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    product_copy: {
+      title: "Product & Sales Copy",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Create persuasive product descriptions and sales materials that highlight benefits and drive purchasing decisions.",
       technologies: [
         {
-          name: "Content Calendar Development",
-          icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          name: "Product Descriptions",
+          icon: "/services/product-descriptions.svg",
+          description: "Transform features into compelling benefits that showcase your products' unique value.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
-          icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          name: "Sales Pages",
+          icon: "/services/sales-pages.svg",
+          description: "Develop high-converting pages that address objections and guide customers to purchase.",
         },
         {
-          name: "Competitive Content Analysis",
-          icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          name: "Catalog Copy",
+          icon: "/services/catalog-copy.svg",
+          description: "Create consistent, benefit-focused descriptions for product catalogs and collections.",
         },
         {
-          name: "Evergreen Content Strategy",
-          icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          name: "Feature Announcements",
+          icon: "/services/feature-announcements.svg",
+          description: "Introduce new products or features in a way that generates excitement and adoption.",
         },
         {
-          name: "Content Distribution & Promotion",
-          icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          name: "Promotional Offers",
+          icon: "/services/promotional-copy.svg",
+          description: "Craft limited-time offers and promotions that create urgency and drive immediate action.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    digital_copy: {
+      title: "Digital & Social Media Copy",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Develop engaging content for digital platforms that builds community, drives engagement, and supports marketing goals.",
       technologies: [
         {
-          name: "Page Speed Optimization",
-          icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          name: "Social Media Content",
+          icon: "/services/social-media-copy.svg",
+          description: "Create platform-specific posts that engage your audience and encourage interaction.",
         },
         {
-          name: "Mobile-First SEO",
-          icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          name: "Blog Articles",
+          icon: "/services/blog-copy.svg",
+          description: "Develop informative, engaging blog content that establishes authority and drives traffic.",
         },
         {
-          name: "Schema Markup Implementation",
-          icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          name: "Video Scripts",
+          icon: "/services/video-scripts.svg",
+          description: "Write compelling scripts for videos that captivate viewers and deliver your message.",
         },
         {
-          name: "Core Web Vitals Optimization",
-          icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          name: "Podcast Content",
+          icon: "/services/podcast-copy.svg",
+          description: "Create engaging audio content with clear introductions, segments, and calls-to-action.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
-          icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          name: "Newsletters",
+          icon: "/services/newsletter-copy.svg",
+          description: "Develop regular communications that nurture customer relationships and provide value.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Transform Your Message With Powerful <br/> Professional Copywriting
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Craft compelling, conversion-focused copy that captivates your audience, communicates your value, and drives action. Our expert copywriting services ensure every word works strategically to build your brand and generate results.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="website_copy"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="website_copy"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Website Copy
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="marketing_copy"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Marketing Copy
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="brand_copy"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Brand Messaging
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="product_copy"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Product Copy
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="digital_copy"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Digital Content
             </TabsTrigger>
           </TabsList>
         </div>

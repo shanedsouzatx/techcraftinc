@@ -168,29 +168,29 @@ export default function Footer1() {
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
         <div className="text-center sm:text-left">
-          <p className="text-2xl font-medium bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text">About Us</p>
+          <p className="text-2xl font-medium bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text">About</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
-              <FooterLink href="#">Company History</FooterLink>
+              <FooterLink href="#">Our Company</FooterLink>
             </li>
 
             <li>
-              <FooterLink href="#">Meet the Team</FooterLink>
+              <FooterLink href="#">Pricing</FooterLink>
             </li>
 
             <li>
-              <FooterLink href="#">Employee Handbook</FooterLink>
+              <FooterLink href="#">Portfolio</FooterLink>
             </li>
 
             <li>
-              <FooterLink href="#">Careers</FooterLink>
+              <FooterLink href="#">Contact</FooterLink>
             </li>
           </ul>
         </div>
 
         <div className="text-center sm:text-left">
-          <p className="text-2xl font-medium bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text">Our Services</p>
+          <p className="text-2xl font-medium bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text">Our Premium Services</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
@@ -206,7 +206,7 @@ export default function Footer1() {
             </li>
 
             <li>
-              <FooterLink href="#">Google Ads</FooterLink>
+              <FooterLink href="#">Logo design</FooterLink>
             </li>
           </ul>
         </div>
@@ -244,7 +244,7 @@ export default function Footer1() {
           <ul className="mt-8 space-y-4 text-sm">
             <li>
               <FooterLink
-                href="mailto:john@doe.com"
+                href="mailto:info@techcraftinc.com"
               >
                 <div className="flex items-center gap-1.5">
                   <svg
@@ -261,7 +261,7 @@ export default function Footer1() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <span className="flex-1 text-gray-700 dark:text-gray-300">john@doe.com</span>
+                  <span className="flex-1 text-gray-700 dark:text-gray-300">info@techcraftinc.com</span>
                 </div>
               </FooterLink>
             </li>
@@ -285,7 +285,7 @@ export default function Footer1() {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  <span className="flex-1 text-gray-700 dark:text-gray-300">0123456789</span>
+                  <span className="flex-1 text-gray-700 dark:text-gray-300">(667) 423-5532</span>
                 </div>
               </FooterLink>
             </li>
@@ -313,7 +313,7 @@ export default function Footer1() {
                     />
                   </svg>
                   <address className="-mt-0.5 flex-1 text-gray-700 not-italic dark:text-gray-300">
-                    213 Lane, London, United Kingdom
+                  30 N Gould St Ste R, Sheridan, WY 82801, United States
                   </address>
                 </div>
               </FooterLink>

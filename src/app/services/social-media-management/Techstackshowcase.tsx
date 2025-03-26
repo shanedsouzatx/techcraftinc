@@ -28,169 +28,169 @@ interface TabDataMap {
 
 export default function TechStackShowcase() {
   // Update the TabKey type to match the actual keys in tabData
-  type TabKey = "keyword_strategy" | "seo_copywriting" | "link_building" | "content_strategy" | "technical_seo"
+  type TabKey = "content_creation" | "community_management" | "paid_advertising" | "analytics" | "platform_strategy"
   
   // Use the TabKey type for activeTab
-  const [activeTab, setActiveTab] = useState<TabKey>("keyword_strategy")
+  const [activeTab, setActiveTab] = useState<TabKey>("content_creation")
 
   const tabData: TabDataMap = {
-    keyword_strategy: {
-      title: "Keyword-Driven Content",
+    content_creation: {
+      title: "Strategic Content Creation",
       description:
-        "Create content that ranks by targeting high-intent keywords. Our strategy ensures maximum visibility and organic traffic growth.",
+        "Develop engaging, platform-optimized content that resonates with your audience and drives meaningful engagement.",
       technologies: [
         {
-          name: "Keyword Research & Analysis",
+          name: "Visual Content Design",
           icon: "/services/keyword-research.svg",
-          description: "Identify high-ranking, low-competition keywords for better search engine placement.",
+          description: "Create eye-catching graphics, photos, and videos tailored to each platform's specifications.",
         },
         {
-          name: "Semantic SEO",
+          name: "Copywriting & Captions",
           icon: "/services/semantic-seo.svg",
-          description: "Enhance relevance by incorporating related keywords and LSI terms.",
+          description: "Craft compelling captions that drive engagement and include strategic hashtags.",
         },
         {
-          name: "Search Intent Optimization",
+          name: "Content Calendar Planning",
           icon: "/services/intent-optimization.svg",
-          description: "Align content with user intent to increase engagement and reduce bounce rates.",
+          description: "Develop consistent posting schedules aligned with your marketing goals and audience activity.",
         },
         {
-          name: "Competitor Keyword Gap Analysis",
+          name: "Video Content Strategy",
           icon: "/services/competitor-gap.svg",
-          description: "Identify and target keywords your competitors are missing out on.",
+          description: "Create short-form and long-form video content optimized for each platform's algorithm.",
         },
         {
-          name: "Long-Tail Keyword Strategy",
+          name: "User-Generated Content",
           icon: "/services/longtail-keywords.svg",
-          description: "Target niche-specific long-tail keywords for higher conversion rates.",
+          description: "Leverage customer content to build authenticity and increase community engagement.",
         },
       ],
     },
-    seo_copywriting: {
-      title: "SEO Copywriting & Optimization",
+    community_management: {
+      title: "Community Management & Engagement",
       description:
-        "Craft compelling, optimized content that speaks to both search engines and human readers, boosting rankings and engagement.",
+        "Build meaningful relationships with your audience through active engagement and responsive community management.",
       technologies: [
         {
-          name: "SEO Blog Writing",
+          name: "Comment & Message Management",
           icon: "/services/seo-blog.svg",
-          description: "Write engaging, informative blog posts that rank and drive organic traffic.",
+          description: "Respond promptly to comments and messages to build relationships and trust.",
         },
         {
-          name: "Meta Titles & Descriptions",
+          name: "Social Listening",
           icon: "/services/meta-tags.svg",
-          description: "Optimize metadata for higher CTR and improved search rankings.",
+          description: "Monitor brand mentions and industry conversations to identify opportunities.",
         },
         {
-          name: "Headings & Structure Optimization",
+          name: "Community Building Tactics",
           icon: "/services/headings.svg",
-          description: "Enhance readability and SEO performance with well-structured content.",
+          description: "Implement strategies to foster a loyal, engaged community around your brand.",
         },
         {
-          name: "Internal Linking Strategy",
+          name: "Crisis Management",
           icon: "/services/internal-links.svg",
-          description: "Boost site navigation and SEO authority with strategic internal linking.",
+          description: "Develop protocols for addressing negative feedback and potential PR issues.",
         },
         {
-          name: "Content Refresh & Updates",
+          name: "Influencer Relationship Building",
           icon: "/services/content-refresh.svg",
-          description: "Revamp old content to maintain relevance and improve rankings over time.",
+          description: "Identify and collaborate with relevant influencers to expand your reach.",
         },
       ],
     },
-    link_building: {
-      title: "Content-Driven Link Building",
+    paid_advertising: {
+      title: "Social Media Advertising",
       description:
-        "Leverage high-quality content to earn authoritative backlinks and strengthen domain authority.",
+        "Maximize ROI with targeted paid campaigns that reach your ideal audience and drive measurable results.",
       technologies: [
         {
-          name: "Guest Blogging",
+          name: "Audience Targeting",
           icon: "/services/guest-posting.svg",
-          description: "Publish authoritative content on high-DA websites to build credibility and backlinks.",
+          description: "Create detailed audience segments based on demographics, interests, and behaviors.",
         },
         {
-          name: "Link-Worthy Content Creation",
+          name: "Ad Creative Development",
           icon: "/services/link-worthy-content.svg",
-          description: "Produce valuable content that naturally attracts backlinks from reputable sites.",
+          description: "Design high-converting ad creatives optimized for each platform's specifications.",
         },
         {
-          name: "Skyscraper Technique",
+          name: "Campaign Structure & Budget",
           icon: "/services/skyscraper.svg",
-          description: "Outperform competitor content and earn high-quality links through research-driven articles.",
+          description: "Develop efficient campaign structures with strategic budget allocation.",
         },
         {
-          name: "Broken Link Building",
+          name: "A/B Testing & Optimization",
           icon: "/services/broken-link.svg",
-          description: "Identify and replace broken links with fresh, relevant content to boost SEO.",
+          description: "Continuously test ad elements to improve performance and reduce costs.",
         },
         {
-          name: "Resource Page Outreach",
+          name: "Retargeting Strategies",
           icon: "/services/resource-page.svg",
-          description: "Get your content featured on industry-leading resource pages for added exposure.",
+          description: "Implement advanced retargeting to re-engage website visitors and past customers.",
         },
       ],
     },
-    content_strategy: {
-      title: "Content Planning & Strategy",
+    analytics: {
+      title: "Performance Analytics & Reporting",
       description:
-        "Develop a data-driven content strategy that aligns with SEO goals and delivers measurable results.",
+        "Track key metrics and gain actionable insights to continuously improve your social media strategy.",
       technologies: [
         {
-          name: "Content Calendar Development",
+          name: "KPI Tracking & Dashboards",
           icon: "/services/content-calendar.svg",
-          description: "Plan and schedule content for consistent publishing and audience engagement.",
+          description: "Monitor essential metrics with custom dashboards for clear performance visibility.",
         },
         {
-          name: "Topic Clusters & Pillar Pages",
+          name: "Competitor Benchmarking",
           icon: "/services/topic-clusters.svg",
-          description: "Create interconnected content to strengthen topical authority in search engines.",
+          description: "Compare your performance against competitors to identify opportunities and threats.",
         },
         {
-          name: "Competitive Content Analysis",
+          name: "Conversion Tracking",
           icon: "/services/competitive-analysis.svg",
-          description: "Analyze competitors' top-performing content and identify gaps for opportunities.",
+          description: "Measure the impact of social media on website traffic, leads, and sales.",
         },
         {
-          name: "Evergreen Content Strategy",
+          name: "Content Performance Analysis",
           icon: "/services/evergreen-content.svg",
-          description: "Produce timeless content that continues to attract traffic and rankings over time.",
+          description: "Identify your highest-performing content types to refine your content strategy.",
         },
         {
-          name: "Content Distribution & Promotion",
+          name: "ROI Measurement",
           icon: "/services/content-distribution.svg",
-          description: "Amplify content reach through social media, email marketing, and partnerships.",
+          description: "Calculate the return on investment for both organic and paid social media efforts.",
         },
       ],
     },
-    technical_seo: {
-      title: "Technical SEO & Content Performance",
+    platform_strategy: {
+      title: "Platform-Specific Strategies",
       description:
-        "Optimize content structure, page speed, and mobile-friendliness for improved search rankings and user experience.",
+        "Leverage the unique features and audience behaviors of each social platform to maximize your brand's impact.",
       technologies: [
         {
-          name: "Page Speed Optimization",
+          name: "Instagram Strategy",
           icon: "/services/page-speed.svg",
-          description: "Enhance site performance by reducing load times and improving user experience.",
+          description: "Optimize feed posts, Stories, Reels, and shopping features for maximum engagement.",
         },
         {
-          name: "Mobile-First SEO",
+          name: "LinkedIn B2B Approach",
           icon: "/services/mobile-seo.svg",
-          description: "Ensure your content is fully optimized for mobile search and usability.",
+          description: "Develop thought leadership content and networking strategies for professional audiences.",
         },
         {
-          name: "Schema Markup Implementation",
+          name: "TikTok Growth Tactics",
           icon: "/services/schema.svg",
-          description: "Use structured data to enhance search results with rich snippets and featured listings.",
+          description: "Create trending, authentic content that resonates with younger demographics.",
         },
         {
-          name: "Core Web Vitals Optimization",
+          name: "Facebook Community Building",
           icon: "/services/core-web-vitals.svg",
-          description: "Improve key performance metrics for better rankings and user engagement.",
+          description: "Leverage groups, events, and interactive features to build active communities.",
         },
         {
-          name: "Indexing & Crawlability Fixes",
+          name: "Twitter Conversation Strategy",
           icon: "/services/crawlability.svg",
-          description: "Resolve indexing issues to ensure search engines properly crawl your content.",
+          description: "Join relevant conversations and utilize hashtags to increase brand visibility.",
         },
       ],
     },
@@ -205,19 +205,19 @@ export default function TechStackShowcase() {
       <div className="gap-8 mb-3 ">
       <div>
   <h1 className="text-4xl text-center md:text-5xl font-bold  bg-gradient-to-t from-[#48128A] to-[#8B3791] text-transparent bg-clip-text  leading-tight uppercase">
-  Boost Your Search Rankings with High-Impact <br/> SEO Blog Writing
+  Elevate Your Brand with Strategic <br/> Social Media Management
   </h1>
 </div>
 <div>
   <p className="text-base md:text-lg px-9 mb-11 md:px-20 text-center  text-slate-600"  style={{ lineHeight: '1.2' }}>
-  Craft compelling, keyword-rich content that not only ranks higher on search engines but also engages readers and drives conversions. Our expert SEO blog writing services ensure every article is optimized for visibility, authority, and lasting impact.
+  Build a powerful social media presence that drives engagement, increases brand awareness, and generates measurable business results. Our comprehensive social media management services combine creative content, strategic planning, and data-driven optimization.
   </p>
 </div>
 
       </div>
 
       <Tabs
-        defaultValue="keyword_strategy"
+        defaultValue="content_creation"
         value={activeTab}
         onValueChange={(value) => setActiveTab(value as TabKey)}
         className="w-full"
@@ -225,34 +225,34 @@ export default function TechStackShowcase() {
         <div className="flex justify-center mb-4 overflow-y-hidden overflow-x-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full max-w-3xl p-1">
             <TabsTrigger
-              value="keyword_strategy"
+              value="content_creation"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Keyword Strategy
+              Content Creation
             </TabsTrigger>
             <TabsTrigger
-              value="seo_copywriting"
+              value="community_management"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              SEO Copywriting
+              Community Management
             </TabsTrigger>
             <TabsTrigger
-              value="link_building"
+              value="paid_advertising"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Link Building
+              Paid Advertising
             </TabsTrigger>
             <TabsTrigger
-              value="content_strategy"
+              value="analytics"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Content Strategy
+              Analytics & Reporting
             </TabsTrigger>
             <TabsTrigger
-              value="technical_seo"
+              value="platform_strategy"
               className="text-sm md:text-base font-medium transition-all duration-300 data-[state=active]:text-[#8B3791] data-[state=active]:border-b-2 data-[state=active]:border-[#8B3791] whitespace-nowrap px-2"
             >
-              Technical SEO
+              Platform Strategies
             </TabsTrigger>
           </TabsList>
         </div>
