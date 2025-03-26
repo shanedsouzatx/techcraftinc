@@ -38,7 +38,6 @@ import Image from "next/image";
 import { heroBgImgSrc } from "@/constants/CloudinaryImgUrl";
 import { useScroll, useTransform, motion, animate } from "framer-motion";
 import Navbar1 from "@/components/Navbar1/Navbar1";
-import Footer from "@/components/Footer";
 import Methodology from "@/components/Hero/Methodology/Methodology";
 import StickySection from "@/components/Hero/StickySection";
 
